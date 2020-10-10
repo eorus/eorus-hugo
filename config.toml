@@ -1,0 +1,21 @@
+baseurl = "http://www.example.com"
+title = "johndoe"
+
+theme = "hugo-coder"
+
+[params]
+    author = "John Doe"
+    description = "John Doe's personal website"
+    keywords = "blog,developer,personal"
+    info = "Full Stack Magician"
+    avatarurl = "images/avatar.jpg"
+    footercontent = "Enter a text here."
+
+[taxonomies]
+    series = "series"
+
+# Menu links
+[[menu.main]]
+    name = "Blog"
+    weight = 1
+    url  = "/posts/"
