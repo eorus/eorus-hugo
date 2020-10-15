@@ -139,3 +139,35 @@ disqusShortname = "yourdiscussshortname"
             url = "contact/"
 
 
+    [languages.tr]
+        languagename = "Türkçe"
+        title = "Alphonzo"
+
+        [languages.tr.params]
+            author = "João Ninguém"
+            info = "Ön Yüz Geliştirici, Fotoğrafçı, Blog Yazarı"
+            description = "Sítio pessoal de João Ninguém"
+            keywords = "blog,desenvolvedor,pessoal"
+            footercontent = "Coloque algum texto aqui."
+
+        [languages.tr.menu]
+
+            [[languages.tr.menu.main]]
+            name = "Hakkında"
+            weight = 1
+            url = "about/"
+
+            [[languages.tr.menu.main]]
+            name = "Blog"
+            weight = 2
+            url = "posts/"
+
+            [[languages.tr.menu.main]]
+            name = "Projeler"
+            weight = 3
+            url = "projects/"
+
+            [[languages.tr.menu.main]]
+            name = "İletişim"
+            weight = 5
+            url = "contact/"
