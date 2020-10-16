@@ -144,11 +144,11 @@ disqusShortname = "yourdiscussshortname"
         title = "Alphonzo"
 
         [languages.tr.params]
-            author = "João Ninguém"
+            author = "Alper Orus"
             info = "Ön Yüz Geliştirici, Fotoğrafçı, Blog Yazarı"
             description = "Sítio pessoal de João Ninguém"
-            keywords = "blog,desenvolvedor,pessoal"
-            footercontent = "Coloque algum texto aqui."
+            keywords = "blog, fotoğraf , personal"
+            footercontent = "Bir aktiviteye aşık olun ve yapın! Hiç kimse hayatın neyle ilgili olduğunu anlamaz ve önemi yoktur."
 
         [languages.tr.menu]
 
@@ -157,7 +157,7 @@ disqusShortname = "yourdiscussshortname"
             weight = 1
             url = "about/"
 
-            [[languages.tr.menu.main]]
+            [[languages.en.menu.main]]
             name = "Blog"
             weight = 2
             url = "posts/"
