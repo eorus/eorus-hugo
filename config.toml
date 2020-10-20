@@ -169,3 +169,9 @@ disqusShortname = "yourdiscussshortname"
 
   [markup.goldmark.renderer]
   unsafe = true # Allow HTML in md files
+
+  enableRobotsTXT = "true"
+
+[sitemap]
+  ChangeFreq = "daily"
+  Priority = "0.5"
