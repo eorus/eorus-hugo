@@ -1,29 +1,15 @@
 +++
-title = "About Hugo"
-slug = "about"
+title = "Hakkımda"
+slug = "hakkimda"
 +++
 
-Hugo is a static site engine written in Go.
+Merhaba, ben Alper! Serbest çalışan bir girişimciyim. Genellikle bir blog yazarı olarak içerik yazar ve üretirim. Web üzerinde birkaç sitem ve büyük kamera gruplarım var. Fotoğrafçılık ve kamera endüstrisi hakkında yazıyorum. Bazen web siteleri geliştiriyorum. Bir ön yüz geliştirici olarak frameworkler ile oynamayı, statik ve dinamik siteler oluşturmayı seviyorum. Geçmişte finans sektöründe çalıştım. Sevdiğim şeyler (belirli bir sırayla değil) arasında Fujifilm kameralar, Thinkpad'ler, Bilim kurgu filmleri, Koşu, Jimnastik, Linux ve CLI uygulamalarıyla oynama yer alıyor. Bu arada Arch kullanıyorum :) Sosyal medyada pek aktif olmadığım için benimle e-posta yoluyla bağlantı kurmaktan çekinmeyin.
 
+Altyapı
+---------
 
-It makes use of a variety of open source projects including:
+* Hugo ile statik olarak oluşturulmuştur.
+* Hosting Netlify tarafından sağlanır.
+* GitHub sürüm kontrolü.
+* NeoVim ile kodlanmış ve yazılmıştır
 
-* [Cobra](https://github.com/spf13/cobra)
-* [Viper](https://github.com/spf13/viper)
-* [J Walter Weatherman](https://github.com/spf13/jWalterWeatherman)
-* [Cast](https://github.com/spf13/cast)
-
-Learn more and contribute on [GitHub](https://github.com/spf13).
-
-## Setup
-
-Some fun facts about [Hugo](http://gohugo.io/):
-
-* Built in [Go](http://golang.org/)
-* Loosely inspired by [Jekyll](http://jekyllrb.com/)
-* Primarily developed by [spf13](http://spf13.com/) on the train while commuting to and from Manhattan.
-* Coded in [Vim](http://vim.org) using [spf13-vim](http://vim.spf13.com/)
-
-Have questions or suggestions? Feel free to [open an issue on GitHub](https://github.com/spf13/hugo/issues/new) or [ask me on Twitter](https://twitter.com/spf13).
-
-Thanks for reading!
