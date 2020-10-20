@@ -19,7 +19,7 @@ disqusShortname = "yourdiscussshortname"
     description = "Alper Orus's personal website"
     keywords = "blog, tasarımr, fotoğraf"
     info = "Ön Yüz Geliştirici, Fotoğrafçı, Blog Yazarı"
-    avatarurl = "images/avatar.jpg"
+    avatarurl = "images/alper.jpg"
     #gravatar = "john.doe@example.com"
     footercontent = "Bir aktiviteye aşık olun ve yapın! Hiç kimse hayatın neyle ilgili olduğunu anlamaz ve önemi yoktur."
 
