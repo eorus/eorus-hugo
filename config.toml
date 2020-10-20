@@ -100,9 +100,9 @@ disqusShortname = "yourdiscussshortname"
         [languages.tr.menu]
 
             [[languages.tr.menu.main]]
-            name = "Hakkında"
+            name = "Hakkımda"
             weight = 1
-            url = "about/"
+            url = "hakkimda/"
 
             [[languages.tr.menu.main]]
             name = "Blog"
