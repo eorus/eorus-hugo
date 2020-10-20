@@ -17,18 +17,18 @@ disqusShortname = "yourdiscussshortname"
 [params]
     author = "Alper Orus"
     description = "Alper Orus's personal website"
-    keywords = "blog, tasarımr, fotoğraf"
+    keywords = "blog, tasarım, fotoğraf"
     info = "Ön Yüz Geliştirici, Fotoğrafçı, Blog Yazarı"
     avatarurl = "images/alper.jpg"
     #gravatar = "john.doe@example.com"
     footercontent = "Bir aktiviteye aşık olun ve yapın! Hiç kimse hayatın neyle ilgili olduğunu anlamaz ve önemi yoktur."
 
-    dateformat = "January 2, 2006"
+    dateformat = "2 January 2006"
 
     hideFooter = false
     hideCredits = false
     hideCopyright = false
-    since = 2019
+    since = 
 
     # Git Commit in Footer, uncomment the line below to enable it.
     commit = "https://github.com/luizdepra/hugo-coder/tree/"
@@ -82,32 +82,27 @@ disqusShortname = "yourdiscussshortname"
     name = "Github"
     icon = "fa fa-github"
     weight = 1
-    url = "https://github.com/johndoe/"
+    url = "https://github.com/eorus/"
 [[params.social]]
     name = "Gitlab"
     icon = "fa fa-gitlab"
     weight = 2
-    url = "https://gitlab.com/johndoe/"
+    url = "https://gitlab.com/eorus/"
 [[params.social]]
     name = "Twitter"
     icon = "fa fa-twitter"
     weight = 3
-    url = "https://twitter.com/johndoe/"
+    url = "https://twitter.com/alperor/"
 [[params.social]]
     name = "LinkedIn"
-    icon = "fa fa-linkedin"
+    icon = "fa fa-instagram"
     weight = 4
-    url = "https://www.linkedin.com/in/johndoe/"
-[[params.social]]
-    name = "Medium"
-    icon = "fa fa-medium"
-    weight = 5
-    url = "https://medium.com/@johndoe"
+    url = "https://www.instagram.com/alperorus/"
 [[params.social]]
     name = "RSS"
     icon = "fa fa-rss"
     weight = 6
-    url = "https://myhugosite.com/index.xml"
+    url = "https://www.eorus.com/index.xml"
     rel = "alternate"
     type = "application/rss+xml"
 
