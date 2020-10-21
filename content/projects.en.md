@@ -1,6 +1,6 @@
 +++
-title = "Projetos"
+title = "Projects"
 slug = "projects"
 +++
 
-Em construção... Aguarde!
+This will be the place where i will showcase my work. 

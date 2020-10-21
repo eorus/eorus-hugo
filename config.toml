@@ -112,12 +112,12 @@ disqusShortname = "yourdiscussshortname"
             [[languages.tr.menu.main]]
             name = "Projeler"
             weight = 3
-            url = "projects/"
+            url = "projeler/"
 
             [[languages.tr.menu.main]]
             name = "İletişim"
             weight = 5
-            url = "contact/"
+            url = "iletisim/"
 
 
     [languages.en]

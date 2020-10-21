@@ -9,7 +9,7 @@ Altyapı
 ---------
 
 * Hugo ile statik olarak oluşturulmuştur.
-* Hosting Netlify tarafından sağlanır.
-* GitHub sürüm kontrolü.
-* NeoVim ile kodlanmış ve yazılmıştır
+* Hosting Netlify tarafından sağlanmaktadır.
+* Sürüm kontrolü Github ile yapılmaktadır.
+* NeoVim ile kodlanmış ve yazılmıştır.
 

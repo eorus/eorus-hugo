@@ -1,6 +1,6 @@
 +++
-title = "Contact"
-slug = "contact"
+title = "İletişim"
+slug = "iletisim"
 +++
 
-Follow me, @johndoe.
+Benimle alper [at] eorus.com adresinden iletişime geçebilirsiniz. 
