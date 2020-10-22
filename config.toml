@@ -3,6 +3,7 @@ title = "Alper Orus"
 
 theme = "hugo-coder"
 
+googleAnalytics = "UA-181067611-1"
 languagecode = "en"
 defaultcontentlanguage = "tr"
 
@@ -16,12 +17,12 @@ disqusShortname = "yourdiscussshortname"
 
 [params]
     author = "Alper Orus"
-    description = "Alper Orus's personal website"
-    keywords = "blog, tasarım, fotoğraf"
+    description = "Alper Orus Kişisel Web Sitesi"
+    keywords = "orus, eorus, blog, tasarım, fotoğraf, geliştirme"
     info = "Ön Yüz Geliştirici, Fotoğrafçı, Blog Yazarı"
     avatarurl = "images/alper.jpg"
     #gravatar = "john.doe@example.com"
-    footercontent = "Bir aktiviteye aşık olun ve yapın! Hiç kimse hayatın neyle ilgili olduğunu anlamaz ve önemi yoktur."
+    footercontent = "Bir aktiviteye aşık olun ve yapın! Yaşamın ne olduğunu hiç kimse bilmiyor ve bunun hiçbir önemi yok. "
 
     dateformat = "2 January 2006"
 
@@ -85,6 +86,13 @@ disqusShortname = "yourdiscussshortname"
     url = "https://github.com/eorus/"
 
 [[params.social]]
+    name = "Flickr"
+    icon = "fa fa-flickr"
+    weight = 1
+    url = "https://www.flickr.com/photos/eorus/"
+
+
+[[params.social]]
     name = "RSS"
     icon = "fa fa-rss"
     weight = 2
@@ -127,8 +135,8 @@ disqusShortname = "yourdiscussshortname"
         [languages.en.params]
             author = "Alper Orus"
             info = "Front End Developer, Photographer, Blogger"
-            description = "Sítio pessoal de João Ninguém"
-            keywords = "blog, photography , design, personal"
+            description = "Alper Orus Personal Website"
+            keywords = "blog, photography, design, personal, orus, eorus"
             footercontent = "Fall in love with some activity, and do it! Nobody ever figures out what life is all about, and it doesn’t matter."
 
         [languages.en.menu]
