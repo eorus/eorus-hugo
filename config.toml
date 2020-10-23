@@ -5,7 +5,7 @@ theme = "hugo-coder"
 
 googleAnalytics = "UA-181067611-1"
 languagecode = "en"
-defaultcontentlanguage = "tr"
+defaultcontentlanguage = "en"
 
 paginate = 20
 
@@ -17,12 +17,13 @@ disqusShortname = "yourdiscussshortname"
 
 [params]
     author = "Alper Orus"
-    description = "Alper Orus Kişisel Web Sitesi"
-    keywords = "orus, eorus, blog, tasarım, fotoğraf, geliştirme"
-    info = "Ön Yüz Geliştirici, Fotoğrafçı, Blog Yazarı"
     avatarurl = "images/alper.jpg"
     #gravatar = "john.doe@example.com"
-    footercontent = "Bir aktiviteye aşık olun ve yapın! Yaşamın ne olduğunu hiç kimse bilmiyor ve bunun hiçbir önemi yok. "
+    
+    info = "Front End Developer, Photographer, Blogger"
+    description = "Alper Orus Personal Website"
+    keywords = "blog, photography, design, personal, orus, eorus"
+    footercontent = "Fall in love with some activity, and do it! Nobody ever figures out what life is all about, and it doesn’t matter."
 
     dateformat = "2 January 2006"
 
@@ -102,42 +103,8 @@ disqusShortname = "yourdiscussshortname"
 
 
 [languages]
-    [languages.tr]
-        languagename = "Türkçe"
-
-        [languages.tr.menu]
-
-            [[languages.tr.menu.main]]
-            name = "Hakkımda"
-            weight = 1
-            url = "hakkimda/"
-
-            [[languages.tr.menu.main]]
-            name = "Blog"
-            weight = 2
-            url = "posts/"
-
-            [[languages.tr.menu.main]]
-            name = "Projeler"
-            weight = 3
-            url = "projeler/"
-
-            [[languages.tr.menu.main]]
-            name = "İletişim"
-            weight = 5
-            url = "iletisim/"
-
-
     [languages.en]
         languagename = "English"
-        title = "Alper Orus"
-
-        [languages.en.params]
-            author = "Alper Orus"
-            info = "Front End Developer, Photographer, Blogger"
-            description = "Alper Orus Personal Website"
-            keywords = "blog, photography, design, personal, orus, eorus"
-            footercontent = "Fall in love with some activity, and do it! Nobody ever figures out what life is all about, and it doesn’t matter."
 
         [languages.en.menu]
 
@@ -145,6 +112,11 @@ disqusShortname = "yourdiscussshortname"
             name = "About"
             weight = 1
             url = "about/"
+
+            [[languages.en.menu.main]]
+            name = "Blog"
+            weight = 2
+            url = "posts/"
 
             [[languages.en.menu.main]]
             name = "Projects"
@@ -155,6 +127,35 @@ disqusShortname = "yourdiscussshortname"
             name = "Contact"
             weight = 5
             url = "contact/"
+
+
+    [languages.tr]
+        languagename = "Türkçe"
+        title = "Alper Orus"
+
+        [languages.tr.params]
+             author = "Alper Orus"
+             description = "Alper Orus Kişisel Web Sitesi"
+             keywords = "orus, eorus, blog, tasarım, fotoğraf, geliştirme"
+             info = "Ön Yüz Geliştirici, Fotoğrafçı, Blog Yazarı"
+             footercontent = "Bir aktiviteye aşık olun ve yapın! Yaşamın ne olduğunu hiç kimse bilmiyor ve bunun hiçbir önemi yok. "
+
+        [languages.tr.menu]
+
+            [[languages.tr.menu.main]]
+            name = "Hakkımda"
+            weight = 1
+            url = "hakkimda/"
+
+            [[languages.tr.menu.main]]
+            name = "Projeler"
+            weight = 3
+            url = "projeler/"
+
+            [[languages.tr.menu.main]]
+            name = "İletişim"
+            weight = 5
+            url = "iletisim/"
 
   [markup.goldmark.renderer]
   unsafe = true # Allow HTML in md files

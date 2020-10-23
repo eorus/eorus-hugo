@@ -1,6 +1,0 @@
-+++
-title = "Projects"
-slug = "projects"
-+++
-
-This will be the place where i will showcase my work. 

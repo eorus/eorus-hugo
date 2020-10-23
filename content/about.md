@@ -1,15 +1,14 @@
 +++
-title = "Hakkımda"
-slug = "hakkimda"
+title = "About Me"
+slug = "about"
 +++
 
-Merhaba, ben Alper! Serbest çalışan bir girişimciyim. Genellikle bir blog yazarı olarak içerik yazar ve üretirim. Web üzerinde birkaç sitem ve büyük kamera gruplarım var. Fotoğrafçılık ve kamera endüstrisi hakkında yazıyorum. Bazen web siteleri geliştiriyorum. Bir ön yüz geliştirici olarak frameworkler ile oynamayı, statik ve dinamik siteler oluşturmayı seviyorum. Geçmişte finans sektöründe çalıştım. Sevdiğim şeyler (belirli bir sırayla değil) arasında Fujifilm kameralar, Thinkpad'ler, Bilim kurgu filmleri, Koşu, Jimnastik, Linux ve CLI uygulamalarıyla oynama yer alıyor. Bu arada Arch kullanıyorum :) Sosyal medyada pek aktif olmadığım için benimle e-posta yoluyla bağlantı kurmaktan çekinmeyin.
+Hi, I’m Alper! I'm a freelancer, entrepreneur. I usually write and generate content as a blogger. I have several sites and large camera groups on the web. I write about photography and camera industry. Sometimes i develop websites. As a front-end developer i love to play with frameworks and create static and dynamic sites. In the past, I worked as a financial advisor. Things I love (in no particular order) include Fujifilm cameras, Thinkpads, Sci-fi films, Running, Calisthenics, Linux and playing with CLI apps. By the way i use Arch :) Feel free to connect with me via email as i am not much active on social media. 
 
-Altyapı
+Colophon
 ---------
 
-* Hugo ile statik olarak oluşturulmuştur.
-* Hosting Netlify tarafından sağlanmaktadır.
-* Sürüm kontrolü Github ile yapılmaktadır.
-* NeoVim ile kodlanmış ve yazılmıştır.
-
+* Statically generated with Hugo.
+* Hosting provided by Netlify
+* Version control provided by GitHub.
+* Coded and written with NeoVim

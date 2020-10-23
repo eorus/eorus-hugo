@@ -1,6 +1,6 @@
 +++
-title = "Projeler"
-slug = "projeler"
+title = "Projects"
+slug = "projects"
 +++
 
-Bu kısımda yapmış olduğum çalışmalardan bazılarını bulabilirsiniz. 
+This will be the place where i will showcase my work. 

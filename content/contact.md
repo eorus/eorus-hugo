@@ -1,6 +1,7 @@
 +++
-title = "İletişim"
-slug = "iletisim"
+title = "Contact"
+slug = "contact"
 +++
 
-Benimle alper [at] eorus.com adresinden iletişime geçebilirsiniz. 
+You can contact me via alper [at] eorus.com
+
