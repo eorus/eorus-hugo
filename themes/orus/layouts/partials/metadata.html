@@ -1,0 +1,12 @@
+<div class="metadata">
+
+{{ $dateTime := .PublishDate.Format "2006-01-02" }}
+{{ $dateFormat := .Site.Params.dateFormat | default "Jan 2, 2006" }}
+<i class='fa fa-calendar'></i>
+<time datetime="{{ $dateTime }}">{{ .PublishDate.Format $dateFormat }}</time> |
+
+<i class='fa fa-user'></i> <a href="/">{{ .Site.Params.author }}</a> | 
+{{ with .Page.Params.Categories }}{{ partial "taxonomy/categories.html" . }}{{ end }}  
+
+ </div>
+

@@ -1,0 +1,31 @@
+<section class="about full-screen d-lg-flex justify-content-center align-items-center text-center" id="about">
+        <div class="container">
+  <div class="profile">
+    {{ if and (isset .Site.Params "avatarurl") (not (isset .Site.Params "gravatar")) }}
+      {{ with .Site.Params.avatarurl }}
+        <div class="avatar"><img  class="img-fluid rounded-circle" src="{{ . | relURL }}" alt="Alper Orus Image"></div>
+      {{ end }}
+    {{ end }}
+    {{ with .Site.Params.gravatar }}
+    <div class="avatar"><img class="img-fluid rounded-circle" src="https://www.gravatar.com/avatar/{{md5 .}}?s=240&d=mp" alt="Alper Orus Image"></div>
+    {{ end }}
+    <h1>{{ .Site.Params.author }}</h1>
+    <h2>{{ .Site.Params.info }}</h2>
+    {{ with .Site.Params.social }}
+    <div class="social-links mt-3 text-center">
+      {{ range sort . "weight" }}
+        {{ if .icon }}
+            <a href="{{ .url | safeURL }}" aria-label="{{ .name }}" {{ if .rel }}rel="{{ .rel }}"{{ end }} {{ if .target }}target="{{ .target }}"{{ end }} {{ if .type }}type="{{ .type }}"{{ end }}>
+              <i class="{{ .icon }}" aria-hidden="true"></i>
+            </a>
+        {{ else }}
+            <a href="{{ .url | safeURL }}" aria-label="{{ .name }}" {{ if .rel }}rel="{{ .rel }}"{{ end }} {{ if .target }}target="{{ .target }}"{{ end }}>{{ .name }}</a>
+        {{ end }}
+      {{ end }}
+    </div>
+    {{ end }}
+  </div>
+       </div>
+</section>
+
+<!-- {{ partial "post-list.html" . }} -->

@@ -1,0 +1,35 @@
+{{ define "title" }}
+  {{ .Title }} · {{ .Site.Title }}
+{{ end }}
+{{ define "main" }}
+<section class="container page full-screen">
+    <div class="row">
+      <div class="col-md-12">
+  {{if .Params.Image }}
+  <figure class="featured-media">
+    <div class="featured-media-inner section-inner medium">
+      <img width="1024" height="768" src="{{ .Params.Image | absURL }}"
+        class="attachment-post-thumbnail size-post-thumbnail wp-post-image rounded mx-auto d-block img-fluid" alt="{{.Title }}"
+        sizes="(max-width: 1100px) 100vw, 1100px">
+    </div><!-- .featured-media-inner -->
+  </figure><!-- .featured-media -->
+  {{end}}
+        <article class="post">
+          <header class="mb-2">
+            <h1>{{ .Title }}</h1>
+{{ partial "metadata.html" . }}
+          </header>
+<br>
+            {{ .Content }}
+      <footer>
+        {{ partial "posts/series.html" . }}
+        {{ partial "posts/disqus.html" . }}
+        {{ partial "posts/commento.html" . }}
+        {{ partial "posts/utterances.html" . }}
+      </footer>
+        </article>
+ {{ with .Page.Params.Tags }}{{ partial "taxonomy/tags.html" . }}{{ end }}
+      </div>
+    </div>
+</section>
+{{ end }}

@@ -1,0 +1,39 @@
+<nav class="navbar navbar-expand-sm {{ .Site.Params.navbarBgColorClass | default .Site.Data.Defaults.navbarBgColorClass }} headroom">
+<div class="container">
+  <a class="navbar-brand" href="{{ .Site.BaseURL }}"><i class='fa fa-user'></i> {{ .Site.Title }}</a>
+    {{ if or .Site.Menus.main .Site.IsMultiLingual }}
+  <button class="navbar-toggler" 
+          type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+<span class="navbar-toggler-icon"></span>
+  </button>
+
+  <div class="collapse navbar-collapse" id="navbarNav">
+
+    <ul class="navbar-nav mx-auto">
+        {{ with .Site.Menus.main}}
+          {{ range sort . }}
+      <li class="nav-item">
+        <a class="nav-link menu-item  no-decoration {{ $.Site.Params.navbarLinkFgColorClass | default $.Site.Data.Defaults.navbarLinkFgColorClass }}" href="{{ .URL | relLangURL }}">
+          {{ .Pre }}
+          <span class="text-capitalize">{{ .Name }}</span>
+        </a>
+            </li>
+          {{ end }}
+        {{ end }}
+
+
+      </ul>
+        {{ if .Site.IsMultiLingual }}
+          {{ $node := . }}
+          {{ .Scratch.Set "separator" true }}
+          {{ range (default .Site.Home.AllTranslations .Translations) }}
+            {{ if ne $.Site.Language .Language }}
+<a href="{{ .Permalink }}" class="btn btn-outline-primary btn-sm" role="button" aria-pressed="true">{{ .Language.LanguageName }}</a>
+
+            {{ end }}
+          {{ end }}
+        {{ end }}
+  </div>
+    {{ end }}
+</div>
+</nav>

@@ -1,0 +1,24 @@
+{{ if isset .Site.Params.widgets "search" }}
+{{ if .Site.Params.widgets.search }}
+<div class="card card-info sidebar-menu">
+
+    <div class="panel-heading">
+
+      <h4 class="card-title p-3">Search</h3>
+
+    </div>
+
+    <div class="card-body">
+        <form action="//google.com/search" method="get" accept-charset="UTF-8" role="search">
+            <div class="input-group">
+                <input type="search" name="q" class="form-control" placeholder="{{ i18n "searchTitle" }}">
+                <input type="hidden" name="sitesearch" value="{{ "/" | absURL }}">
+                <span class="input-group-btn">
+                    <button type="submit" class="btn btn-template-main"><i class="fa fa-search"></i></button>
+                </span>
+            </div>
+        </form>
+    </div>
+</div>
+{{ end }}
+{{ end }}

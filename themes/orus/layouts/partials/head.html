@@ -1,0 +1,40 @@
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <meta http-equiv="Content-Language" content="{{ .Site.Language.Lang }}">
+    {{ with .Site.Params.googlesiteverification }}<meta name="google-site-verification" content="{{ . }}">{{ end }}
+    {{ with .Site.Params.author }}<meta name="author" content="{{ . }}">{{ end }}
+    <meta name="description" content="{{ .Description | default (.Summary | default .Site.Params.description ) }}">
+    <meta name="keywords" content="{{ (delimit .Keywords ",") | default .Site.Params.keywords }}">
+    <meta name="robots" content="index,follow">
+
+    {{ template "_internal/twitter_cards.html" . }}
+    {{ template "_internal/opengraph.html" . }}
+    <meta property="og:image" content="{{ .Site.Params.avatarurl }}">
+    <title>{{ block "title" . }}{{ .Site.Title }}{{ end }}</title>
+
+    {{ "<!--Favicon-->" | safeHTML }}
+    <link rel="shortcut icon" href="{{ `images/favicon.png` | absURL }}" type="image/x-icon">
+    <link rel="icon" href="{{ `images/favicon.png` | absURL }}" type="image/x-icon">
+
+    <!-- Favicons -->
+    <link href="assets/img/favicon.png" rel="icon">
+    <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
+
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Raleway:300,300i,400,400i,500,500i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i" rel="stylesheet">
+
+    <!-- Template Main CSS File -->
+    <link rel="stylesheet" type="text/css" href="/css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="/css/font-awesome.min.css">
+    <link rel="stylesheet" type="text/css" href="/css/style.css">
+    <link rel="stylesheet" type="text/css" href="/css/font-awesome.min.css">
+    <link rel="stylesheet" type="text/css" href="/css/style-default.css">
+    {{ if .Permalink }}
+    <link rel="canonical" href="{{ .Permalink }}">
+    {{ end }}
+
+    {{ template "_internal/google_analytics.html" . }}
+    {{ hugo.Generator }}
+</head>
