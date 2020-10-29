@@ -121,14 +121,14 @@ paginate = 10
 
             [[languages.tr.menu.main]]
             name = "Ana Sayfa"
-            pre = "<i class='fa fa-home'></i>"
+            pre = "<i class='fa fa-home'></i> "
             weight = 1
             identifier = "Ana Sayfa"
             url = "/"
             
             [[languages.tr.menu.main]]
             name = "Hakkimda"
-            pre = "<i class='fa fa-user'></i>"
+            pre = "<i class='fa fa-user'> </i>"
             weight = 1
             url = "hakkimda/"
 
