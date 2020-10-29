@@ -21,12 +21,6 @@
           </header>
 <br>
             {{ .Content }}
-      <footer>
-        {{ partial "posts/series.html" . }}
-        {{ partial "posts/disqus.html" . }}
-        {{ partial "posts/commento.html" . }}
-        {{ partial "posts/utterances.html" . }}
-      </footer>
         </article>
  {{ with .Page.Params.Tags }}{{ partial "taxonomy/tags.html" . }}{{ end }}
       </div>
