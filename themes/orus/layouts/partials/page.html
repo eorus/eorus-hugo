@@ -12,11 +12,7 @@
 <br>
             {{ .Content }}
         </article>
-					<span class="meta-text">
-                        {{ range $i,$p:= .Params.Tags }}{{if ne $i 0}},{{end}}
-						<a href="{{ `tags/` | relLangURL }}{{ . | urlize | lower }}" rel="tag">{{ . | humanize }}</a> 
-						{{end}}</span>
-      </div>
+     </div>
     </div>
   </section>
 {{ end }}
