@@ -1,4 +1,4 @@
-<nav class="navbar navbar-expand-sm {{ .Site.Params.navbarBgColorClass | default .Site.Data.Defaults.navbarBgColorClass }} headroom">
+<nav class="navbar navbar-expand-sm {{ .Site.Params.navbarBgColorClass | default .Site.Data.Defaults.navbarBgColorClass }}">
 <div class="container">
   <a class="navbar-brand" href="{{ .Site.BaseURL }}"><i class='icofont-badge'></i> {{ .Site.Title }}</a>
     {{ if or .Site.Menus.main .Site.IsMultiLingual }}
@@ -28,7 +28,7 @@
           {{ .Scratch.Set "separator" true }}
           {{ range (default .Site.Home.AllTranslations .Translations) }}
             {{ if ne $.Site.Language .Language }}
-<a href="{{ .Permalink }}" class="btn btn-outline-primary btn-sm" role="button" aria-pressed="true">{{ .Language.LanguageName }}</a>
+<a href="{{ .Permalink }}" class="btn btn-outline-info btn-sm" role="button" aria-pressed="true">{{ .Language.LanguageName }}</a>
 
             {{ end }}
           {{ end }}

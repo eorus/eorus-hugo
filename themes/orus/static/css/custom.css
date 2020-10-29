@@ -83,3 +83,9 @@ section.post {
 .nav {
       display: inline;
     }
+
+ul i {
+    font-size: 20px;
+    padding-right: 4px;
+    color: #68A4C4;
+  }
