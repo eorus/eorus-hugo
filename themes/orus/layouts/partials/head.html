@@ -9,9 +9,11 @@
     <meta name="keywords" content="{{ (delimit .Keywords ",") | default .Site.Params.keywords }}">
     <meta name="robots" content="index,follow">
 
-    <meta property="og:image" content="{{ .Site.Params.avatarurl }}">
     <title>{{ block "title" . }}{{ .Site.Title }}{{ end }}</title>
 
+    <meta property="og:image" content="{{ .Site.Params.avatarurl }}">
+
+ 
     {{ "<!--Favicon-->" | safeHTML }}
     <link rel="shortcut icon" href="{{ `images/favicon.png` | absURL }}" type="image/x-icon">
     <link rel="icon" href="{{ `images/favicon.png` | absURL }}" type="image/x-icon">
@@ -23,10 +25,20 @@
     <!-- Google Fonts -->
     <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Raleway:300,300i,400,400i,500,500i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i" rel="stylesheet">
 
-    <!-- Template Main CSS File -->
-    <link rel="stylesheet" type="text/css" href="/css/bootstrap.min.css">
-    <link rel="stylesheet" type="text/css" href="/css/font-awesome.min.css">
-    <link rel="stylesheet" type="text/css" href="/css/style.css">
+  <!-- Vendor CSS Files -->
+  <link href="/assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link href="/assets/vendor/animate.css/animate.min.css" rel="stylesheet">
+  <link href="/assets/vendor/icofont/icofont.min.css" rel="stylesheet">
+  <link href="/assets/vendor/boxicons/css/boxicons.min.css" rel="stylesheet">
+  <link href="/assets/vendor/venobox/venobox.css" rel="stylesheet">
+  <link href="/assets/vendor/owl.carousel/assets/owl.carousel.min.css" rel="stylesheet">
+  <link href="/assets/vendor/aos/aos.css" rel="stylesheet">
+
+  <!-- Templat/e Main CSS File -->
+  <link href="/assets/css/style.css" rel="stylesheet">
+  <!-- Template Main CSS File -->
+  <link href="/css/custom.css" rel="stylesheet">   
+  <link href="/css/font-awesome.min.css" rel="stylesheet">   
 
     {{ if .Permalink }}
     <link rel="canonical" href="{{ .Permalink }}">
