@@ -12,7 +12,7 @@ body.posts section {
 
 .profile h1 {
   font-size: 24px;
-  margin: 0;
+  margin-bottom: 10px;
   padding: 0;
   font-weight: 600;
   -moz-text-align-last: center;
