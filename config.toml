@@ -50,19 +50,19 @@ paginate = 10
 
 [[params.social]]
     name = "Github"
-    icon = "bx bxl-github"
+    icon = "fa fa-github"
     weight = 1
     url = "https://github.com/eorus/"
 
 [[params.social]]
     name = "Flickr"
-    icon = "bx bxl-flickr"
+    icon = "fa fa-flickr"
     weight = 1
     url = "https://www.flickr.com/photos/eorus/"
 
 [[params.social]]
     name = "RSS"
-    icon = "icofont-rss"
+    icon = "fa fa-rss"
     weight = 2
     url = "https://www.eorus.com/index.xml"
     rel = "alternate"
@@ -77,32 +77,32 @@ paginate = 10
 
             [[languages.en.menu.main]]
             name = "Home"
-            pre = "<i class='icofont-home'></i>"
+            pre = "<i class='fa fa-home'></i>"
             weight = 1
             identifier = "home"
             url = "/"
 
             [[languages.en.menu.main]]
             name = "About"
-            pre = "<i class='icofont-user'></i>"
+            pre = "<i class='fa fa-user'></i>"
             weight = 2
             url = "about/"           
             
             [[languages.en.menu.main]]
             name = "Blog"
-            pre = "<i class='icofont-book'></i>"
+            pre = "<i class='fa fa-book'></i>"
             weight = 3
             url = "posts/"
 
             [[languages.en.menu.main]]
             name = "Projects"
-            pre = "<i class='icofont-document-folder'></i>"
+            pre = "<i class='fa fa-folder'></i>"
             weight = 4
             url = "projects/"
 
             [[languages.en.menu.main]]
             name = "Contact"
-            pre = "<i class='icofont-contacts'></i>"
+            pre = "<i class='fa fa-envelope'></i>"
             weight = 5
             url = "contact/"
 
@@ -121,26 +121,26 @@ paginate = 10
 
             [[languages.tr.menu.main]]
             name = "Ana Sayfa"
-            pre = "<i class='bx bx-home'></i> "
+            pre = "<i class='fa fa-home'></i> "
             weight = 1
             identifier = "Ana Sayfa"
             url = "/"
             
             [[languages.tr.menu.main]]
             name = "Hakkimda"
-            pre = "<i class='bx bx-user'> </i>"
+            pre = "<i class='fa fa-user'> </i>"
             weight = 1
             url = "hakkimda/"
 
             [[languages.tr.menu.main]]
             name = "Projeler"
-            pre = "<i class='bx bx-file'> </i>"
+            pre = "<i class='fa fa-file'> </i>"
             weight = 3
             url = "projeler/"
 
             [[languages.tr.menu.main]]
             name = "İletişim"
-            pre = "<i class='bx bx-envelope'> </i>"
+            pre = "<i class='fa fa-envelope'> </i>"
             weight = 5
             url = "iletisim/"
 
