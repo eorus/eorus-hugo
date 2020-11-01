@@ -50,19 +50,19 @@ paginate = 10
 
 [[params.social]]
     name = "Github"
-    icon = "fa fa-github"
+    icon = "fab fa-github"
     weight = 1
     url = "https://github.com/eorus/"
 
 [[params.social]]
     name = "Flickr"
-    icon = "fa fa-flickr"
+    icon = "fab fa-flickr"
     weight = 1
     url = "https://www.flickr.com/photos/eorus/"
 
 [[params.social]]
     name = "RSS"
-    icon = "fa fa-rss"
+    icon = "fas fa-rss"
     weight = 2
     url = "https://www.eorus.com/index.xml"
     rel = "alternate"
@@ -90,13 +90,13 @@ paginate = 10
             
             [[languages.en.menu.main]]
             name = "Blog"
-            pre = "<i class='fa fa-book'></i>"
+            pre = "<i class='fa fa-newspaper'></i>"
             weight = 3
             url = "posts/"
 
             [[languages.en.menu.main]]
             name = "Projects"
-            pre = "<i class='fa fa-folder'></i>"
+            pre = "<i class='fa fa-folder-open'></i>"
             weight = 4
             url = "projects/"
 
@@ -146,4 +146,4 @@ paginate = 10
 
   [markup.goldmark.renderer]
   unsafe = true # Allow HTML in md files
-
+disableToc = "false"

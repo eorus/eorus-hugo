@@ -1,13 +1,11 @@
 {{ if .Site.Params.widgets.categories }}
 {{ if isset .Site.Taxonomies "categories" }}
 {{ if not (eq (len .Site.Taxonomies.categories) 0) }}
-<div class="card card-default sidebar-menu">
-
     <header>
-      <h4 class="card-title p-3">Categories</h3>
+              <h3 class="sidebar-title">Categories</h3>
     </header>
 
-    <div class="card-body">
+              <div class="sidebar-item categories">
         <ul class="nav nav-pills nav-stacked">
             {{ $current := . }}
             {{ range $name, $items := .Site.Taxonomies.categories }}
@@ -16,9 +14,8 @@
             </li>
             {{ end }}
         </ul>
-    </div>
+              </div><!-- End sidebar categories-->
 
-</div>
 {{ end }}
 {{ end }}
 {{ end }}

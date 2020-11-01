@@ -70,16 +70,14 @@ section.post {
   background: #ffffff;
 }
 .full-screen {
-    padding: 5rem 0;
-}
-.navbar {
-  border-bottom: 1px solid #f0f0f0;
+    padding: 4rem 0;
 }
 
-.sidebar-menu {
-    margin-bottom: 10px;
-    border: 2px solid #dfdfdf;
+.navbar {
+    border-bottom: 1px solid #f0f0f0;
+    box-shadow: 0px 2px 15px rgba(0, 0, 0, 0.1);
 }
+
 .nav {
       display: inline;
     }
@@ -89,3 +87,14 @@ ul i {
     padding-right: 4px;
     color: #68A4C4;
   }
+.contact h1 {
+  display:none;
+}
+body.page.contact .full-screen {
+  padding:0 !important;
+}
+footer {
+    background: #f1f6f8;
+    padding: 1.6em 1.5em;
+    font-size:small;
+}

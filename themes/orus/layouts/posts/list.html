@@ -2,27 +2,28 @@
   {{ .Title }} · {{ .Site.Title }}
 {{ end }}
 {{ define "main" }}
-<div class="container m-3 mx-auto">
+<section class="blog">
+  <div class="container m-3 mx-auto">
                 <div class="row">
                     <!-- *** LEFT COLUMN *** -->
 
-                    <div class="col-md-9" id="blog-listing-medium">
+                    <div class="col-lg-8" id="blog-listing-medium">
   {{ $paginator := .Paginate (where .Site.RegularPages "Type" "in" site.Params.mainSections) }}
 {{ range $paginator.Pages }}
 <article class="post m-3 mx-auto p-3">
                             <div class="row">
-                                <div class="col-md-4">
+                                <div class="col-md-3">
                                   <div class="image">
                                       <a href="{{ .Permalink }}">
                                           {{ if .Params.Image }}
                                           <img src="{{ .Params.Image | relURL }}" class="img-fluid" alt="">
                                           {{ else }}
-                                          <img src="{{ "https://via.placeholder.com/300x200.png" | relURL }}" class="img-fluid" alt="">
+                                          <img src="{{ "/images/blog.jpg" | relURL }}" class="img-fluid" alt="">
                                           {{ end }}
                                       </a>
                                   </div>
                                 </div>
-                                <div class="col-md-8">
+                                <div class="col-md-9">
                                     <h2><a href="{{ .Permalink }}">{{ .Title }}</a></h2>
                                 {{ partial "metadata.html" . }}
                                     <p class="intro">{{ .Summary }}</p>
@@ -44,14 +45,14 @@
                     <!-- *** RIGHT COLUMN ***
        _________________________________________________________ -->
 
-                    <aside class="col-md-3 mt-3">
-
+                    <aside class="col-lg-4 mt-3">
+            <div class="sidebar">
                         <!-- *** MENUS AND WIDGETS *** -->
 
                         {{ partial "sidebar.html" . }}
 
                         <!-- *** MENUS AND FILTERS END *** -->
-
+            </div><!-- End sidebar -->
                     </aside>
                     <!-- /.col-md-3 -->
 
@@ -61,4 +62,5 @@
                 <!-- /.row -->
             </div>
             <!-- /.container -->
+</section>
 {{ end }}

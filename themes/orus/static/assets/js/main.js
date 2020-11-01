@@ -119,25 +119,6 @@
     return false;
   });
 
-  // Initiate the venobox plugin
-  $(window).on('load', function() {
-    $('.venobox').venobox();
-  });
-
-  // jQuery counterUp
-  $('[data-toggle="counter-up"]').counterUp({
-    delay: 10,
-    time: 1000
-  });
-
-  // Skills section
-  $('.skills-content').waypoint(function() {
-    $('.progress .progress-bar').each(function() {
-      $(this).css("width", $(this).attr("aria-valuenow") + '%');
-    });
-  }, {
-    offset: '80%'
-  });
 
   // Testimonials carousel (uses the Owl Carousel library)
   $(".testimonials-carousel").owlCarousel({
@@ -163,6 +144,11 @@
       aos_init();
     });
 
+  });
+
+  // Initiate the venobox plugin
+  $(window).on('load', function() {
+    $('.venobox').venobox();
   });
 
   // Portfolio details carousel
