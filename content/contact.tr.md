@@ -17,19 +17,19 @@ Bir parçası olmamı istediğiniz bir projenin genel bir mesajını veya ayrın
 </div>
 </div>
 
-<div class="row justify-content-center">
-<div class="col-lg-7">
+<div class="row justify-content-center mb-3">
+<div class="col-lg-12">
 <div class="p-5 bg-light">
           <h2 class="h4 text-black mb-3">İletişime Geçin</h2>
 <div class="row align-items-center">
-<div class="col-lg-7 text-left">
+<div class="col-lg-8 text-left">
 
 İşletmeniz için bir web sitesine ihtiyacınız varsa veya WordPress ve Hugo konusunda uzmanlaşmış bir serbest çalışan arıyorsanız, bana yazmaktan çekinmeyin.
 
 </div>
-<div class="col-lg-5 text-center">
+<div class="col-lg-4 text-center">
 
-<a href="mailto:alperor@gmail.com?cc=alper@eorus.com&subject=Contact From Eorus Website" class="btn btn-primary mr-2 mb-5">Bir Mesaj Gönderin ✉️</a>
+<a href="mailto:alperor@gmail.com?cc=alper@eorus.com&subject=Contact From Eorus Website" class="btn btn-primary mr-2 mt-3 mb-5">Bir Mesaj Gönderin ✉️</a>
 </div>
 </div>
 </div>

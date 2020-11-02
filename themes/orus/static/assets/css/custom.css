@@ -115,3 +115,20 @@ footer {
     padding: 1.6em 1.5em;
     font-size:small;
 }
+.side-text {
+  position: absolute;
+  z-index: 998;
+  -webkit-writing-mode: vertical-rl;
+      -ms-writing-mode: tb-rl;
+          writing-mode: vertical-rl;
+  -webkit-transform: rotate(180deg) translate(-50%, 50%);
+          transform: rotate(180deg) translate(-50%, 50%);
+  top: 45vh;
+  left: 20px;
+  font-size: 10px; }
+  .side-text .line {
+    display: inline-block;
+    width: 1px;
+    height: 100px;
+    background-color: #68A4C4; }
+
