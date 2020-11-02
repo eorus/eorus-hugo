@@ -45,6 +45,18 @@ slug = "projects"
 </div>
 </div>
 </div>
+<div class="col-lg-4 col-md-6 filter-web">
+<div class="portfolio-item">
+        <img src="/images/portfolio/dsftr.jpg" class="img-fluid" alt="">
+<div class="portfolio-info">
+      <h3><a href="/images/portfolio/dsftr.jpg" data-gall="portfolioGallery" class="venobox" title="Darüşşafaka Physical Therapy and Rehabilitation Center">DSFTR Web</a></h3>
+<div>
+        <a href="/images/portfolio/dsftr.jpg" data-gall="portfolioGallery" class="venobox" title="Enlem Sea Food"><i class="fas fa-plus"></i></a>
+        <a href="/portfolio/darussafaka-physical-therapy-rehabilitation-center" title="Darüşşafaka Physical Therapy and Rehabilitation Center"><i class="fas fa-link"></i></a>
+</div>
+</div>
+</div>
+</div>
 
 <div class="col-lg-4 col-md-6 filter-app">
   <div class="portfolio-item">
@@ -53,7 +65,7 @@ slug = "projects"
       <h3><a href="/assets/img/portfolio/portfolio-3.jpg" data-gall="portfolioGallery" class="venobox" title="App 2">App 2</a></h3>
       <div>
         <a href="/assets/img/portfolio/portfolio-3.jpg" data-gall="portfolioGallery" class="venobox" title="App 2"><i class="fas fa-plus"></i></a>
-        <a href="portfolio-details.html" title="Portfolio Details"><i class="fas fa-link"></i></a>
+        <a href="darussafaka-physical-therapy-rehabilitation-center" title="Portfolio Details"><i class="fas fa-link"></i></a>
       </div>
     </div>
   </div>

@@ -5,9 +5,9 @@
     <body class="{{ .Type }} {{ with .File }}{{ .TranslationBaseName }}{{ end }}">
 
         {{- partial "header.html" . -}}
-        <div id="content">
-        {{- block "main" . }}{{- end }}
-        </div>
+        <main id="main">
+          {{- block "main" . }}{{- end }}
+        </main>
         {{- partial "footer.html" . -}}
         {{- partial "script.html" . -}}
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.1/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">

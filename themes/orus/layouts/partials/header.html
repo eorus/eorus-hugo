@@ -1,10 +1,11 @@
-<nav class="navbar navbar-expand-sm {{ .Site.Params.navbarBgColorClass | default .Site.Data.Defaults.navbarBgColorClass }}">
+<header id="header" class="fixed-top ">
 <div class="container">
+<nav class="nav-menu navbar navbar-expand-sm {{ .Site.Params.navbarBgColorClass | default .Site.Data.Defaults.navbarBgColorClass }}">
   <a class="navbar-brand" href="{{ .Site.BaseURL }}"><i class='fa fa-code'></i> {{ .Site.Title }}</a>
     {{ if or .Site.Menus.main .Site.IsMultiLingual }}
-  <button class="navbar-toggler" 
+  <button class="navbar-toggler mobile-nav-toggle d-lg-none" 
           type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-<span class="navbar-toggler-icon"></span>
+<i class="fa fa-bars"></i></span>
   </button>
 
   <div class="collapse navbar-collapse" id="navbarNav">
@@ -35,5 +36,7 @@
         {{ end }}
   </div>
     {{ end }}
-</div>
 </nav>
+
+</div>
+</header>
