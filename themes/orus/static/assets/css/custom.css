@@ -95,9 +95,10 @@ section.post {
 .navbar-light .navbar-brand:hover {
     color: #fff;
 }
+
 ul i {
     font-size: 20px;
-    padding-right: 4px;
+    padding-right: 4px !important;
     color: #68A4C4;
   }
 .contact h1 {
