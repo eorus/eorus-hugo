@@ -34,16 +34,16 @@ slug = "projects"
 </div>
 
 <div class="col-lg-4 col-md-6 filter-web">
-  <div class="portfolio-item">
-    <img src="/assets/img/portfolio/portfolio-2.jpg" class="img-fluid" alt="">
-    <div class="portfolio-info">
-      <h3><a href="/assets/img/portfolio/portfolio-2.jpg" data-gall="portfolioGallery" class="venobox" title="Web 3">Web 3</a></h3>
-      <div>
-        <a href="/assets/img/portfolio/portfolio-2.jpg" data-gall="portfolioGallery" class="venobox" title="Web 3"><i class="fas fa-plus"></i></a>
-        <a href="portfolio-details.html" title="Portfolio Details"><i class="fas fa-link"></i></a>
-      </div>
-    </div>
-  </div>
+<div class="portfolio-item">
+        <img src="/images/portfolio/enlemsf.jpg" class="img-fluid" alt="">
+<div class="portfolio-info">
+      <h3><a href="/images/portfolio/enlemsf.jpg" data-gall="portfolioGallery" class="venobox" title="Enlem Sea Food">Enlem Sea Food</a></h3>
+<div>
+        <a href="/images/portfolio/enlemsf.jpg" data-gall="portfolioGallery" class="venobox" title="Enlem Sea Food"><i class="fas fa-plus"></i></a>
+        <a href="/portfolio/enlem-sea-food" title="Enlem Sea Food"><i class="fas fa-link"></i></a>
+</div>
+</div>
+</div>
 </div>
 
 <div class="col-lg-4 col-md-6 filter-app">

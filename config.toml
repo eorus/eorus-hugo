@@ -39,9 +39,9 @@ paginate = 10
     author = "Alper Orus"
     avatarurl = "images/alper.jpg"
     #gravatar = "john.doe@example.com"    
-            info = "Front End Developer, Photographer, Blogger"
+            info = "Front End Developer, Photographer, Blogger and a Passionate Linux Enthusiast"
             description = "Alper Orus Personal Website"
-            keywords = "blog, photography, design, personal, orus, eorus"
+            keywords = "blog, photography, design, alper, personal, orus, eorus, linux, wordpress, hugo, frontend"
             footercontent = "Fall in love with some activity, and do it! Nobody ever figures out what life is all about, and it doesn’t matter."
     dateformat = "2 January 2006"
     navbarBgColorClass = "navbar-light"
@@ -113,8 +113,8 @@ paginate = 10
         [languages.tr.params]
             author = "Alper Orus"
     description = "Alper Orus Kişisel Web Sitesi"
-    keywords = "orus, eorus, blog, tasarım, fotoğraf, geliştirme"
-    info = "Ön Yüz Geliştirici, Fotoğrafçı, Blog Yazarı"
+    keywords = "alper, orus, eorus, blog, tasarım, fotoğraf, geliştirme, wordpress, hugo, linux"
+    info = "Ön Yüz Geliştirici, Fotoğrafçı, Blog Yazarı ve Tutkulu Linux Meraklısı"
     footercontent = "Bir aktiviteye aşık olun ve yapın! Yaşamın ne olduğunu hiç kimse bilmiyor ve bunun hiçbir önemi yok. "
 
         [languages.tr.menu]
