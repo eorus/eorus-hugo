@@ -4,7 +4,7 @@ slug = "projects"
 +++
 
 
-   <!-- ======= Portfolio Section ======= -->
+<!-- ======= Portfolio Section ======= -->
 <section class="portfolio">
 <div class="container">
 <div class="row">
@@ -12,7 +12,7 @@ slug = "projects"
       <ul id="portfolio-flters">
         <li data-filter="*" class="filter-active">All</li>
         <li data-filter=".filter-web">Web</li>
-        <li data-filter=".filter-card">Author</li>
+        <li data-filter=".filter-card">Blog</li>
         <li data-filter=".filter-app">Social</li>
       </ul>
 </div>
@@ -22,11 +22,11 @@ slug = "projects"
 
 <div class="col-lg-4 col-md-6 filter-web">
 <div class="portfolio-item">
-        <img src="/images/portfolio/enlems.jpg" class="img-fluid" alt="">
+        <img src="/images/portfolio/enlemsen.jpg" class="img-fluid" alt="">
 <div class="portfolio-info">
-      <h3><a href="/images/portfolio/enlems.jpg" data-gall="portfolioGallery" class="venobox" title="Enlem Cold Storage Warehouse">Enlem Cold Storage Warehouse</a></h3>
+      <h3><a href="/images/portfolio/enlemsen.jpg" data-gall="portfolioGallery" class="venobox" title="Enlem Cold Storage Warehouse">Enlem Cold Storage Warehouse</a></h3>
 <div>
-        <a href="/images/portfolio/enlems.jpg" data-gall="portfolioGallery" class="venobox" title="Enlem Soğuk Hava"><i class="fas fa-plus"></i></a>
+        <a href="/images/portfolio/enlemsen.jpg" data-gall="portfolioGallery" class="venobox" title="Enlem Soğuk Hava"><i class="fas fa-plus"></i></a>
         <a href="/portfolio/enlem-cold-storage-warehouse" title="Enlem Cold Storage Warehouse"><i class="fas fa-link"></i></a>
 </div>
 </div>
@@ -45,6 +45,8 @@ slug = "projects"
 </div>
 </div>
 </div>
+
+
 <div class="col-lg-4 col-md-6 filter-web">
 <div class="portfolio-item">
         <img src="/images/portfolio/dsftr.jpg" class="img-fluid" alt="">
@@ -53,6 +55,73 @@ slug = "projects"
 <div>
         <a href="/images/portfolio/dsftr.jpg" data-gall="portfolioGallery" class="venobox" title="Enlem Sea Food"><i class="fas fa-plus"></i></a>
         <a href="/portfolio/darussafaka-physical-therapy-rehabilitation-center" title="Darüşşafaka Physical Therapy and Rehabilitation Center"><i class="fas fa-link"></i></a>
+</div>
+</div>
+</div>
+</div>
+
+<div class="col-lg-4 col-md-6 filter-web">
+<div class="portfolio-item">
+        <img src="/images/portfolio/idi.jpg" class="img-fluid" alt="">
+<div class="portfolio-info">
+      <h3><a href="/images/portfolio/idi.jpg" data-gall="portfolioGallery" class="venobox" title="İdi Lojistik">İdi Lojistik</a></h3>
+<div>
+        <a href="/images/portfolio/idi.jpg" data-gall="portfolioGallery" class="venobox" title="İdi Lojistik"><i class="fas fa-plus"></i></a>
+        <a href="/portfolio/idi-lojistik" title="İdi Lojistik"><i class="fas fa-link"></i></a>
+</div>
+</div>
+</div>
+</div>
+
+<div class="col-lg-4 col-md-6 filter-web">
+<div class="portfolio-item">
+        <img src="/images/portfolio/h2a.jpg" class="img-fluid" alt="">
+<div class="portfolio-info">
+      <h3><a href="/images/portfolio/h2a.jpg" data-gall="portfolioGallery" class="venobox" title="H2A">H2A Danışmanlık</a></h3>
+<div>
+        <a href="/images/portfolio/h2a.jpg" data-gall="portfolioGallery" class="venobox" title="H2A Danışmanlık"><i class="fas fa-plus"></i></a>
+        <a href="/portfolio/h2a-danismanlik" title="H2A Danışmanlık"><i class="fas fa-link"></i></a>
+</div>
+</div>
+</div>
+</div>
+
+<div class="col-lg-4 col-md-6 filter-web">
+<div class="portfolio-item">
+        <img src="/images/portfolio/fpdtr.jpg" class="img-fluid" alt="">
+<div class="portfolio-info">
+      <h3><a href="/images/portfolio/fpdtr.jpg" data-gall="portfolioGallery" class="venobox" title="FPD">Finansal Planlama Derneği</a></h3>
+<div>
+        <a href="/images/portfolio/fpdtr.jpg" data-gall="portfolioGallery" class="venobox" title="Finansal Planlama Derneği"><i class="fas fa-plus"></i></a>
+        <a href="/portfolio/finansal-planlama-dernegi" title="Finansal Planlama Derneği"><i class="fas fa-link"></i></a>
+</div>
+</div>
+</div>
+</div>
+
+
+<div class="col-lg-4 col-md-6 filter-web">
+<div class="portfolio-item">
+        <img src="/images/portfolio/emaga.jpg" class="img-fluid" alt="">
+<div class="portfolio-info">
+      <h3><a href="/images/portfolio/emaga.jpg" data-gall="portfolioGallery" class="venobox" title="Emaga">Emaga</a></h3>
+<div>
+        <a href="/images/portfolio/emaga.jpg" data-gall="portfolioGallery" class="venobox" title="Emaga"><i class="fas fa-plus"></i></a>
+        <a href="/portfolio/emaga" title="Emaga"><i class="fas fa-link"></i></a>
+</div>
+</div>
+</div>
+</div>
+
+
+<div class="col-lg-4 col-md-6 filter-web">
+<div class="portfolio-item">
+        <img src="/images/portfolio/arzu.jpg" class="img-fluid" alt="">
+<div class="portfolio-info">
+      <h3><a href="/images/portfolio/arzu.jpg" data-gall="portfolioGallery" class="venobox" title="Arzu Odabaşı">Arzu Odabaşı</a></h3>
+<div>
+        <a href="/images/portfolio/arzu.jpg" data-gall="portfolioGallery" class="venobox" title="Arzu Odabaşı"><i class="fas fa-plus"></i></a>
+        <a href="/portfolio/arzu" title="Arzu Odabaşı"><i class="fas fa-link"></i></a>
 </div>
 </div>
 </div>
@@ -84,18 +153,6 @@ slug = "projects"
   </div>
 </div>
 
-<div class="col-lg-4 col-md-6 filter-web">
-  <div class="portfolio-item">
-    <img src="/assets/img/portfolio/portfolio-5.jpg" class="img-fluid" alt="">
-    <div class="portfolio-info">
-      <h3><a href="/assets/img/portfolio/portfolio-5.jpg" data-gall="portfolioGallery" class="venobox" title="Web 2">Web 2</a></h3>
-      <div>
-        <a href="/assets/img/portfolio/portfolio-5.jpg" data-gall="portfolioGallery" class="venobox" title="Web 2"><i class="fas fa-plus"></i></a>
-        <a href="portfolio-details.html" title="Portfolio Details"><i class="fas fa-link"></i></a>
-      </div>
-    </div>
-  </div>
-</div>
 
 <div class="col-lg-4 col-md-6 filter-app">
   <div class="portfolio-item">
@@ -123,31 +180,6 @@ slug = "projects"
   </div>
 </div>
 
-<div class="col-lg-4 col-md-6 filter-card">
-  <div class="portfolio-item">
-    <img src="/assets/img/portfolio/portfolio-8.jpg" class="img-fluid" alt="">
-    <div class="portfolio-info">
-      <h3><a href="/assets/img/portfolio/portfolio-8.jpg" data-gall="portfolioGallery" class="venobox" title="Card 3">Card 3</a></h3>
-      <div>
-        <a href="/assets/img/portfolio/portfolio-8.jpg" data-gall="portfolioGallery" class="venobox" title="Card 3"><i class="fas fa-plus"></i></a>
-        <a href="portfolio-details.html" title="Portfolio Details"><i class="fas fa-link"></i></a>
-      </div>
-    </div>
-  </div>
-</div>
-
-<div class="col-lg-4 col-md-6 filter-web">
-  <div class="portfolio-item">
-    <img src="/assets/img/portfolio/portfolio-9.jpg" class="img-fluid" alt="">
-    <div class="portfolio-info">
-      <h3><a href="/assets/img/portfolio/portfolio-9.jpg" data-gall="portfolioGallery" class="venobox" title="Web 1">Web 1</a></h3>
-      <div>
-        <a href="/assets/img/portfolio/portfolio-9.jpg" data-gall="portfolioGallery" class="venobox" title="Web 1"><i class="fas fa-plus"></i></a>
-        <a href="portfolio-details.html" title="Portfolio Details"><i class="fas fa-link"></i></a>
-      </div>
-    </div>
-  </div>
-</div>
 
 </div>
 

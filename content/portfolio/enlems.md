@@ -12,9 +12,9 @@ draft = "false"
 <div class="portfolio-details-container">
 
 <div class="owl-carousel portfolio-details-carousel">
-        <img src="/images/portfolio/enlems.jpg" class="img-fluid" alt="">
-        <img src="/images/portfolio/enlems-1.jpg" class="img-fluid" alt="">
-        <img src="/images/portfolio/enlems-2.jpg" class="img-fluid" alt="">
+        <img src="/images/portfolio/enlemsen.jpg" class="img-fluid" alt="">
+        <img src="/images/portfolio/enlemsen-1.jpg" class="img-fluid" alt="">
+        <img src="/images/portfolio/enlemsen-2.jpg" class="img-fluid" alt="">
 </div>
 
 <div class="portfolio-info">
