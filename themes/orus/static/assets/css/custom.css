@@ -97,9 +97,12 @@ section.post {
 }
 
 ul i {
-    font-size: 20px;
-    padding-right: 4px !important;
+    font-size: 1em;
     color: #68A4C4;
+  }
+
+i {
+   padding-right: 5px !important;
   }
 .contact h1 {
   display:none;
