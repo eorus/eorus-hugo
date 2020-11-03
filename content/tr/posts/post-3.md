@@ -1,12 +1,12 @@
 ---
-title: "From Signac to Matisse"
+title: "The Life I Deserve"
 date: 2020-03-14T15:40:24+06:00
 Image : ""
 # author
 author : ["Admin"]
 # categories
-categories: ["tour"]
-tags: ["tour","visit"]
+categories: ["lifestyle"]
+tags: ["lifestyle" , "fashion"]
 # meta description
 description: "This is meta description"
 # save as draft

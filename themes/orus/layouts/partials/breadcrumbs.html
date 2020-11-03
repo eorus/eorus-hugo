@@ -1,8 +1,12 @@
 <div id="breadcrumbs">
-    <a href="/">Home</a>
-    {{ range (split .RelPermalink "/") }}
-        {{ if gt (len . ) 0 }}
-            / <a href="/{{ . }}">{{ humanize (replace . "posts" "blog") }}</a>
-        {{ end }}
-    {{ end }}
+{{ define "breadcrumb" }}
+  {{ with .Parent }}
+    {{ template "breadcrumb" . }}
+    <a href="{{ .Permalink }}">{{ if .IsHome }}Home{{ else }}{{.Title}}{{ end }}</a> /
+  {{ end }}
+{{ end }}
+{{ if not .IsHome }}
+    {{ template "breadcrumb" . }}
+    {{.Title}}
+  {{ end }}
 </div>

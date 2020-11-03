@@ -1,3 +1,4 @@
+<ul class="tags">
   <i class="fa fa-tags" aria-hidden="true"></i>
   {{- range $index, $el := . -}}
     {{- if gt $index 0 }}
@@ -5,3 +6,4 @@
     {{- end }}
     <a href="{{ ( printf "tags/%s/" ( . | urlize ) ) | relLangURL }}">{{ . }}</a>
   {{- end -}}
+ </ul>

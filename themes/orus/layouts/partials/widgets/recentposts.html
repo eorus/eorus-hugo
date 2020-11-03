@@ -1,7 +1,7 @@
 <h3 class="sidebar-title">Recent Posts</h3>
 <div class="sidebar-item recent-posts">
 {{- $recent := where .Site.RegularPages "Section" "in" (.Site.Params.postSections | default (slice "posts")) }}
-{{- $recent_num := (.Site.Params.widgets.recent_num | default 10) }}
+{{- $recent_num := (.Site.Params.widgets.recent_num | default 5) }}
 
 {{- if $recent }}
 			{{- range first $recent_num $recent }}

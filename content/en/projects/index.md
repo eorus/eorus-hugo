@@ -1,6 +1,5 @@
 +++
 title = "Projects"
-slug = "projects"
 +++
 
 
@@ -27,7 +26,7 @@ slug = "projects"
       <h3><a href="/images/portfolio/enlemsen.jpg" data-gall="portfolioGallery" class="venobox" title="Enlem Cold Storage Warehouse">Enlem Cold Storage Warehouse</a></h3>
 <div>
         <a href="/images/portfolio/enlemsen.jpg" data-gall="portfolioGallery" class="venobox" title="Enlem Soğuk Hava"><i class="fas fa-plus"></i></a>
-        <a href="/portfolio/enlem-cold-storage-warehouse" title="Enlem Cold Storage Warehouse"><i class="fas fa-link"></i></a>
+        <a href="/projects/enlem-cold-storage-warehouse" title="Enlem Cold Storage Warehouse"><i class="fas fa-link"></i></a>
 </div>
 </div>
 </div>
@@ -40,7 +39,7 @@ slug = "projects"
       <h3><a href="/images/portfolio/enlemsf.jpg" data-gall="portfolioGallery" class="venobox" title="Enlem Sea Food">Enlem Sea Food</a></h3>
 <div>
         <a href="/images/portfolio/enlemsf.jpg" data-gall="portfolioGallery" class="venobox" title="Enlem Sea Food"><i class="fas fa-plus"></i></a>
-        <a href="/portfolio/enlem-sea-food" title="Enlem Sea Food"><i class="fas fa-link"></i></a>
+        <a href="/projects/enlem-sea-food" title="Enlem Sea Food"><i class="fas fa-link"></i></a>
 </div>
 </div>
 </div>
@@ -54,7 +53,7 @@ slug = "projects"
       <h3><a href="/images/portfolio/dsftr.jpg" data-gall="portfolioGallery" class="venobox" title="Darüşşafaka Physical Therapy and Rehabilitation Center">DSFTR Web</a></h3>
 <div>
         <a href="/images/portfolio/dsftr.jpg" data-gall="portfolioGallery" class="venobox" title="Enlem Sea Food"><i class="fas fa-plus"></i></a>
-        <a href="/portfolio/darussafaka-physical-therapy-rehabilitation-center" title="Darüşşafaka Physical Therapy and Rehabilitation Center"><i class="fas fa-link"></i></a>
+        <a href="/projects/darussafaka-physical-therapy-rehabilitation-center" title="Darüşşafaka Physical Therapy and Rehabilitation Center"><i class="fas fa-link"></i></a>
 </div>
 </div>
 </div>
@@ -67,7 +66,7 @@ slug = "projects"
       <h3><a href="/images/portfolio/idi.jpg" data-gall="portfolioGallery" class="venobox" title="İdi Lojistik">İdi Lojistik</a></h3>
 <div>
         <a href="/images/portfolio/idi.jpg" data-gall="portfolioGallery" class="venobox" title="İdi Lojistik"><i class="fas fa-plus"></i></a>
-        <a href="/portfolio/idi-lojistik" title="İdi Lojistik"><i class="fas fa-link"></i></a>
+        <a href="/projects/idi-lojistik" title="İdi Lojistik"><i class="fas fa-link"></i></a>
 </div>
 </div>
 </div>
@@ -80,7 +79,7 @@ slug = "projects"
       <h3><a href="/images/portfolio/h2a.jpg" data-gall="portfolioGallery" class="venobox" title="H2A">H2A Danışmanlık</a></h3>
 <div>
         <a href="/images/portfolio/h2a.jpg" data-gall="portfolioGallery" class="venobox" title="H2A Danışmanlık"><i class="fas fa-plus"></i></a>
-        <a href="/portfolio/h2a-danismanlik" title="H2A Danışmanlık"><i class="fas fa-link"></i></a>
+        <a href="/projects/h2a-danismanlik" title="H2A Danışmanlık"><i class="fas fa-link"></i></a>
 </div>
 </div>
 </div>
@@ -93,7 +92,7 @@ slug = "projects"
       <h3><a href="/images/portfolio/fpdtr.jpg" data-gall="portfolioGallery" class="venobox" title="FPD">Finansal Planlama Derneği</a></h3>
 <div>
         <a href="/images/portfolio/fpdtr.jpg" data-gall="portfolioGallery" class="venobox" title="Finansal Planlama Derneği"><i class="fas fa-plus"></i></a>
-        <a href="/portfolio/finansal-planlama-dernegi" title="Finansal Planlama Derneği"><i class="fas fa-link"></i></a>
+        <a href="/projects/finansal-planlama-dernegi" title="Finansal Planlama Derneği"><i class="fas fa-link"></i></a>
 </div>
 </div>
 </div>
@@ -107,7 +106,7 @@ slug = "projects"
       <h3><a href="/images/portfolio/emaga.jpg" data-gall="portfolioGallery" class="venobox" title="Emaga">Emaga</a></h3>
 <div>
         <a href="/images/portfolio/emaga.jpg" data-gall="portfolioGallery" class="venobox" title="Emaga"><i class="fas fa-plus"></i></a>
-        <a href="/portfolio/emaga" title="Emaga"><i class="fas fa-link"></i></a>
+        <a href="/projects/emaga" title="Emaga"><i class="fas fa-link"></i></a>
 </div>
 </div>
 </div>
@@ -121,7 +120,7 @@ slug = "projects"
       <h3><a href="/images/portfolio/arzu.jpg" data-gall="portfolioGallery" class="venobox" title="Arzu Odabaşı">Arzu Odabaşı</a></h3>
 <div>
         <a href="/images/portfolio/arzu.jpg" data-gall="portfolioGallery" class="venobox" title="Arzu Odabaşı"><i class="fas fa-plus"></i></a>
-        <a href="/portfolio/arzu" title="Arzu Odabaşı"><i class="fas fa-link"></i></a>
+        <a href="/projects/arzu" title="Arzu Odabaşı"><i class="fas fa-link"></i></a>
 </div>
 </div>
 </div>

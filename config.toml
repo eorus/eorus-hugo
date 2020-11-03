@@ -69,9 +69,12 @@ paginate = 10
     type = "application/rss+xml"
 
 
+
 [languages]
     [languages.en]
         languagename = "English"
+        contentDir = "content/en"
+        weight = 1
 
         [languages.en.menu]
 
@@ -109,13 +112,15 @@ paginate = 10
     [languages.tr]
         languagename = "Türkçe"
         title = "Alper Orus"
+        contentDir = "content/tr"
+        weight = 2       
 
         [languages.tr.params]
             author = "Alper Orus"
-    description = "Alper Orus Kişisel Web Sitesi"
-    keywords = "alper, orus, eorus, blog, tasarım, fotoğraf, geliştirme, wordpress, hugo, linux"
-    info = "Ön Yüz Geliştirici, Fotoğrafçı, Blog Yazarı ve Tutkulu Linux Meraklısı"
-    footercontent = "Bir aktiviteye aşık olun ve yapın! Yaşamın ne olduğunu hiç kimse bilmiyor ve bunun hiçbir önemi yok. "
+            description = "Alper Orus Kişisel Web Sitesi"
+            keywords = "alper, orus, eorus, blog, tasarım, fotoğraf, geliştirme, wordpress, hugo, linux"
+            info = "Ön Yüz Geliştirici, Fotoğrafçı, Blog Yazarı ve Tutkulu Linux Meraklısı"
+            footercontent = "Bir aktiviteye aşık olun ve yapın! Yaşamın ne olduğunu hiç kimse bilmiyor ve bunun hiçbir önemi yok. "
 
         [languages.tr.menu]
 
@@ -129,13 +134,19 @@ paginate = 10
             [[languages.tr.menu.main]]
             name = "Hakkimda"
             pre = "<i class='fa fa-user'> </i>"
-            weight = 1
+            weight = 2
             url = "hakkimda/"
 
             [[languages.tr.menu.main]]
+            name = "Yazılar"
+            pre = "<i class='fa fa-newspaper'></i>"
+            weight = 3
+            url = "posts/"
+            
+            [[languages.tr.menu.main]]
             name = "Projeler"
             pre = "<i class='fa fa-file'> </i>"
-            weight = 3
+            weight = 4
             url = "projeler/"
 
             [[languages.tr.menu.main]]

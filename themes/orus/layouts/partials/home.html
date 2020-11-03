@@ -1,5 +1,5 @@
-<section class="about full-screen d-lg-flex justify-content-center align-items-center text-center" id="about">
-        <div class="container">
+<section class="full-screen d-lg-flex justify-content-center align-items-center text-center" id="about">
+<div class="container">
   <div class="profile">
     {{ if and (isset .Site.Params "avatarurl") (not (isset .Site.Params "gravatar")) }}
       {{ with .Site.Params.avatarurl }}
@@ -25,7 +25,7 @@
     </div>
     {{ end }}
   </div>
-       </div>
+</div>
 </section>
 
 <!-- {{ partial "post-list.html" . }} -->
