@@ -1242,7 +1242,6 @@ Custom
     padding: 4rem 0;
 }
 
-
 ul i {
     font-size: 1em;
     color: #68A4C4;
@@ -1251,10 +1250,6 @@ ul i {
 i {
    padding-right: 5px !important;
   }
-.contact h1 {
-  display:none;
-}
-
 
 .yan-taraf {
   position: absolute;

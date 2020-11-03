@@ -1,4 +1,4 @@
-baseURL = "/"
+baseURL = "https://www.eorus.com/"
 #languageCode = "en-us"
 title = "Alper Orus"
 theme = "orus"
@@ -31,7 +31,6 @@ paginate = 10
 
 [taxonomies]
   category = "categories"
-#  series = "series"
   tag = "tags"
 
 
