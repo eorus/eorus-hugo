@@ -8,6 +8,7 @@ theme = "orus"
 googleAnalytics = "UA-181067611-1"
 languagecode = "en"
 defaultcontentlanguage = "en"
+defaultcontentlanguageinsubdir = false
 
 [permalinks]
     posts = "/posts/:year/:month/:slug/"
