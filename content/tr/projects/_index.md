@@ -39,12 +39,12 @@ Not :  Alt kısım Türkçe olarak ayrıca yapılacak.
 
 <div class="col-lg-4 col-md-6 filter-web">
 <div class="portfolio-item">
-        <img src="/images/portfolio/enlemsf.jpg" class="img-fluid" alt="">
+        <img src="/images/portfolio/enlemb.jpg" class="img-fluid" alt="">
 <div class="portfolio-info">
-      <h3><a href="/images/portfolio/enlemsf.jpg" data-gall="portfolioGallery" class="venobox" title="Enlem Sea Food">Enlem Sea Food</a></h3>
+      <h3><a href="/images/portfolio/enlem.jpg" data-gall="portfolioGallery" class="venobox" title="Enlem Balıkçılık">Enlem Balıkçılık</a></h3>
 <div>
-        <a href="/images/portfolio/enlemsf.jpg" data-gall="portfolioGallery" class="venobox" title="Enlem Sea Food"><i class="fas fa-plus"></i></a>
-        <a href="/tr/projects/enlem-sea-food" title="Enlem Sea Food"><i class="fas fa-link"></i></a>
+        <a href="/images/portfolio/enlemb.jpg" data-gall="portfolioGallery" class="venobox" title="Enlem Balıkçılık"><i class="fas fa-plus"></i></a>
+        <a href="/tr/projects/enlem-balikcilik" title="Enlem Balıkçılık"><i class="fas fa-link"></i></a>
 </div>
 </div>
 </div>
@@ -55,10 +55,10 @@ Not :  Alt kısım Türkçe olarak ayrıca yapılacak.
 <div class="portfolio-item">
         <img src="/images/portfolio/dsftr.jpg" class="img-fluid" alt="">
 <div class="portfolio-info">
-      <h3><a href="/images/portfolio/dsftr.jpg" data-gall="portfolioGallery" class="venobox" title="Darüşşafaka Physical Therapy and Rehabilitation Center">DSFTR Web</a></h3>
+      <h3><a href="/images/portfolio/dsftr.jpg" data-gall="portfolioGallery" class="venobox" title="Darüşşafaka Fizik Tedavi ve Rehabilitasyon Merkezi">DSFTR Web</a></h3>
 <div>
-        <a href="/images/portfolio/dsftr.jpg" data-gall="portfolioGallery" class="venobox" title="Enlem Sea Food"><i class="fas fa-plus"></i></a>
-        <a href="/tr/projects/darussafaka-physical-therapy-rehabilitation-center" title="Darüşşafaka Physical Therapy and Rehabilitation Center"><i class="fas fa-link"></i></a>
+        <a href="/images/portfolio/dsftr.jpg" data-gall="portfolioGallery" class="venobox" title="Darüşşafaka Fizik Tedavi ve Rehabilitasyon Merkezi"><i class="fas fa-plus"></i></a>
+        <a href="/tr/projects/darussafaka-fizik-tedavi-rehabilitasyon" title="Darüşşafaka Fizik Tedavi ve Rehabilitasyon Merkezi"><i class="fas fa-link"></i></a>
 </div>
 </div>
 </div>
@@ -98,6 +98,20 @@ Not :  Alt kısım Türkçe olarak ayrıca yapılacak.
 <div>
         <a href="/images/portfolio/fpdtr.jpg" data-gall="portfolioGallery" class="venobox" title="Finansal Planlama Derneği"><i class="fas fa-plus"></i></a>
         <a href="/tr/projects/finansal-planlama-dernegi" title="Finansal Planlama Derneği"><i class="fas fa-link"></i></a>
+</div>
+</div>
+</div>
+</div>
+
+
+<div class="col-lg-4 col-md-6 filter-web">
+<div class="portfolio-item">
+        <img src="/images/portfolio/dsfcati.jpg" class="img-fluid" alt="">
+<div class="portfolio-info">
+      <h3><a href="/images/portfolio/dsfcati.jpg" data-gall="portfolioGallery" class="venobox" title="Darüşşafaka Çatı Konuşmaları">Darüşşafaka Çatı Konuşmaları</a></h3>
+<div>
+        <a href="/images/portfolio/dsfcati.jpg" data-gall="portfolioGallery" class="venobox" title="Darüşşafaka Çatı Konuşmaları"><i class="fas fa-plus"></i></a>
+        <a href="/projects/darussafaka-cati-konusmalari" title="Darüşşafaka Çatı Konuşmaları"><i class="fas fa-link"></i></a>
 </div>
 </div>
 </div>

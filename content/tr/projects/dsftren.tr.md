@@ -1,6 +1,6 @@
 +++
-title = "Darüşşafaka Physical Therapy and Rehabilitation Center"
-slug = "darussafaka-physical-therapy-rehabilitation-center"
+title = "Darüşşafaka Fizik Tedavi ve Rehabilitasyon Merkezi"
+slug = "darussafaka-fizik-tedavi-rehabilitasyon"
 draft = "false"
 +++
 

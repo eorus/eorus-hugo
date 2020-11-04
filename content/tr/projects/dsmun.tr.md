@@ -1,5 +1,5 @@
 +++
-title = "DSMUN "
+title = "DSMUN"
 slug = "dsmun"
 draft = "false"
 +++

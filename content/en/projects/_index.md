@@ -101,6 +101,18 @@ In this page you can find some of the sites i've created, as well as blog and so
 </div>
 </div>
 
+<div class="col-lg-4 col-md-6 filter-web">
+<div class="portfolio-item">
+        <img src="/images/portfolio/dsfcati.jpg" class="img-fluid" alt="">
+<div class="portfolio-info">
+      <h3><a href="/images/portfolio/dsfcati.jpg" data-gall="portfolioGallery" class="venobox" title="Darüşşafaka Çatı Konuşmaları">Darüşşafaka Çatı Konuşmaları</a></h3>
+<div>
+        <a href="/images/portfolio/dsfcati.jpg" data-gall="portfolioGallery" class="venobox" title="Darüşşafaka Çatı Konuşmaları"><i class="fas fa-plus"></i></a>
+        <a href="/projects/darussafaka-cati-konusmalari" title="Darüşşafaka Çatı Konuşmaları"><i class="fas fa-link"></i></a>
+</div>
+</div>
+</div>
+</div>
 
 <div class="col-lg-4 col-md-6 filter-web">
 <div class="portfolio-item">
