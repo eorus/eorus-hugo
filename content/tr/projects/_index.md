@@ -31,7 +31,7 @@ Not :  Alt kısım Türkçe olarak ayrıca yapılacak.
       <h3><a href="/images/portfolio/enlemsen.jpg" data-gall="portfolioGallery" class="venobox" title="Enlem Cold Storage Warehouse">Enlem Cold Storage Warehouse</a></h3>
 <div>
         <a href="/images/portfolio/enlemsen.jpg" data-gall="portfolioGallery" class="venobox" title="Enlem Soğuk Hava"><i class="fas fa-plus"></i></a>
-        <a href="/tr/tr/projects/enlem-cold-storage-warehouse" title="Enlem Cold Storage Warehouse"><i class="fas fa-link"></i></a>
+        <a href="/tr/projects/enlem-soguk-hava-deposu" title="Enlem Soğuk Hava Deposu"><i class="fas fa-link"></i></a>
 </div>
 </div>
 </div>
