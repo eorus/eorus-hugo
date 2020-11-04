@@ -1,5 +1,5 @@
 ---
-title: "Türkçe Deneme"
+title: "Türkçe Test"
 date: 2020-03-14T15:40:24+06:00
 Image : "/images/featured1.jpg"
 # author
