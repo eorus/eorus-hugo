@@ -29,7 +29,7 @@ Bir parçası olmamı istediğiniz bir projenin genel bir mesajını veya ayrın
 </div>
 <div class="col-lg-4 text-center">
 
-<a href="mailto:alperor@gmail.com?cc=alper@eorus.com&subject=Contact From Eorus Website" class="btn btn-primary mr-2 mt-3 mb-5">Bir Mesaj Gönderin ✉️</a>
+<a href="mailto:alperor@gmail.com?cc=alper@eorus.com&subject=Eorus Websitesinden İletişim" class="btn btn-primary mr-2 mt-3 mb-5">Bir Mesaj Gönderin ✉️</a>
 </div>
 </div>
 </div>

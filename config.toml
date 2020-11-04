@@ -147,7 +147,7 @@ paginate = 10
             name = "Projeler"
             pre = "<i class='fa fa-file'> </i>"
             weight = 4
-            url = "projeler/"
+            url = "projects/"
 
             [[languages.tr.menu.main]]
             name = "İletişim"
