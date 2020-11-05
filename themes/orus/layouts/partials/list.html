@@ -6,7 +6,7 @@
             <h1 class="entry-title">
       {{- if eq .Kind "term" -}}
       {{- i18n .Data.Singular | title -}}
-      {{- print "Posts filed as : " -}}
+      {{- print "Term : " -}}
     {{- end -}}
 
     {{- .Title -}}</h1>
@@ -16,19 +16,28 @@
 
       </div>
  </section>
-<section class="container full-screen list m-5 mx-auto">
+<section class="container list m-5 mx-auto">
 
-  {{ .Content }}
-  <ul>
+
     {{ range .Paginator.Pages }}
-    <li>
-      <span class="date">{{ .Date.Format (.Site.Params.dateFormat | default "January 2, 2006" ) }}</span>
-      <a class="title" href="{{ .Params.ExternalLink | default .RelPermalink }}">{{ .Title }}</a>
-    </li>
+	<div class="row">
+		<div class="col-md-8 offset-md-2">
+			<ul class="timeline">
+				<li>
+                  <a class="title" href="{{ .Params.ExternalLink | default .RelPermalink }}">{{ .Title }}</a>
+                  <span class="date float-right">{{ .Date.Format (.Site.Params.dateFormat | default "January 2, 2006" ) }}</span>
+                  <p class="intro">{{ .Summary }}</p>
+				</li>
+			</ul>
+		</div>
+	</div>
     {{ end }}
-  </ul>
+ 
                         <ul class="pager">
 {{ template "_internal/pagination.html" . }}
                         </ul>
 </section>
+
+
+
 

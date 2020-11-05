@@ -68,8 +68,6 @@ paginate = 10
     rel = "alternate"
     type = "application/rss+xml"
 
-
-
 [languages]
     [languages.en]
         languagename = "English"

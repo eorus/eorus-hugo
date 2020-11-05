@@ -1,8 +1,6 @@
-
 ---
 title: "{{ replace .Name "-" " " | title }}"
 author: Alper
-type: post
 date:  {{ .Date }}
 draft: true
 categories:

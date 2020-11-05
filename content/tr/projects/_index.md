@@ -14,10 +14,10 @@ Not :  Alt kısım Türkçe olarak ayrıca yapılacak.
 <div class="row">
 <div class="col-lg-12">
       <ul id="portfolio-flters">
-        <li data-filter="*" class="filter-active">All</li>
+        <li data-filter="*" class="filter-active">Tümü</li>
         <li data-filter=".filter-web">Web</li>
         <li data-filter=".filter-card">Blog</li>
-        <li data-filter=".filter-app">Social</li>
+        <li data-filter=".filter-app">Sosyal Medya</li>
       </ul>
 </div>
 </div>
