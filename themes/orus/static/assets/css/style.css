@@ -1327,3 +1327,19 @@ ul.timeline > li:before {
     height: 20px;
     z-index: 400;
 }
+
+.see-also {
+    background: #f9f9f9;
+    padding: 10px 20px;
+    border: 2px solid #dfdfdf;
+    -webkit-box-shadow: inset 7px 0px 0px 1px #22c0e8;
+    -moz-box-shadow: inset 7px 0px 0px 1px  #22c0e8;
+    box-shadow: inset 7px 0px 0px 1px #22c0e8;
+}
+
+pre code {
+  background:#000;
+  display:block;
+  color:#ffffff !important;
+  padding:10px;
+}

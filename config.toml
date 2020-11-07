@@ -33,7 +33,7 @@ paginate = 10
 [taxonomies]
   category = "categories"
   tag = "tags"
-
+  series ="series"
 
 [params]
     author = "Alper Orus"

@@ -34,6 +34,7 @@
           <div class="entry-content">
             {{ .Content }}
           </div>
+            {{ partial "posts/series.html" . }}
           <div class="entry-footer clearfix">
                 <div class="float-left">
  {{ with .Page.Params.Tags }}{{ partial "taxonomy/tags.html" . }}{{ end }}
