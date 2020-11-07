@@ -6,7 +6,7 @@
             <h1 class="entry-title">
       {{- if eq .Kind "term" -}}
       {{- i18n .Data.Singular | title -}}
-      {{- print "Term : " -}}
+      {{- print ": " -}}
     {{- end -}}
 
     {{- .Title -}}</h1>
@@ -32,12 +32,8 @@
 		</div>
 	</div>
     {{ end }}
- 
+
                         <ul class="pager">
 {{ template "_internal/pagination.html" . }}
                         </ul>
 </section>
-
-
-
-

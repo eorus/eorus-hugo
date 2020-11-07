@@ -4,6 +4,7 @@
 body {
   font-family: "Open Sans", sans-serif;
   color: #444;
+  font-size:1.25rem;
 }
 
 body.posts section {
@@ -24,6 +25,20 @@ a:hover {
 h1, h2, h3, h4, h5, h6, .font-primary {
   font-family: "Raleway", sans-serif;
 }
+
+h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
+margin-bottom: 0.5rem;
+font-weight: 500;
+line-height: 1.2;
+color: inherit;
+}
+
+h1              { font-size: 2em; margin: .67em 0 }
+h2              { font-size: 1.5em; margin: .75em 0 }
+h3              { font-size: 1.17em; margin: .83em 0 }
+h5              { font-size: .83em; margin: 1.5em 0 }
+h6              { font-size: .75em; margin: 1.67em 0 }
+
 /*--------------------------------------------------------------
 # Header
 --------------------------------------------------------------*/
@@ -116,8 +131,9 @@ h1, h2, h3, h4, h5, h6, .font-primary {
   color: #fff;
   /*padding: 10px 15px;*/
   transition: 0.3s;
-  font-size: 14px;
+  font-size: 1rem;
   font-family: "Poppins", sans-serif;
+  text-indent: .2em;
 }
 
 .nav-menu a:hover, .nav-menu .active > a, .nav-menu li:hover > a {
@@ -360,11 +376,13 @@ section {
   padding: 15px 0;
   background-color: #f3f8fa;
   min-height: 40px;
+  font-size: 1rem;
 }
 
 .breadcrumbs h1 {
-  font-size: 28px;
+  font-size: 2rem;
   font-weight: 600;
+  margin: 0;
 }
 
 .breadcrumbs ol {
@@ -619,6 +637,13 @@ section.post {
 .blog .entry .entry-title a:hover {
   color: #68A4C4;
 }
+.metadata {
+  margin-bottom:15px;
+  font-size:.8em;
+}
+time {
+font-size:.9em;
+}
 
 .blog .entry .entry-meta {
   margin-bottom: 15px;
@@ -649,7 +674,7 @@ section.post {
 }
 
 .blog .entry .entry-content p {
-  line-height: 24px;
+  line-height: 30px;
 }
 
 .blog .entry .entry-content .read-more {
@@ -973,7 +998,7 @@ section.post {
 footer {
     background: #f1f6f8;
     padding: 1.6em 1.5em;
-    font-size:small;
+    font-size:1rem;
 }
 
 #footer {

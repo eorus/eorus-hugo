@@ -38,7 +38,7 @@ paginate = 10
 [params]
     author = "Alper Orus"
     avatarurl = "images/alper.jpg"
-    #gravatar = "john.doe@example.com"    
+    #gravatar = "john.doe@example.com"
             info = "Front End Developer, Photographer, Blogger and a Passionate Linux Enthusiast"
             description = "Alper Orus Personal Website"
             keywords = "blog, photography, design, alper, personal, orus, eorus, linux, wordpress, hugo, frontend"
@@ -87,8 +87,8 @@ paginate = 10
             name = "About"
             pre = "<i class='fa fa-user'></i>"
             weight = 2
-            url = "about/"           
-            
+            url = "about/"
+
             [[languages.en.menu.main]]
             name = "Blog"
             pre = "<i class='fa fa-newspaper'></i>"
@@ -111,7 +111,7 @@ paginate = 10
         languagename = "Türkçe"
         title = "Alper Orus"
         contentDir = "content/tr"
-        weight = 2       
+        weight = 2
 
         [languages.tr.params]
             author = "Alper Orus"
@@ -128,7 +128,7 @@ paginate = 10
             weight = 1
             identifier = "Ana Sayfa"
             url = "/"
-            
+
             [[languages.tr.menu.main]]
             name = "Hakkimda"
             pre = "<i class='fa fa-user'> </i>"
@@ -140,7 +140,7 @@ paginate = 10
             pre = "<i class='fa fa-newspaper'></i>"
             weight = 3
             url = "posts/"
-            
+
             [[languages.tr.menu.main]]
             name = "Projeler"
             pre = "<i class='fa fa-file'> </i>"
@@ -156,5 +156,3 @@ paginate = 10
   [markup.goldmark.renderer]
   unsafe = true # Allow HTML in md files
 disableToc = "false"
-
-

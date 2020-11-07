@@ -14,73 +14,54 @@
 
       </div>
  </section>
-<section class="blog">
-  <div class="container m-3 mx-auto">
-                <div class="row">
-                    <!-- *** LEFT COLUMN *** -->
+<section id="blog" class="blog">
+      <div class="container">
 
-                    <div class="col-lg-8" id="blog-listing-medium">
+        <div class="row">
+
+
+
   {{ $paginator := .Paginate (where .Site.RegularPages "Type" "in" site.Params.mainSections) }}
 {{ range $paginator.Pages }}
-<article class="post m-3 mx-auto p-3">
-                            <div class="row">
+<div class="col-lg-4 col-md-6 d-flex align-items-stretch">
+<article class="entry">
+
                                           {{ if .Params.Image }}
 
-                                <div class="col-md-4">
-                                  <div class="image">
+                                  <div class="entry-img">
                                       <a href="{{ .Permalink }}">
 
                                           <img src="{{ .Params.Image | relURL }}" class="img-fluid" alt="">
                                       </a>
                                   </div>
 
-                                </div>
-                                <div class="col-md-8">
-                                    <h2><a href="{{ .Permalink }}">{{ .Title }}</a></h2>
+                                   <h2 class="entry-title">
+                                     <a href="{{ .Permalink }}">{{ .Title }}</a>
+                                   </h2>
                                 {{ partial "metadata.html" . }}
+                                <div class="entry-content">
                                     <p class="intro">{{ .Summary }}</p>
-                                    <p class="read-more"><a href="{{ .Permalink }}" class="btn btn-info">Continue Reading</a></p>
+                                    <div class="read-more"><a href="{{ .Permalink }}" class="btn btn-info">Continue Reading</a></div>
                                 </div>
                                           {{ else }}
-                                <div class="col-md-12">
-                                    <h2><a href="{{ .Permalink }}">{{ .Title }}</a></h2>
+                                   <h2 class="entry-title">
+                                     <a href="{{ .Permalink }}">{{ .Title }}</a>
+                                   </h2>
                                 {{ partial "metadata.html" . }}
+                                <div class="entry-content">
                                     <p class="intro">{{ .Summary }}</p>
-                                    <p class="read-more"><a href="{{ .Permalink }}" class="btn btn-info">Continue Reading</a></p>
+                                    <div class="read-more"><a href="{{ .Permalink }}" class="btn btn-info">Continue Reading</a></div>
                                 </div>
                                           {{ end }}
-                            </div>
+
 </article>
+</div>
 {{ end }}
 
+        </div><!-- /.row -->
                         <ul class="pager">
 {{ template "_internal/pagination.html" . }}
                         </ul>
-                    </div>
-                    <!-- /.col-md-9 -->
-
-
-                    <!-- *** LEFT COLUMN END *** -->
-                    
-                    <!-- *** RIGHT COLUMN ***
-       _________________________________________________________ -->
-
-                    <aside class="col-lg-4 mt-3">
-            <div class="sidebar">
-                        <!-- *** MENUS AND WIDGETS *** -->
-
-                        {{ partial "sidebar.html" . }}
-
-                        <!-- *** MENUS AND FILTERS END *** -->
-            </div><!-- End sidebar -->
-                    </aside>
-                    <!-- /.col-md-3 -->
-
-                    <!-- *** RIGHT COLUMN END *** -->
-
-                </div>
-                <!-- /.row -->
-            </div>
-            <!-- /.container -->
+        </div><!-- /.container -->
 </section>
 {{ end }}
