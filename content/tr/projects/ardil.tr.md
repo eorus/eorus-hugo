@@ -18,25 +18,23 @@ draft = "false"
 </div>
 
 <div class="portfolio-info">
-        <h3>Project information</h3>
+        <h3>Proje Bilgisi</h3>
         <ul>
-          <li><strong>Category</strong>: Full Stack Development with Content and Photo Creation</li>
-          <li><strong>Client</strong>: Ardil Tekstil</li>
-          <li><strong>Project date</strong>: 01 June, 2016</li>
-          <li><strong>Project URL</strong>: <a href="http://www.ardiltekstil.com/">www.ardiltekstil.com</a></li>
+          <li><strong>Kategori</strong>: Full Stack Development with Content and Photo Creation</li>
+          <li><strong>Müşteri</strong>: Ardil Tekstil</li>
+          <li><strong>Proje Tarihi</strong>: 01 Haziran, 2016</li>
+          <li><strong>Proje URL</strong>: <a href="http://www.ardiltekstil.com/">www.ardiltekstil.com</a></li>
         </ul>
 </div>
 
 </div>
 
 <div class="portfolio-description">
-     <h2>Ardil Tekstil Project Details</h2>
-          <p>
-           For Ardil Tekstil, I've made the server setup, Wordpress and database installations as back-end development. As part of front-end development, I implemented a work on Bootstrap framework in shades that generally match the blue color, suitable for the corporate look. </p>
+     <h2>Ardil Tekstil Proje Detayları</h2>
          <p>
-           I worked to include all content and products of the company on the site, and in addition, I've made the shootings of product and facility photos.</p>
+            Ardil Tekstil için sunucu kurulumu, Wordpress ve veritabanı kurulumlarını back-end tarafında geliştirmesini yaptım. Ön yüz geliştirmenin bir parçası olarak, kurumsal görünüme uygun, genellikle mavi renkle eşleşen tonlarda Bootstrap framework üzerine bir çalışma uyguladım. </p>
+          <p>
+            Şirketin tüm içerik ve ürünlerini siteye dahil etmek için çalıştım, ayrıca ürün ve tesis fotoğraflarının çekimlerini yaptım. </p>
 </div>
 </div>
 </section><!-- End Portfolio Details Section -->
-
-

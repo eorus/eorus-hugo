@@ -20,23 +20,21 @@ draft = "false"
 <div class="portfolio-info">
         <h3>Project information</h3>
         <ul>
-          <li><strong>Category</strong>: Full Stack Development with Content and Photo Creation</li>
-          <li><strong>Client</strong>: AGS Soğutma</li>
-          <li><strong>Project date</strong>: 01 June, 2016</li>
-          <li><strong>Project URL</strong>: <a href="http://www.agssogutma.com.tr/">www.agssogutma.com.tr</a></li>
+          <li><strong>Kategori</strong>: İçerik ve Fotoğraf Oluşturma ile Her Alanda Geliştirme</li>
+          <li><strong>Müşteri</strong>: AGS Soğutma</li>
+          <li><strong>Proje Tarihi</strong>: 01 Haziran, 2016</li>
+          <li><strong>Proje URL</strong>: <a href="http://www.agssogutma.com.tr/">www.agssogutma.com.tr</a></li>
         </ul>
 </div>
 
 </div>
 
 <div class="portfolio-description">
-     <h2>AGS Soğutma Project Details</h2>
+     <h2>AGS Soğutma Proje Detayları</h2>
           <p>
-           For AGS Soğutma, I've made the server setup, Wordpress and database installations as back-end development. As part of front-end development, I implemented a work on Skel framework that generally match the brownish colors suitable for the corporate look. </p>
-         <p>
-           I worked to include all content and products of the company on the site, and in addition, I've made the shootings of products photos.</p>
+            AGS Soğutma için sunucu kurulumu, Wordpress ve veritabanı kurulumlarını back-end tarafındaki geliştirmesini yaptım. Ön yüz geliştirmenin bir parçası olarak, kurumsal görünüme uygun kahverengi tonlarında renklerle eşleşen Skel framework üzerine bir çalışma gerçekleştirdim. </p>
+          <p>
+            Şirketin tüm içerik ve ürünlerini siteye dahil etmek için çalıştım, ayrıca ürün fotoğraflarının çekimlerini yaptım. </p>
 </div>
 </div>
 </section><!-- End Portfolio Details Section -->
-
-

@@ -11,9 +11,12 @@
 
     <title>{{ block "title" . }}{{ .Site.Title }}{{ end }}</title>
 
-    <meta property="og:image" content="{{ .Site.Params.avatarurl }}">
+  {{ with .Params.Image }}
+  <meta property="og:image" content="{{ . | absURL }}" />
+  {{ end }}
+  {{ template "_internal/opengraph.html" . }}
 
- 
+
     {{ "<!--Favicon-->" | safeHTML }}
     <link rel="shortcut icon" href="{{ `images/favicon.png` | absURL }}" type="image/x-icon">
     <link rel="icon" href="{{ `images/favicon.png` | absURL }}" type="image/x-icon">
@@ -30,7 +33,7 @@
   <link href="/assets/vendor/venobox/venobox.css" rel="stylesheet">
   <!-- Templat/e Main CSS File -->
   <link href="/assets/css/style.css" rel="stylesheet">
- 
+
 
     {{ if .Permalink }}
     <link rel="canonical" href="{{ .Permalink }}">

@@ -18,12 +18,12 @@ draft = "false"
 </div>
 
 <div class="portfolio-info">
-        <h3>Project information</h3>
+        <h3>Proje information</h3>
         <ul>
-          <li><strong>Category</strong>: İçerik ve Fotoğraf Oluşturma ile Full Stack Development</li>
-          <li><strong>Client</strong>: Enlem Balıkçılık</li>
-          <li><strong>Project date</strong>: 01 Mayıs, 2020</li>
-          <li><strong>Project URL</strong>: <a href="http://www.enlembalikcilik.com/">www.enlembalikcilik.com</a></li>
+          <li><strong>Kategori</strong>: İçerik ve Fotoğraf Oluşturma ile Full Stack Development</li>
+          <li><strong>Müşteri</strong>: Enlem Balıkçılık</li>
+          <li><strong>Proje date</strong>: 01 Mayıs, 2020</li>
+          <li><strong>Proje URL</strong>: <a href="http://www.enlembalikcilik.com/">www.enlembalikcilik.com</a></li>
         </ul>
 </div>
 
@@ -38,5 +38,3 @@ draft = "false"
 </div>
 </div>
 </section><!-- End Portfolio Details Section -->
-
-

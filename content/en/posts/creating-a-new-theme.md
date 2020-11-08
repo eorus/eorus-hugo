@@ -116,7 +116,7 @@ A partial template is a template that can be included in other templates. Partia
 Let's use Hugo to create a new web site. I'm a Mac user, so I'll create mine in my home directory, in the Sites folder. If you're using Linux, you might have to create the folder first.
 
 The "new site" command will create a skeleton of a site. It will give you the basic directory structure and a useable configuration file.
-
+{{< highlight bash >}}
 ```
 $ hugo new site ~/Sites/zafta
 $ cd ~/Sites/zafta
@@ -131,7 +131,7 @@ drwxr-xr-x  2 quoha  staff   68 Sep 29 16:49 layouts
 drwxr-xr-x  2 quoha  staff   68 Sep 29 16:49 static
 $
 ```
-
+{{< /highlight >}}
 Take a look in the content/ directory to confirm that it is empty.
 
 The other directories (archetypes/, layouts/, and static/) are used when customizing a theme. That's a topic for a different tutorial, so please ignore them for now.
