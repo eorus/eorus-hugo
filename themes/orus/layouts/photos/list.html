@@ -22,7 +22,7 @@
 
 
     {{ range .Paginator.Pages }}
-<div class="col-lg-6 col-md-6 d-flex align-items-stretch">
+<div class="col-lg-6 col-md-6 align-items-stretch">
 <article class="entry">
 
                                           {{ if .Params.Image }}
@@ -34,7 +34,7 @@
                                       </a>
                                   </div>
 
-                                   <h2 class="entry-title">
+                                   <h2 class="text-center">
                                      <a href="{{ .Permalink }}">{{ .Title }}</a>
                                    </h2>
 

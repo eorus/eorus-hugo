@@ -149,7 +149,7 @@ h6              { font-size: .75em; margin: 1.67em 0 }
 }
 .navbar-light .navbar-brand {
     color: #fff;
-    font-size:1.5em;
+    font-size:1.25em;
 }
 .navbar-light .navbar-brand:hover {
     color: #fff;
@@ -167,9 +167,8 @@ h6              { font-size: .75em; margin: 1.67em 0 }
   color: #fff;
   /*padding: 10px 15px;*/
   transition: 0.3s;
-  font-size: 16px;
+  font-size: 14px;
   font-family: "Poppins", sans-serif;
-  text-indent: .2em;
 }
 
 .nav-menu a:hover, .nav-menu .active > a, .nav-menu li:hover > a {
@@ -412,7 +411,7 @@ section {
   padding: 15px 0;
   background-color: #f3f8fa;
   min-height: 40px;
-  font-size: 1rem;
+  font-size: .8rem;
 }
 
 .breadcrumbs h1 {
@@ -1034,7 +1033,7 @@ font-size:.9em;
 footer {
     background: #f1f6f8;
     padding: 1.6em 1.5em;
-    font-size:1rem;
+    font-size:.8rem;
 }
 
 #footer {
