@@ -1,9 +1,10 @@
 +++
 title = "Projects"
 slug  = "projects"
+description = "Alper Orus Projects Page"
 +++
 
-In this page you can find some of the sites i've created, as well as blog and social media works that I actively run. Feel free to [Contact](/contact) with me via email as i am not much active on social media. 
+In this page you can find some of the sites i've created, as well as blog and social media works that I actively run. Feel free to [Contact](/contact) with me via email as i am not much active on social media.
 
 <!-- ======= Portfolio Section ======= -->
 <section class="portfolio">
@@ -238,4 +239,3 @@ In this page you can find some of the sites i've created, as well as blog and so
 
 </div>
 </section><!-- End Portfolio Section -->
-

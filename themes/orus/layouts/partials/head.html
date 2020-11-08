@@ -11,11 +11,15 @@
 
     <title>{{ block "title" . }}{{ .Site.Title }}{{ end }}</title>
 
-  {{ with .Params.Image }}
-  <meta property="og:image" content="{{ . | absURL }}" />
-  {{ end }}
-  {{ template "_internal/opengraph.html" . }}
 
+{{ if .IsHome}}
+<meta property="og:image" content="{{ .Site.Params.avatarurl }}">
+{{ else }}
+    {{ with .Params.Image }}
+<meta property="og:image" content="{{ . | absURL }}" />
+    {{ end }}
+{{ end }}
+{{ template "_internal/opengraph.html" . }}
 
     {{ "<!--Favicon-->" | safeHTML }}
     <link rel="shortcut icon" href="{{ `images/favicon.png` | absURL }}" type="image/x-icon">
