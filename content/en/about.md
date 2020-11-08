@@ -17,11 +17,11 @@ I develop interactive designs, using the latest technologies. I use my knowledge
 
 - Server Setup
 - Wordpress, Hugo
-- HTML5, CSS, JS, Playing with PHP and GO
+- HTML5, CSS, JS, PHP and GO
 - Frameworks Bootstrap, Bulma
 - Linux Workflow, Git
-- NVim for coding
-- Sass, Compass, Less
+- Nvim for coding
+- Sass, Compass
 
 ### What I Do
 
