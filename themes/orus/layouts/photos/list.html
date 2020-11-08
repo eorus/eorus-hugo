@@ -1,0 +1,53 @@
+{{ define "title" }}
+  {{ .Title }} · {{ .Site.Title }}
+{{ end }}
+{{ define "main" }}
+<section class="breadcrumbs">
+      <div class="container">
+
+        <div class="d-flex justify-content-between align-items-center">
+          <header>
+            <h1 class="entry-title">{{ .Title }}</h1>
+          </header>
+            {{ partial "breadcrumbs.html" . }}
+        </div>
+
+      </div>
+ </section>
+<section id="blog" class="blog">
+      <div class="container">
+
+        <div class="row">
+
+
+
+    {{ range .Paginator.Pages }}
+<div class="col-lg-6 col-md-6 d-flex align-items-stretch">
+<article class="entry">
+
+                                          {{ if .Params.Image }}
+
+                                  <div class="entry-img">
+                                      <a href="{{ .Permalink }}">
+
+                                          <img src="{{ .Params.Image | relURL }}" class="img-fluid" alt="">
+                                      </a>
+                                  </div>
+
+                                   <h2 class="entry-title">
+                                     <a href="{{ .Permalink }}">{{ .Title }}</a>
+                                   </h2>
+
+                                          {{ end }}
+
+</article>
+</div>
+{{ end }}
+
+        </div><!-- /.row -->
+                        <ul class="pager">
+{{ template "_internal/pagination.html" . }}
+                        </ul>
+        </div><!-- /.container -->
+</section>
+{{ end }}

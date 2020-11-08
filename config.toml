@@ -90,21 +90,27 @@ paginate = 10
             url = "about/"
 
             [[languages.en.menu.main]]
+            name = "Projects"
+            pre = "<i class='fa fa-folder-open'></i>"
+            weight = 3
+            url = "projects/"
+
+            [[languages.en.menu.main]]
             name = "Blog"
             pre = "<i class='fa fa-newspaper'></i>"
-            weight = 3
+            weight = 4
             url = "posts/"
 
             [[languages.en.menu.main]]
-            name = "Projects"
-            pre = "<i class='fa fa-folder-open'></i>"
-            weight = 4
-            url = "projects/"
+            name = "Photos"
+            pre = "<i class='fa fa-camera'></i>"
+            weight = 5
+            url = "photos/"
 
             [[languages.en.menu.main]]
             name = "Contact"
             pre = "<i class='fa fa-envelope'></i>"
-            weight = 5
+            weight = 6
             url = "contact/"
 
     [languages.tr]
@@ -136,21 +142,27 @@ paginate = 10
             url = "hakkimda/"
 
             [[languages.tr.menu.main]]
+            name = "Projeler"
+            pre = "<i class='fa fa-file'> </i>"
+            weight = 3
+            url = "projects/"
+
+            [[languages.tr.menu.main]]
             name = "Yazılar"
             pre = "<i class='fa fa-newspaper'></i>"
-            weight = 3
+            weight = 4
             url = "posts/"
 
             [[languages.tr.menu.main]]
-            name = "Projeler"
-            pre = "<i class='fa fa-file'> </i>"
-            weight = 4
-            url = "projects/"
+            name = "Fotoğraflar"
+            pre = "<i class='fa fa-camera'></i>"
+            weight = 5
+            url = "photos/"
 
             [[languages.tr.menu.main]]
             name = "İletişim"
             pre = "<i class='fa fa-envelope'> </i>"
-            weight = 5
+            weight = 6
             url = "iletisim/"
 
   [markup.goldmark.renderer]
