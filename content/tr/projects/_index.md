@@ -4,7 +4,7 @@ slug = "projeler"
 description = "Alper Orus Projeler Sayfası"
 +++
 
-Bu sayfada oluşturduğum bazı sitelerin yanı sıra, aktif olarak yürüttüğüm blog ve sosyal medya çalışmalarını bulabilirsiniz. Sosyal medyada pek aktif olmadığım için benimle e-posta yoluyla [iletişim](/iletisim) kurmaktan geçmekten çekinmeyin.
+Bu sayfada oluşturduğum bazı sitelerin yanı sıra, aktif olarak yürüttüğüm blog ve sosyal medya çalışmalarını bulabilirsiniz. Sosyal medyada pek aktif olmadığım için benimle e-posta yoluyla [iletişim](/tr/iletisim) kurmaktan geçmekten çekinmeyin.
 
 Not :  Alt kısım Türkçe olarak ayrıca yapılacak.
 

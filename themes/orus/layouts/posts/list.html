@@ -23,7 +23,7 @@
 
   {{ $paginator := .Paginate (where .Site.RegularPages "Type" "in" site.Params.mainSections) }}
 {{ range $paginator.Pages }}
-<div class="col-lg-4 col-md-6 d-flex align-items-stretch">
+<div class="col-lg-6 col-md-6 d-flex align-items-stretch">
 <article class="entry">
 
                                           {{ if .Params.Image }}
