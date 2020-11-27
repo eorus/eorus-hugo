@@ -6,240 +6,175 @@ description = "Alper Orus Projeler Sayfası"
 
 Bu sayfada oluşturduğum bazı sitelerin yanı sıra, aktif olarak yürüttüğüm blog ve sosyal medya çalışmalarını bulabilirsiniz. Sosyal medyada pek aktif olmadığım için benimle e-posta yoluyla [iletişim](/tr/iletisim) kurmaktan geçmekten çekinmeyin.
 
-Not :  Alt kısım Türkçe olarak ayrıca yapılacak.
+
 
 <!-- ======= Portfolio Section ======= -->
-<section class="portfolio">
-
-<div class="container">
-<div class="row">
-<div class="col-lg-12">
-      <ul id="portfolio-flters">
-        <li data-filter="*" class="filter-active">Tümü</li>
-        <li data-filter=".filter-web">Web</li>
-        <li data-filter=".filter-card">Blog</li>
-        <li data-filter=".filter-app">Sosyal Medya</li>
-      </ul>
-</div>
-</div>
-
-<div class="row portfolio-container" data-aos="fade-up" data-aos-easing="ease-in-out" data-aos-duration="500">
-
-<div class="col-lg-4 col-md-6 filter-web">
-<div class="portfolio-item">
-        <img src="/images/portfolio/enlemsen.jpg" class="img-fluid" alt="">
-<div class="portfolio-info">
-      <h3><a href="/images/portfolio/enlemsen.jpg" data-gall="portfolioGallery" class="venobox" title="Enlem Cold Storage Warehouse">Enlem Cold Storage Warehouse</a></h3>
-<div>
-        <a href="/images/portfolio/enlemsen.jpg" data-gall="portfolioGallery" class="venobox" title="Enlem Soğuk Hava"><i class="fas fa-plus"></i></a>
-        <a href="/tr/projects/enlem-soguk-hava-deposu" title="Enlem Soğuk Hava Deposu"><i class="fas fa-link"></i></a>
-</div>
-</div>
-</div>
-</div>
-
-<div class="col-lg-4 col-md-6 filter-web">
-<div class="portfolio-item">
-        <img src="/images/portfolio/enlemb.jpg" class="img-fluid" alt="">
-<div class="portfolio-info">
-      <h3><a href="/images/portfolio/enlem.jpg" data-gall="portfolioGallery" class="venobox" title="Enlem Balıkçılık">Enlem Balıkçılık</a></h3>
-<div>
-        <a href="/images/portfolio/enlemb.jpg" data-gall="portfolioGallery" class="venobox" title="Enlem Balıkçılık"><i class="fas fa-plus"></i></a>
-        <a href="/tr/projects/enlem-balikcilik" title="Enlem Balıkçılık"><i class="fas fa-link"></i></a>
-</div>
-</div>
-</div>
+<section class="portfolio container grid-xl">
+<div class="columns">
+<div class="column col-12">
+<div class="filter text center">
+  <input type="radio" id="tag-0" class="filter-tag" name="filter-radio" hidden checked>
+  <input type="radio" id="tag-1" class="filter-tag" name="filter-radio" hidden>
+  <input type="radio" id="tag-2" class="filter-tag" name="filter-radio" hidden>
+  <input type="radio" id="tag-3" class="filter-tag" name="filter-radio" hidden>
+<div class="filter-nav">
+    <label class="chip" for="tag-0">All</label>
+    <label class="chip" for="tag-1">Web</label>
+    <label class="chip" for="tag-2">Blog</label>
+    <label class="chip" for="tag-3">Social</label>
 </div>
 
 
-<div class="col-lg-4 col-md-6 filter-web">
-<div class="portfolio-item">
-        <img src="/images/portfolio/dsftr.jpg" class="img-fluid" alt="">
-<div class="portfolio-info">
-      <h3><a href="/images/portfolio/dsftr.jpg" data-gall="portfolioGallery" class="venobox" title="Darüşşafaka Fizik Tedavi ve Rehabilitasyon Merkezi">DSFTR Web</a></h3>
-<div>
-        <a href="/images/portfolio/dsftr.jpg" data-gall="portfolioGallery" class="venobox" title="Darüşşafaka Fizik Tedavi ve Rehabilitasyon Merkezi"><i class="fas fa-plus"></i></a>
-        <a href="/tr/projects/darussafaka-fizik-tedavi-rehabilitasyon" title="Darüşşafaka Fizik Tedavi ve Rehabilitasyon Merkezi"><i class="fas fa-link"></i></a>
-</div>
-</div>
-</div>
-</div>
+<div class="columns filter-body">
 
-<div class="col-lg-4 col-md-6 filter-web">
-<div class="portfolio-item">
-        <img src="/images/portfolio/idi.jpg" class="img-fluid" alt="">
-<div class="portfolio-info">
-      <h3><a href="/images/portfolio/idi.jpg" data-gall="portfolioGallery" class="venobox" title="İdi Lojistik">İdi Lojistik</a></h3>
-<div>
-        <a href="/images/portfolio/idi.jpg" data-gall="portfolioGallery" class="venobox" title="İdi Lojistik"><i class="fas fa-plus"></i></a>
-        <a href="/tr/projects/idi-lojistik" title="İdi Lojistik"><i class="fas fa-link"></i></a>
+<div class="column col-4 col-md-6 col-sm-12 filter-item" data-tag="tag-1">
+<div class="card">
+<figure class="figure">
+<a href="/tr/projects/enlem-soguk-hava-deposu" title="Enlem Soğuk Hava Deposu"><img class="img-responsive" src="/images/portfolio/enlems.jpg" alt="Enlem Soğuk Hava Deposu"></a>
+  <figcaption class="figure-caption text-center">Enlem Soğuk Hava Deposu</figcaption>
+</figure>
 </div>
-</div>
-</div>
-</div>
+</div><!-- Filter items -->
 
-<div class="col-lg-4 col-md-6 filter-web">
-<div class="portfolio-item">
-        <img src="/images/portfolio/h2a.jpg" class="img-fluid" alt="">
-<div class="portfolio-info">
-      <h3><a href="/images/portfolio/h2a.jpg" data-gall="portfolioGallery" class="venobox" title="H2A">H2A Danışmanlık</a></h3>
-<div>
-        <a href="/images/portfolio/h2a.jpg" data-gall="portfolioGallery" class="venobox" title="H2A Danışmanlık"><i class="fas fa-plus"></i></a>
-        <a href="/tr/projects/h2a-danismanlik" title="H2A Danışmanlık"><i class="fas fa-link"></i></a>
+<div class="column col-4 col-md-6 col-sm-12 filter-item" data-tag="tag-1">
+<div class="card">
+<figure class="figure">
+<a href="/tr/projects/enlem-balikcilik" title="Enlem Balıkçılık"><img class="img-responsive" src="/images/portfolio/enlemb.jpg" alt="Enlem Balıkçılık"></a>
+  <figcaption class="figure-caption text-center">Enlem Balıkçılık</figcaption>
+</figure>
 </div>
-</div>
-</div>
-</div>
+</div><!-- Filter items -->
 
-<div class="col-lg-4 col-md-6 filter-web">
-<div class="portfolio-item">
-        <img src="/images/portfolio/fpdtr.jpg" class="img-fluid" alt="">
-<div class="portfolio-info">
-      <h3><a href="/images/portfolio/fpdtr.jpg" data-gall="portfolioGallery" class="venobox" title="FPD">Finansal Planlama Derneği</a></h3>
-<div>
-        <a href="/images/portfolio/fpdtr.jpg" data-gall="portfolioGallery" class="venobox" title="Finansal Planlama Derneği"><i class="fas fa-plus"></i></a>
-        <a href="/tr/projects/finansal-planlama-dernegi" title="Finansal Planlama Derneği"><i class="fas fa-link"></i></a>
+<div class="column col-4 col-md-6 col-sm-12 filter-item" data-tag="tag-1">
+<div class="card">
+<figure class="figure">
+<a href="/tr/projects/darussafaka-fizik-tedavi-rehabilitasyon" title="Darüşşafaka Fizik Tedavi ve Rehabilitasyon Merkezi"><img class="img-responsive" src="/images/portfolio/dsftr.jpg" alt="Darüşşafaka Fizik Tedavi ve Rehabilitasyon Merkezi"></a>
+  <figcaption class="figure-caption text-center">Darüşşafaka Fizik Tedavi ve Rehabilitasyon Merkezi</figcaption>
+</figure>
 </div>
-</div>
-</div>
-</div>
+</div><!-- Filter items -->
 
+<div class="column col-4 col-md-6 col-sm-12 filter-item" data-tag="tag-1">
+<div class="card">
+<figure class="figure">
+<a href="/tr/projects/idi-lojistik" title="İdi Lojistik"><img class="img-responsive" src="/images/portfolio/idi.jpg" alt="İdi Lojistik"></a>
+  <figcaption class="figure-caption text-center">İdi Lojistik</figcaption>
+</figure>
+</div>
+</div><!-- Filter items -->
 
-<div class="col-lg-4 col-md-6 filter-web">
-<div class="portfolio-item">
-        <img src="/images/portfolio/dsfcati.jpg" class="img-fluid" alt="">
-<div class="portfolio-info">
-      <h3><a href="/images/portfolio/dsfcati.jpg" data-gall="portfolioGallery" class="venobox" title="Darüşşafaka Çatı Konuşmaları">Darüşşafaka Çatı Konuşmaları</a></h3>
-<div>
-        <a href="/images/portfolio/dsfcati.jpg" data-gall="portfolioGallery" class="venobox" title="Darüşşafaka Çatı Konuşmaları"><i class="fas fa-plus"></i></a>
-        <a href="/projects/darussafaka-cati-konusmalari" title="Darüşşafaka Çatı Konuşmaları"><i class="fas fa-link"></i></a>
+<div class="column col-4 col-md-6 col-sm-12 filter-item" data-tag="tag-1">
+<div class="card">
+<figure class="figure">
+<a href="/tr/projects/h2a-danismanlik" title="H2A Danışmanlık"><img class="img-responsive" src="/images/portfolio/h2a.jpg" alt="H2A Danışmanlık"></a>
+  <figcaption class="figure-caption text-center">H2A Danışmanlık</figcaption>
+</figure>
 </div>
-</div>
-</div>
-</div>
+</div><!-- Filter items -->
 
+<div class="column col-4 col-md-6 col-sm-12 filter-item" data-tag="tag-1">
+<div class="card">
+<figure class="figure">
+<a href="/tr/projects/finansal-planlama-dernegi" title="Finansal Planlama Derneği"><img class="img-responsive" src="/images/portfolio/fpdtr.jpg" alt="Finansal Planlama Derneği"></a>
+  <figcaption class="figure-caption text-center">Finansal Planlama Derneği</figcaption>
+</figure>
+</div>
+</div><!-- Filter items -->
 
-<div class="col-lg-4 col-md-6 filter-web">
-<div class="portfolio-item">
-        <img src="/images/portfolio/emaga.jpg" class="img-fluid" alt="">
-<div class="portfolio-info">
-      <h3><a href="/images/portfolio/emaga.jpg" data-gall="portfolioGallery" class="venobox" title="Emaga">Emaga</a></h3>
-<div>
-        <a href="/images/portfolio/emaga.jpg" data-gall="portfolioGallery" class="venobox" title="Emaga"><i class="fas fa-plus"></i></a>
-        <a href="/tr/projects/emaga" title="Emaga"><i class="fas fa-link"></i></a>
+<div class="column col-4 col-md-6 col-sm-12 filter-item" data-tag="tag-1">
+<div class="card">
+<figure class="figure">
+<a href="/tr/projects/darussafaka-cati-konusmalari" title="Darüşşafaka Çatı Konuşmaları"><img class="img-responsive" src="/images/portfolio/dsfcati.jpg" alt="Darüşşafaka Çatı Konuşmaları"></a>
+  <figcaption class="figure-caption text-center">Darüşşafaka Çatı Konuşmaları</figcaption>
+</figure>
 </div>
-</div>
-</div>
-</div>
+</div><!-- Filter items -->
 
+<div class="column col-4 col-md-6 col-sm-12 filter-item" data-tag="tag-1">
+<div class="card">
+<figure class="figure">
+<a href="/tr/projects/emaga" title="Emaga"><img class="img-responsive" src="/images/portfolio/emaga.jpg" alt="Emaga"></a>
+  <figcaption class="figure-caption text-center">Emaga</figcaption>
+</figure>
+</div>
+</div><!-- Filter items -->
 
-<div class="col-lg-4 col-md-6 filter-web">
-<div class="portfolio-item">
-        <img src="/images/portfolio/arzu.jpg" class="img-fluid" alt="">
-<div class="portfolio-info">
-      <h3><a href="/images/portfolio/arzu.jpg" data-gall="portfolioGallery" class="venobox" title="Arzu Odabaşı">Arzu Odabaşı</a></h3>
-<div>
-        <a href="/images/portfolio/arzu.jpg" data-gall="portfolioGallery" class="venobox" title="Arzu Odabaşı"><i class="fas fa-plus"></i></a>
-        <a href="/tr/projects/arzu" title="Arzu Odabaşı"><i class="fas fa-link"></i></a>
+<div class="column col-4 col-md-6 col-sm-12 filter-item" data-tag="tag-1">
+<div class="card">
+<figure class="figure">
+<a href="/tr/projects/arzu" title="Arzu Odabaşı"><img class="img-responsive" src="/images/portfolio/arzu.jpg" alt="Arzu Odabaşı"></a>
+  <figcaption class="figure-caption text-center">Arzu Odabaşı</figcaption>
+</figure>
 </div>
-</div>
-</div>
-</div>
+</div><!-- Filter items -->
 
+<div class="column col-4 col-md-6 col-sm-12 filter-item" data-tag="tag-1">
+<div class="card">
+<figure class="figure">
+<a href="/tr/projects/dsmun" title="Darüşşafaka MUN"><img class="img-responsive" src="/images/portfolio/dsmun.jpg" alt="Darüşşafaka MUN"></a>
+  <figcaption class="figure-caption text-center">Darüşşafaka MUN</figcaption>
+</figure>
+</div>
+</div><!-- Filter items -->
 
-<div class="col-lg-4 col-md-6 filter-web">
-<div class="portfolio-item">
-        <img src="/images/portfolio/dsmun.jpg" class="img-fluid" alt="">
-<div class="portfolio-info">
-      <h3><a href="/images/portfolio/dsmun.jpg" data-gall="portfolioGallery" class="venobox" title="Darüşşafaka MUN">Darüşşafaka MUN</a></h3>
-<div>
-        <a href="/images/portfolio/dsmun.jpg" data-gall="portfolioGallery" class="venobox" title="Darüşşafaka MUN"><i class="fas fa-plus"></i></a>
-        <a href="/tr/projects/dsmun" title="Darüşşafaka MUN"><i class="fas fa-link"></i></a>
+<div class="column col-4 col-md-6 col-sm-12 filter-item" data-tag="tag-1">
+<div class="card">
+<figure class="figure">
+<a href="/tr/projects/ardil-tekstil" title="Ardil Tekstil"><img class="img-responsive" src="/images/portfolio/ardil.jpg" alt="Ardil Tekstil"></a>
+  <figcaption class="figure-caption text-center">Ardil Tekstil</figcaption>
+</figure>
 </div>
-</div>
-</div>
-</div>
+</div><!-- Filter items -->
 
-<div class="col-lg-4 col-md-6 filter-web">
-<div class="portfolio-item">
-        <img src="/images/portfolio/ardil.jpg" class="img-fluid" alt="">
-<div class="portfolio-info">
-      <h3><a href="/images/portfolio/ardil.jpg" data-gall="portfolioGallery" class="venobox" title="Ardil Tekstil">Ardil Tekstil</a></h3>
-<div>
-        <a href="/images/portfolio/ardil.jpg" data-gall="portfolioGallery" class="venobox" title="Ardil Tekstil"><i class="fas fa-plus"></i></a>
-        <a href="/tr/projects/ardil-tekstil" title="Ardil Tekstil"><i class="fas fa-link"></i></a>
+<div class="column col-4 col-md-6 col-sm-12 filter-item" data-tag="tag-1">
+<div class="card">
+<figure class="figure">
+<a href="/tr/projects/ags-sogutma" title="AGS Soğutma"><img class="img-responsive" src="/images/portfolio/ags.jpg" alt="AGS Soğutma"></a>
+  <figcaption class="figure-caption text-center">AGS Soğutma</figcaption>
+</figure>
 </div>
-</div>
-</div>
-</div>
+</div><!-- Filter items -->
 
-<div class="col-lg-4 col-md-6 filter-web">
-<div class="portfolio-item">
-        <img src="/images/portfolio/ags.jpg" class="img-fluid" alt="">
-<div class="portfolio-info">
-      <h3><a href="/images/portfolio/ags.jpg" data-gall="portfolioGallery" class="venobox" title="AGS Soğutma">AGS Soğutma</a></h3>
-<div>
-        <a href="/images/portfolio/ags.jpg" data-gall="portfolioGallery" class="venobox" title="AGS Soğutma"><i class="fas fa-plus"></i></a>
-        <a href="/tr/projects/ags-sogutma" title="AGS Soğutma"><i class="fas fa-link"></i></a>
+<div class="column col-4 col-md-6 col-sm-12 filter-item" data-tag="tag-2">
+<div class="card">
+<figure class="figure">
+<a href="/tr/projects/fotopedi" title="Fotopedi"><img class="img-responsive" src="/images/portfolio/fotopedi.jpg" alt="Fotopedi"></a>
+  <figcaption class="figure-caption text-center">Fotopedi</figcaption>
+</figure>
 </div>
-</div>
-</div>
-</div>
+</div><!-- Filter items -->
 
-<div class="col-lg-4 col-md-6 filter-card">
-  <div class="portfolio-item">
-    <img src="/images/portfolio/fotopedi.jpg" class="img-fluid" alt="">
-    <div class="portfolio-info">
-      <h3><a href="/images/portfolio/fotopedi.jpg" data-gall="portfolioGallery" class="venobox" title="Fotopedi">Fotopedi</a></h3>
-      <div>
-        <a href="/images/portfolio/fotopedi.jpg" data-gall="portfolioGallery" class="venobox" title="Fotopedi"><i class="fas fa-plus"></i></a>
-        <a href="/tr/projects/fotopedi" title="Fotopedi"><i class="fas fa-link"></i></a>
-      </div>
-    </div>
-  </div>
+<div class="column col-4 col-md-6 col-sm-12 filter-item" data-tag="tag-2">
+<div class="card">
+<figure class="figure">
+<a href="/tr/projects/dailycameranews" title="Daily Camera News"><img class="img-responsive" src="/images/portfolio/dcn.jpg" alt="Daily Camera News"></a>
+  <figcaption class="figure-caption text-center">Daily Camera News</figcaption>
+</figure>
 </div>
+</div><!-- Filter items -->
 
-<div class="col-lg-4 col-md-6 filter-card">
-  <div class="portfolio-item">
-    <img src="/images/portfolio/dcn.jpg" class="img-fluid" alt="">
-    <div class="portfolio-info">
-      <h3><a href="/images/portfolio/dcn.jpg" data-gall="portfolioGallery" class="venobox" title="Daily Camera News">Daily Camera News</a></h3>
-      <div>
-        <a href="/images/portfolio/dcn.jpg" data-gall="portfolioGallery" class="venobox" title="Daily Camera News"><i class="fas fa-plus"></i></a>
-        <a href="/tr/projects/dailycameranews" title="Daily Camera News"><i class="fas fa-link"></i></a>
-      </div>
-    </div>
-  </div>
+<div class="column col-4 col-md-6 col-sm-12 filter-item" data-tag="tag-0">
+<div class="card">
+<figure class="figure">
+<a href="/tr/projects/fb-pages" title="Facebook Pages"><img class="img-responsive" src="/images/portfolio/fb-dcn.jpg" alt="Facebook Pages"></a>
+  <figcaption class="figure-caption text-center">Facebook Pages</figcaption>
+</figure>
 </div>
+</div><!-- Filter items -->
 
-<div class="col-lg-4 col-md-6 filter-app">
-  <div class="portfolio-item">
-    <img src="/images/portfolio/fb-canon.jpg" class="img-fluid" alt="">
-    <div class="portfolio-info">
-      <h3><a href="/images/portfolio/fb-canon.jpg" data-gall="portfolioGallery" class="venobox" title="Facebook Groups">Facebook Groups</a></h3>
-      <div>
-        <a href="/images/portfolio/fb-canon.jpg" data-gall="portfolioGallery" class="venobox" title="Facebook Groups"><i class="fas fa-plus"></i></a>
-        <a href="/tr/projects/fb-groups" title="Facebook Groups"><i class="fas fa-link"></i></a>
-      </div>
-    </div>
-  </div>
+<div class="column col-4 col-md-6 col-sm-12 filter-item" data-tag="tag-3">
+<div class="card">
+<figure class="figure">
+<a href="/tr/projects/fb-groups" title="Facebook Groups"><img class="img-responsive" src="/images/portfolio/fb-canon.jpg" alt="Facebook Groups"></a>
+  <figcaption class="figure-caption text-center">Facebook Groups</figcaption>
+</figure>
 </div>
+</div><!-- Filter items -->
 
-<div class="col-lg-4 col-md-6 filter-app">
-  <div class="portfolio-item">
-    <img src="/images/portfolio/fb-dcn.jpg" class="img-fluid" alt="">
-    <div class="portfolio-info">
-      <h3><a href="/images/portfolio/fb-dcn.jpg" data-gall="portfolioGallery" class="venobox" title="Facebook Pages">Facebook Pages</a></h3>
-      <div>
-        <a href="/images/portfolio/fb-dcn.jpg" data-gall="portfolioGallery" class="venobox" title="Facebook Pages"><i class="fas fa-plus"></i></a>
-        <a href="/tr/projects/fb-pages" title="Facebook Pages"><i class="fas fa-link"></i></a>
-      </div>
-    </div>
-  </div>
-</div>
+</div><!-- Filter body -->
+</div><!-- Filter -->
+</div><!-- column  -->
+</div><!-- columns  -->
 
 
-</div>
-
-</div>
 </section><!-- End Portfolio Section -->

@@ -5,37 +5,22 @@ draft = "false"
 +++
 
 
-<!-- ======= Portfolio Details Section ======= -->
-<section class="portfolio-details">
-<div class="container">
+<img src="/images/portfolio/idi.jpg" class="img-responsive" alt="İDİ Lojistik">
 
-<div class="portfolio-details-container">
-
-<div class="owl-carousel portfolio-details-carousel">
-        <img src="/images/portfolio/idi.jpg" class="img-fluid" alt="">
-        <img src="/images/portfolio/idi-1.jpg" class="img-fluid" alt="">
-        <img src="/images/portfolio/idi-2.jpg" class="img-fluid" alt="">
-</div>
-
-<div class="portfolio-info">
-        <h3>Project information</h3>
+<div class="card-header bg-secondary p-2">
+        <h3 class="card-title p-2">Proje Bilgileri</h3>
         <ul>
-          <li><strong>Category</strong>: Wordpress Theme Integration</li>
-          <li><strong>Client</strong>: İdi Lojistik</li>
-          <li><strong>Project date</strong>: 01 November, 2019</li>
-          <li><strong>Project URL</strong>: <a href="http://www.idi.com.tr/">www.idi.com.tr</a></li>
+          <li><strong>Kategori</strong>: Wordpress Theme Integration</li>
+          <li><strong>Müşteri</strong>: İdi Lojistik</li>
+          <li><strong>Proje Tarihi</strong>: 01 November, 2019</li>
+          <li><strong>Proje URL</strong>: <a href="http://www.idi.com.tr/">www.idi.com.tr</a></li>
         </ul>
 </div>
 
-</div>
 
-<div class="portfolio-description">
-     <h2>İdi Lojistik Project Details</h2>
+<div class="card-body">
+     <h2 class="card-title py-2">İdi Lojistik Proje Detayları</h2>
           <p>
-           For İdi Lojistik, I've made the server setup, Wordpress and database installations as back-end development. As part of front-end development, I implemented a ready theme with custom contact form and several plugins for company needs.</p>
+            İdi Lojistik için sunucu kurulumu, Wordpress ve veritabanı kurulumlarını back-end tarafında geliştirdim. Ön yüz geliştirmenin bir parçası olarak, şirket ihtiyaçları için özel iletişim formu ve çeşitli eklentiler içeren bir tema uyguladım. </p>
 
 </div>
-</div>
-</section><!-- End Portfolio Details Section -->
-
-

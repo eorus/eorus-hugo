@@ -4,38 +4,22 @@ slug = "h2a-danismanlik"
 draft = "false"
 +++
 
+<img src="/images/portfolio/h2a.jpg" class="img-responsive" alt="H2A Danışmanlık">
 
-<!-- ======= Portfolio Details Section ======= -->
-<section class="portfolio-details">
-<div class="container">
-
-<div class="portfolio-details-container">
-
-<div class="owl-carousel portfolio-details-carousel">
-        <img src="/images/portfolio/h2a.jpg" class="img-fluid" alt="">
-        <img src="/images/portfolio/h2a-1.jpg" class="img-fluid" alt="">
-        <img src="/images/portfolio/h2a-2.jpg" class="img-fluid" alt="">
-</div>
-
-<div class="portfolio-info">
-        <h3>Project information</h3>
+<div class="card-header bg-secondary p-2">
+        <h3 class="card-title p-2">Proje Bilgileri</h3>
         <ul>
-          <li><strong>Category</strong>: One Page Html Setup</li>
-          <li><strong>Client</strong>: H2a Danışmanlık</li>
-          <li><strong>Project date</strong>: 01 September, 2019</li>
-          <li><strong>Project URL</strong>: <a href="http://www.h2adanismanlik.com/">www.h2adanismanlik.com</a></li>
+          <li><strong>Kategori</strong>: One Page Html Setup</li>
+          <li><strong>Müşteri</strong>: H2a Danışmanlık</li>
+          <li><strong>Proje Tarihi</strong>: 01 September, 2019</li>
+          <li><strong>Proje URL</strong>: <a href="http://www.h2adanismanlik.com/">www.h2adanismanlik.com</a></li>
         </ul>
 </div>
 
-</div>
 
-<div class="portfolio-description">
-     <h2>H2A Danışmanlık Project Details</h2>
+<div class="card-body">
+     <h2 class="card-title py-2">H2A Danışmanlık Project Detayları</h2>
           <p>
-          H2A is a freelance platform that I am a part of. I have implemented a one-page template in order to create a corporate look and meet web needs.  </p>
-         
-</div>
-</div>
-</section><!-- End Portfolio Details Section -->
+          H2A, parçası olduğum serbest bir platform. Kurumsal bir görünüm oluşturmak ve web ihtiyaçlarını karşılamak için tek sayfalık bir şablon uyguladım. </p>
 
-
+</div>

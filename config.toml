@@ -20,6 +20,10 @@ enableRobotsTXT = true
 # Define the number of posts per page
 paginate = 10
 
+[readingTime]
+one = "One minute to read"
+other = "{{.Count}} minutes to read"
+
 [sitemap]
     changefreq = "weekly"
     priority = 0.5
@@ -40,6 +44,9 @@ paginate = 10
     avatarurl = "images/alper.jpg"
     #gravatar = "john.doe@example.com"
             info = "Front End Developer, Photographer, Blogger and a Passionate Linux Enthusiast"
+            hometext = "I’m a freelancer, entrepreneur. I usually write and generate content as a blogger about photography and camera industry. In addition, I build websites or meet the digital transformation needs of companies."
+            homehello = "Hi I'm"
+            homebut = "Learn more about what I do"
             description = "Alper Orus Personal Website"
             keywords = "blog, photography, design, alper, personal, orus, eorus, linux, wordpress, hugo, frontend"
             footercontent = "Fall in love with some activity, and do it! Nobody ever figures out what life is all about, and it doesn’t matter."
@@ -116,6 +123,9 @@ paginate = 10
     [languages.tr]
         languagename = "Türkçe"
         title = "Alper Orus"
+        hometext = "Serbest çalışan bir girişimciyim. Genellikle bir blog yazarı olarak fotoğrafçılık ve kamera endüstrisi hakkında yazıyorum. Buna ek olarak web siteleri yapıyorum ya da şirketlerin her anlamda dijital dönüşüm ihtiyaçlarını karşılıyorum."
+        homehello = "Merhaba Ben"
+        homebut = "Neler yaptığım hakında daha fazla bilgi edinin"
         contentDir = "content/tr"
         weight = 2
 

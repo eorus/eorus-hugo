@@ -1,18 +1,26 @@
-<section class="full-screen d-lg-flex justify-content-center align-items-center text-center" id="about">
-<div class="container">
-  <div class="profile">
+<section class="full-screen d-flex justify-content-center align-items-center text-center" id="about">
+<div class="container grid-xl">
+	<div class="columns profile">
+			<div class="column col-4 col-md-4 col-sm-12">
     {{ if and (isset .Site.Params "avatarurl") (not (isset .Site.Params "gravatar")) }}
       {{ with .Site.Params.avatarurl }}
-        <div class="avatar"><img  class="img-fluid rounded-circle" src="{{ . | relURL }}" alt="Alper Orus Image"></div>
+      <img  class="img-responsive s-circle" src="{{ . | relURL }}" alt="Alper Orus Image">
       {{ end }}
     {{ end }}
     {{ with .Site.Params.gravatar }}
-    <div class="avatar"><img class="img-fluid rounded-circle" src="https://www.gravatar.com/avatar/{{md5 .}}?s=240&d=mp" alt="Alper Orus Image"></div>
+    <div class="avatar"><img class="img-responsize rounded" src="https://www.gravatar.com/avatar/{{md5 .}}?s=240&d=mp" alt="Alper Orus Image"></div>
     {{ end }}
-    <h1>{{ .Site.Params.author }}</h1>
+         </div>
+			<div class="column col-8 col-md-8 col-sm-12 py-2 my-2">
+    <h1>
+      <i class='fa fa-code'></i> {{ .Site.Params.homehello }}  <a class="navbar-brand" href="{{ .Site.BaseURL }}">{{ .Site.Title }}</a>
+    </h1>
     <h2>{{ .Site.Params.info }}</h2>
+    <p class="p-2 m-2">{{ .Site.Params.hometext }}</p>
+    <a href="/about" class="btn btn-primary px-2 m-2">{{ .Site.Params.homebut }}</a>
+
     {{ with .Site.Params.social }}
-    <div class="social-links mt-3 text-center">
+    <div class="social-links text-center">
       {{ range sort . "weight" }}
         {{ if .icon }}
             <a href="{{ .url | safeURL }}" aria-label="{{ .name }}" {{ if .rel }}rel="{{ .rel }}"{{ end }} {{ if .target }}target="{{ .target }}"{{ end }} {{ if .type }}type="{{ .type }}"{{ end }}>
@@ -24,7 +32,8 @@
       {{ end }}
     </div>
     {{ end }}
-  </div>
+      </div>
+      </div>
 </div>
 </section>
 

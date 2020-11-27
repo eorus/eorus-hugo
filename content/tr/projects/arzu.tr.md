@@ -4,21 +4,10 @@ slug = "arzu"
 draft = "false"
 +++
 
+<img src="/images/portfolio/arzu.jpg" class="img-responsive" alt="Arzu Odabaşı">
 
-<!-- ======= Portfolio Details Section ======= -->
-<section class="portfolio-details">
-<div class="container">
-
-<div class="portfolio-details-container">
-
-<div class="owl-carousel portfolio-details-carousel">
-        <img src="/images/portfolio/arzu.jpg" class="img-fluid" alt="">
-        <img src="/images/portfolio/arzu-1.jpg" class="img-fluid" alt="">
-        <img src="/images/portfolio/arzu-2.jpg" class="img-fluid" alt="">
-</div>
-
-<div class="portfolio-info">
-        <h3>Proje information</h3>
+<div class="card-header bg-secondary p-2">
+        <h3 class="card-title p-2">Proje Bilgileri</h3>
         <ul>
           <li><strong>Kategori</strong>: Tek Sayfa Şablon Kurulumu</li>
           <li><strong>Müşteri</strong>: Arzu Odabaşı</li>
@@ -27,13 +16,9 @@ draft = "false"
         </ul>
 </div>
 
-</div>
-
-<div class="portfolio-description">
-     <h2>Arzu Odabaşı Proje Detayları</h2>
+<div class="card-body">
+     <h2 class="card-title py-2">Arzu Odabaşı Proje Detayları</h2>
           <p>
           H2A Kurumsal Yönetim Danışmanlığı Şirketi'nin Başkanı ve kurucusu Arzu Odabaşı için kişisel bir websitesi oluşturdum. Önyüz tasarımın bir parçası olarak, tek sayfalık bir özgeçmiş şablonu uyguladım. </p>
 
 </div>
-</div>
-</section><!-- End Portfolio Details Section -->

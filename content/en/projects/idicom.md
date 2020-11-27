@@ -4,21 +4,10 @@ slug = "idi-lojistik"
 draft = "false"
 +++
 
+<img src="/images/portfolio/idi.jpg" class="img-responsive" alt="İDİ Lojistik">
 
-<!-- ======= Portfolio Details Section ======= -->
-<section class="portfolio-details">
-<div class="container">
-
-<div class="portfolio-details-container">
-
-<div class="owl-carousel portfolio-details-carousel">
-        <img src="/images/portfolio/idi.jpg" class="img-fluid" alt="">
-        <img src="/images/portfolio/idi-1.jpg" class="img-fluid" alt="">
-        <img src="/images/portfolio/idi-2.jpg" class="img-fluid" alt="">
-</div>
-
-<div class="portfolio-info">
-        <h3>Project information</h3>
+<div class="card-header bg-secondary p-2">
+        <h3 class="card-title p-2">Project information</h3>
         <ul>
           <li><strong>Category</strong>: Wordpress Theme Integration</li>
           <li><strong>Client</strong>: İdi Lojistik</li>
@@ -27,15 +16,10 @@ draft = "false"
         </ul>
 </div>
 
-</div>
 
-<div class="portfolio-description">
-     <h2>İdi Lojistik Project Details</h2>
+<div class="card-body">
+     <h2 class="card-title py-2">İdi Lojistik Project Details</h2>
           <p>
            For İdi Lojistik, I've made the server setup, Wordpress and database installations as back-end development. As part of front-end development, I implemented a ready theme with custom contact form and several plugins for company needs.</p>
 
 </div>
-</div>
-</section><!-- End Portfolio Details Section -->
-
-

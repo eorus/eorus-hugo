@@ -5,20 +5,11 @@ draft = "false"
 +++
 
 
-<!-- ======= Portfolio Details Section ======= -->
-<section class="portfolio-details">
-<div class="container">
+<img src="/images/portfolio/fotopedi.jpg" class="img-responsive" alt="Fotopedi">
 
-<div class="portfolio-details-container">
 
-<div class="owl-carousel portfolio-details-carousel">
-        <img src="/images/portfolio/fotopedi.jpg" class="img-fluid" alt="">
-        <img src="/images/portfolio/fotopedi-1.jpg" class="img-fluid" alt="">
-        <img src="/images/portfolio/fotopedi-2.jpg" class="img-fluid" alt="">
-</div>
-
-<div class="portfolio-info">
-        <h3>Project information</h3>
+<div class="card-header bg-secondary p-2">
+        <h3 class="card-title p-2">Project information</h3>
         <ul>
           <li><strong>Category</strong>: Photography Website - Blogging</li>
           <li><strong>Client</strong>: Fotopedi</li>
@@ -27,15 +18,10 @@ draft = "false"
         </ul>
 </div>
 
-</div>
 
-<div class="portfolio-description">
-     <h2>Fotopedi Details</h2>
+<div class="card-body">
+     <h2 class="card-title py-2">Fotopedi Details</h2>
           <p>
            Fotopedi, which started its publishing life as "Türk Nikon", has written numerous articles on photography, shooting techniques and how to do it. For the last 5 years, the site has been continuing with the name Fotopedi in order not to stick to a brand and to continue as a photography encyclopedia. I have been carrying out the entire management individually for about 6 years.</p>
 
 </div>
-</div>
-</section><!-- End Portfolio Details Section -->
-
-

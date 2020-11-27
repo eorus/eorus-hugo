@@ -2,36 +2,30 @@
   {{ .Title }} · {{ .Site.Title }}
 {{ end }}
 {{ define "main" }}
-<section class="breadcrumbs">
-      <div class="container">
+<section class="container page blog grid-xl">
+  <div class="columns">
+       <article class="column col-10 col-mx-auto card">
+  <div class="columns bg-secondary text-dark">
+          <div class="column col-4 col-sm-12 card-image">
+            {{if .Params.Image }}
+        <figure class="figure img-entry ">
+           <div class="featured-media-inner section-inner medium">
+            <img width="1024" height="768" src="{{ .Params.Image | absURL }}"
+              class="attachment-post-thumbnail size-post-thumbnail wp-post-image s-rounded d-block img-responsive" alt="{{.Title }}"
+              sizes="(max-width: 1100px) 100vw, 1100px">
+           </div><!-- .featured-media-inner -->
+         </figure><!-- .featured-media -->
+          </div>
+         {{end}}
 
-        <div class="d-flex justify-content-between align-items-center">
-          <header>
-            <h1 class="entry-title">{{ .Title }}</h1>
-          </header>
-            {{ partial "breadcrumbs.html" . }}
-        </div>
+          <div class="column col-7 col-sm-12 card-header text-center m-2 p-2">
+          {{ partial "breadcrumbs.html" . }}
+          <div class="card-title h5"><h1 class="entry-title">{{ .Title }}</h1></div>
+          <div class="card-subtitle">{{ partial "metadata.html" . }}</div>
+          </div>
+  </div>
 
-      </div>
- </section>
-<section class="container page blog">
-    <div class="row">
-      <div class="col-lg-8 entries">
-        <article class="post entry entry-single">
-  {{if .Params.Image }}
-  <figure class="entry-img featured-media">
-    <div class="featured-media-inner section-inner medium">
-      <img width="1024" height="768" src="{{ .Params.Image | absURL }}"
-        class="attachment-post-thumbnail size-post-thumbnail wp-post-image rounded mx-auto d-block img-fluid" alt="{{.Title }}"
-        sizes="(max-width: 1100px) 100vw, 1100px">
-    </div><!-- .featured-media-inner -->
-  </figure><!-- .featured-media -->
-  {{end}}
-          <header class="mb-2">
-            <!--<h1 class="entry-title">{{ .Title }}</h1>-->
-{{ partial "metadata.html" . }}
-          </header>
-          <div class="entry-content">
+          <div class="card-body entry-content">
             {{ .Content }}
           </div>
             {{ partial "posts/series.html" . }}
@@ -49,30 +43,19 @@
           </div>
 
         </article>
-  <ul class="pager">
-
-    <li class="pagerli float-left next">{{ if .NextPage }}
-	<a class="link-reverse" href="{{ .NextPage.Permalink }}?ref=footer">« {{ .NextPage.Title | truncate 50 "..." }}</a>
-	{{ end }}</li>
-
-    <li class="pagerli previous float-right">	{{ if .PrevPage }}
-	<a class="link-reverse" href="{{ .PrevPage.Permalink }}?ref=footer">{{ .PrevPage.Title | truncate 50 "..."}} »</a>
-	{{ end }}</li>
-  </ul>
       </div>
-                    <!-- *** RIGHT COLUMN ***
-       _________________________________________________________ -->
-
-         <aside class="col-lg-4">
-            <div class="sidebar">
-
-                        {{ partial "sidebar.html" . }}
-
-            </div><!-- End sidebar -->
-         </aside> <!-- /.col-lg-4 -->
-
-                   <!-- *** RIGHT COLUMN END *** -->
     </div>
+        <ul class="col-11 column col-mx-auto pagination">
+          <li class="page-item page-next text-center">{{ with .NextInSection }}
+          <i class="fa fa-arrow-left"></i><a href="{{ .Permalink }}">{{ .Title }}</a>
+          {{ end }}
+          </li>
+          <li class="page-item page-prev text-center">{{ with .PrevInSection }}
+          <a href="{{ .Permalink }}">{{ .Title }}</a><i class="fa fa-arrow-right"></i>
+        {{ end }}
+          </li>
+      </ul>
+
 </section>
 
 {{ end }}

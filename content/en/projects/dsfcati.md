@@ -5,20 +5,11 @@ draft = "false"
 +++
 
 
-<!-- ======= Portfolio Details Section ======= -->
-<section class="portfolio-details">
-<div class="container">
+<img src="/images/portfolio/dsfcati.jpg" class="img-responsive rounded" alt="Darüşşafaka Çatı Konuşmaları">
 
-<div class="portfolio-details-container">
 
-<div class="owl-carousel portfolio-details-carousel">
-        <img src="/images/portfolio/dsfcati.jpg" class="img-fluid" alt="">
-        <img src="/images/portfolio/dsfcati-1.jpg" class="img-fluid" alt="">
-        <img src="/images/portfolio/dsfcati-2.jpg" class="img-fluid" alt="">
-</div>
-
-<div class="portfolio-info">
-        <h3>Project information</h3>
+<div class="card-header bg-secondary p-2">
+        <h3 class="card-title p-2">Project information</h3>
         <ul>
           <li><strong>Category</strong>: Front-End Development</li>
           <li><strong>Client</strong>: Darüşşafaka Çatı Konuşmaları</li>
@@ -27,15 +18,10 @@ draft = "false"
         </ul>
 </div>
 
-</div>
 
-<div class="portfolio-description">
-     <h2>Darüşşafaka Çatı Konuşmaları Project Details</h2>
+<div class="card-body">
+     <h2 class="card-title py-2">Darüşşafaka Çatı Konuşmaları Project Details</h2>
           <p>
            For Darüşşafaka Çatı Konuşmaları, I've made the front-end development, I implemented a work on a custom Wordpress theme with Bootstrap framework.</p>
-         
-</div>
-</div>
-</section><!-- End Portfolio Details Section -->
 
-
+</div>

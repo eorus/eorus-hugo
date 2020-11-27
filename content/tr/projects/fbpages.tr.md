@@ -5,21 +5,10 @@ draft = "false"
 +++
 
 
-<!-- ======= Portfolio Details Section ======= -->
-<section class="portfolio-details">
-<div class="container">
+ <img src="/images/portfolio/fb-dcn.jpg" class="img-responsive" alt="Facebook Pages">
 
-<div class="portfolio-details-container">
-
-<div class="owl-carousel portfolio-details-carousel">
-        <img src="/images/portfolio/fb-dcn.jpg" class="img-fluid" alt="">
-        <img src="/images/portfolio/fb-turknikon.jpg" class="img-fluid" alt="">
-        <img src="/images/portfolio/fb-fotopedi.jpg" class="img-fluid" alt="">
-
-</div>
-
-<div class="portfolio-info">
-        <h3>Project information</h3>
+<div class="card-header bg-secondary p-2">
+        <h3 class="card-title p-2">Proje Bilgileri</h3>
         <ul>
           <li><strong>Category</strong>: Facebook Pages</li>
           <li><strong>Client</strong>: Social Media of Blogging Platforms</li>
@@ -28,15 +17,10 @@ draft = "false"
         </ul>
 </div>
 
-</div>
 
-<div class="portfolio-description">
-     <h2>Facebook Groups Details</h2>
+<div class="card-body">
+     <h2 class="card-title py-2">Facebook Groups Detayları</h2>
           <p>
            I regularly manage the Facebook Pages I create for each camera brand in order to reach the blog content to more masses. In addition to the moderation and regulation of these active groups with a large number of users, I share the news and review contents I produce.</p>
 
 </div>
-</div>
-</section><!-- End Portfolio Details Section -->
-
-

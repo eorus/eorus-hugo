@@ -18,10 +18,10 @@ I develop interactive designs, using the latest technologies. I use my knowledge
 - Server Setup
 - Wordpress, Hugo
 - HTML5, CSS, JS, PHP and GO
-- Frameworks Bootstrap, Bulma
+- Frameworks Bootstrap, Bulma, Pure, Spectre, Skeleton
 - Linux Workflow, Git
 - Nvim for coding
-- Sass, Compass
+- Sass, Npm, Gulp
 
 ### What I Do
 
@@ -40,3 +40,4 @@ This site is :
 - Hosting provided by Netlify
 - Version control provided by GitHub.
 - Coded and written with NeoVim
+- Using a custom Hugo theme with Spectre CSS Framework

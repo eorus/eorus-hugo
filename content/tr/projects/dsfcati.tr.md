@@ -5,37 +5,23 @@ draft = "false"
 +++
 
 
-<!-- ======= Portfolio Details Section ======= -->
-<section class="portfolio-details">
-<div class="container">
+<img src="/images/portfolio/dsfcati.jpg" class="img-responsive" alt="Darüşşafaka Çatı Konuşmaları">
 
-<div class="portfolio-details-container">
 
-<div class="owl-carousel portfolio-details-carousel">
-        <img src="/images/portfolio/dsfcati.jpg" class="img-fluid" alt="">
-        <img src="/images/portfolio/dsfcati-1.jpg" class="img-fluid" alt="">
-        <img src="/images/portfolio/dsfcati-2.jpg" class="img-fluid" alt="">
-</div>
-
-<div class="portfolio-info">
-        <h3>Project information</h3>
+<div class="card-header bg-secondary p-2">
+        <h3 class="card-title p-2">Proje Bilgileri</h3>
         <ul>
-          <li><strong>Category</strong>: Front-End Development</li>
-          <li><strong>Client</strong>: Darüşşafaka Çatı Konuşmaları</li>
-          <li><strong>Project date</strong>: 01 June, 2018</li>
-          <li><strong>Project URL</strong>: <a href="http://www.catikonusmalari.com/">www.catikonusmalari.com</a></li>
+          <li><strong>Kategori</strong>: Ön Yüz Geliştirme</li>
+          <li><strong>Müşteri</strong>: Darüşşafaka Çatı Konuşmaları</li>
+          <li><strong>Proje Tarihi</strong>: 01 June, 2018</li>
+          <li><strong>Proje URL</strong>: <a href="http://www.catikonusmalari.com/">www.catikonusmalari.com</a></li>
         </ul>
 </div>
 
-</div>
 
-<div class="portfolio-description">
-     <h2>Darüşşafaka Çatı Konuşmaları Project Details</h2>
+<div class="card-body">
+     <h2 class="card-title py-2">Darüşşafaka Çatı Konuşmaları Proje Detayları</h2>
           <p>
-           For Darüşşafaka Çatı Konuşmaları, I've made the front-end development, I implemented a work on a custom Wordpress theme with Bootstrap framework.</p>
-         
-</div>
-</div>
-</section><!-- End Portfolio Details Section -->
+           Darüşşafaka Çatı Konuşmaları için Bootstrap framework ile özel bir Wordpress teması üzerine ön yüz geliştirme çalışması yaptım.</p>
 
-
+</div>

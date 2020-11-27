@@ -1,40 +1,42 @@
-<header id="header" class="fixed-top ">
-<div class="container">
-<nav class="nav-menu navbar navbar-expand-sm {{ .Site.Params.navbarBgColorClass | default .Site.Data.Defaults.navbarBgColorClass }}">
-  <a class="navbar-brand" href="{{ .Site.BaseURL }}"><i class='fa fa-code'></i> {{ .Site.Title }}</a>
-    {{ if or .Site.Menus.main .Site.IsMultiLingual }}
-  <button class="navbar-toggler mobile-nav-toggle d-lg-none"
-          type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-<i class="fa fa-bars"></i></span>
-  </button>
-
-  <div class="collapse navbar-collapse" id="navbarNav">
-
-    <ul class="navbar-nav mx-auto">
+<header id="header" class="navbar">
+<div class="container grid-xl">
+  <section class="navbar-section">
+    <div class="wrap">
+    <span class="decor"></span>
+    <div class="nav-menu">
+        {{ if or .Site.Menus.main .Site.IsMultiLingual }}
+        <ul class="primary">
         {{ with .Site.Menus.main}}
           {{ range sort . }}
-      <li class="nav-item">
-        <a class="nav-link menu-item  no-decoration {{ $.Site.Params.navbarLinkFgColorClass | default $.Site.Data.Defaults.navbarLinkFgColorClass }}" href="{{ .URL | relLangURL }}">
+        <li class="nav-item">
+        <a class="nav-link menu-item no-decoration {{ $.Site.Params.navbarLinkFgColorClass | default $.Site.Data.Defaults.navbarLinkFgColorClass }}" href="{{ .URL | relLangURL }}">
           {{ .Pre }}
           <span class="text-capitalize">{{ .Name }}</span>
         </a>
-            </li>
+         </li>
           {{ end }}
         {{ end }}
-
-
-      </ul>
         {{ if .Site.IsMultiLingual }}
           {{ $node := . }}
           {{ .Scratch.Set "separator" true }}
           {{ range (default .Site.Home.AllTranslations .Translations) }}
             {{ if ne $.Site.Language .Language }}
-<a href="{{ .Permalink }}" class="btn btn-outline-info btn-sm" role="button" aria-pressed="true">{{ .Language.LanguageName }}</a>
+<a href="{{ .Permalink }}" class="btn btn-secondary btn-sm dilbtn" role="button">{{ .Language.LanguageName }}</a>
 
             {{ end }}
           {{ end }}
         {{ end }}
-  </div>
+
     {{ end }}
-</nav>
+        </ul>
+
+    <a id="dark-mode" class="btn-toggle">
+        <i class="fa fa-adjust fa-fw" aria-hidden="true"></i>
+    </a>
+
+    </div>
+
+  </section>
+
+</div>
 </header>

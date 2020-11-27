@@ -7,26 +7,17 @@
   {{- .Title }} · {{ .Site.Title -}}
 {{ end }}
 {{ define "main" }}
-<section class="breadcrumbs">
-      <div class="container">
 
-        <div class="d-flex justify-content-between align-items-center">
+<section class="container grid-xl">
+  <div class="columns">
+        <div class="column col-12">
           <header>
-            <h1 class="entry-title">
-      {{- if eq .Kind "term" -}}
-      {{- i18n .Data.Singular | title -}}
-      {{- print "Posts filed as : " -}}
-    {{- end -}}
-
-    {{- .Title -}}</h1>
+            <h1 class="entry-title">{{- .Title -}}</h1>
           </header>
             {{ partial "breadcrumbs.html" . }}
+            {{ .Content }}
         </div>
 
-      </div>
- </section>
-<section class="container list m-5 mx-auto">
-
-  {{ .Content }}
+    </div>
 </section>
 {{ end }}

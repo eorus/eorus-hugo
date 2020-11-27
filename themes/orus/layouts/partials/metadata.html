@@ -6,7 +6,6 @@
 <time datetime="{{ $dateTime }}">{{ .PublishDate.Format $dateFormat }}</time> <span class="separator">•</span>
 
 <i class='fa fa-user'></i> <a href="/">{{ .Site.Params.author }}</a>  <span class="separator">•</span>
-{{ with .Page.Params.Categories }}{{ partial "taxonomy/categories.html" . }}{{ end }}  
-
+{{ with .Page.Params.Categories }}{{ partial "taxonomy/categories.html" . }}{{ end }} <span class="separator">•</span>
+<i class="fas fa-clock"></i>Reading Time : {{ .ReadingTime }}min
  </div>
-

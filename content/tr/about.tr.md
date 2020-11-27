@@ -18,10 +18,10 @@ En son teknolojileri kullanarak interaktif tasarımlar geliştiriyorum. Bilgimi 
 - Sunucu Kurulumu
 - Wordpress, Hugo
 - HTML5, CSS, JS, PHP ve GO
-- Frameworks Bootstrap, Bulma
+- Frameworks Bootstrap, Bulma, Pure, Spectre, Skeleton
 - Linux İş Akışı, Git
 - Kodlama için Nvim
-- Sass, Compass
+- Sass, Npm, Gulp
 
 ### Neler Yapabilirim
 
@@ -40,3 +40,4 @@ Altyapı
 * Hosting Netlify tarafından sağlanmaktadır.
 * Sürüm kontrolü Github ile yapılmaktadır.
 * NeoVim ile kodlanmış ve yazılmıştır.
+* Spectre CSS kullanılarak hazırlanmış özel bir Hugo teması kullanılmaktadır.

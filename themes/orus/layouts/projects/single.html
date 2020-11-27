@@ -2,25 +2,18 @@
   {{ .Title }} · {{ .Site.Title }}
 {{ end }}
 {{ define "main" }}
-<section class="breadcrumbs">
-      <div class="container">
-
-        <div class="d-flex justify-content-between align-items-center">
+<section class="container grid-xl">
+  <div class="columns">
+        <div class="column col-12">
           <header>
-            <h1>{{ .Title }}</h1>
+            <h1 class="entry-title">{{- .Title -}}</h1>
           </header>
             {{ partial "breadcrumbs.html" . }}
+          <article class="portfolio-details card">
+            {{ .Content }}
+          </article>
         </div>
 
-      </div>
-    </section>
-   <section class="container page">
-     <div class="row">
-      <div class="col-md-12">
-        <article class="post">
-            {{ .Content }}
-        </article>
-     </div>
     </div>
-  </section>
+</section>
 {{ end }}
