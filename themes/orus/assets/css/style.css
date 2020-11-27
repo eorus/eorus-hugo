@@ -13,7 +13,7 @@
   color: #3e396b;
 }
 
-.dark-theme .portfolio-info {
+.dark-theme .portfolio-details .card-header {
   color: #000;
 }
 
@@ -22,12 +22,10 @@
   position: absolute;
   z-index: 2;
   top: 5px;
-  right: 100px;
+  right: 5px;
   border-radius: 50%;
   cursor: pointer;
-  color: #b9cdfb !important;
   font-size: 1.2rem;
-  opacity: 60%;
   transition: all 0.25s ease-in;
 }
 
@@ -3085,13 +3083,12 @@ a.text-error:visited {
 
 .nav-menu {
   position: relative;
-  background: #2B2B2B;
-  background-image: -webkit-linear-gradient(bottom, #2B2B2B 7%, #333333 100%);
-  background-image: -moz-linear-gradient(bottom, #2B2B2B 7%, #333333 100%);
-  background-image: -o-linear-gradient(bottom, #2B2B2B 7%, #333333 100%);
-  background-image: linear-gradient(bottom, #2B2B2B 7%, #333333 100%);
+  background: #121212;
+  background-image: -webkit-linear-gradient(bottom, #121212 7%, #333333 100%);
+  background-image: -moz-linear-gradient(bottom, #121212 7%, #333333 100%);
+  background-image: -o-linear-gradient(bottom, #121212 7%, #333333 100%);
+  background-image: linear-gradient(bottom, #121212 7%, #333333 100%);
   text-align: center;
-  letter-spacing: 1px;
   text-shadow: 1px 1px 1px #0E0E0E;
   border-bottom-right-radius: 8px;
   border-bottom-left-radius: 8px;
@@ -3161,10 +3158,12 @@ a.text-error:visited {
 
 .dilbtn {
   position: relative;
-  top: 0.5em;
+  top: 0.4rem;
   margin: 0 1em 0 2em;
   padding: 3px 5px;
+  background: #00A5FF !important;
   float: right;
+  right: 1.5rem;
 }
 
 @media screen and (min-width: 10em) and (max-width: 46em) {
@@ -3207,6 +3206,7 @@ a.text-error:visited {
     padding: 3px 5px;
     float: none;
     top: 0;
+    right: 0;
   }
 
   .nav-menu li {
