@@ -15,7 +15,7 @@
 
     {{ range .Paginator.Pages }}
 	<div class="columns">
-		<div class="column col-10 col-mx-auto">
+		<div class="column col-10 col-sm-12 col-mx-auto">
 			<ul class="timeline">
 				<li>
                   <a class="title" href="{{ .Params.ExternalLink | default .RelPermalink }}">{{ .Title }}</a>
