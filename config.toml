@@ -41,7 +41,7 @@ other = "{{.Count}} minutes to read"
 
 [params]
     author = "Alper Orus"
-    avatarurl = "images/alper.jpg"
+    avatarurl = "images/alper.webp"
     #gravatar = "john.doe@example.com"
             info = "Front End Developer, Photographer, Blogger and a Passionate Linux Enthusiast"
             hometext = "I’m a freelancer, entrepreneur. I usually write and generate content as a blogger about photography and camera industry. In addition, I build websites or meet the digital transformation needs of companies."
