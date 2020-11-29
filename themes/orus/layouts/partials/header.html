@@ -11,7 +11,7 @@
         <li class="nav-item">
         <a class="nav-link menu-item no-decoration {{ $.Site.Params.navbarLinkFgColorClass | default $.Site.Data.Defaults.navbarLinkFgColorClass }}" href="{{ .URL | relLangURL }}">
           {{ .Pre }}
-          <span class="text-capitalize">{{ .Name }}</span>
+          {{ .Name }}
         </a>
          </li>
           {{ end }}

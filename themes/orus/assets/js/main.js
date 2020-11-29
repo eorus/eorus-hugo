@@ -1,3 +1,6 @@
+/****
+Color Toggle
+*****/
 
 const btn = document.querySelector(".btn-toggle");
 
@@ -14,4 +17,5 @@ btn.addEventListener("click", function () {
     theme = "dark";
   }
   localStorage.setItem("theme", theme);
+
 });

@@ -402,9 +402,6 @@ HOME
   margin-top:2em;
 }
 
-body.photos .card {
-  margin-right:2em;
-}
 /*--------------------------------------------------------------
 # Portfolio
 --------------------------------------------------------------*/
@@ -431,33 +428,6 @@ body.photos .card {
 --------------------------------------------------------------*/
 .portfolio-details {
       margin-top: 30px;
-}
-
-.portfolio-details .portfolio-details-container {
-  position: relative;
-}
-
-.portfolio-details .portfolio-details-carousel {
-  position: relative;
-  z-index: 1;
-}
-
-.portfolio-details .portfolio-details-carousel .owl-nav, .portfolio-details .portfolio-details-carousel .owl-dots {
-  margin-top: 5px;
-  text-align: left;
-}
-
-.portfolio-details .portfolio-details-carousel .owl-dot {
-  display: inline-block;
-  margin: 0 10px 0 0;
-  width: 12px;
-  height: 12px;
-  border-radius: 50%;
-  background-color: #ddd !important;
-}
-
-.portfolio-details .portfolio-details-carousel .owl-dot.active {
-  background-color: #68A4C4 !important;
 }
 
 .portfolio-details .portfolio-info {
@@ -554,8 +524,6 @@ section.post {
   margin: -30px -30px 20px -30px;
   overflow: hidden;
 }
-
-
 
 .blog .entry .entry-title {
   font-size: 28px;
@@ -1106,37 +1074,6 @@ footer {
 
 #footer .credits a {
   color: #a2cce3;
-}
-
-
-/*--------------------------------------------------------------
-# Back to top button
---------------------------------------------------------------*/
-.back-to-top {
-  position: fixed;
-  display: none;
-  width: 40px;
-  height: 40px;
-  border-radius: 3px;
-  right: 15px;
-  bottom: 15px;
-  background: #68A4C4;
-  color: #fff;
-  transition: display 0.5s ease-in-out;
-  z-index: 99999;
-}
-
-.back-to-top i {
-  font-size: 24px;
-  position: absolute;
-  top: 8px;
-  left: 8px;
-}
-
-.back-to-top:hover {
-  color: #fff;
-  background: #85b6cf;
-  transition: background 0.2s ease-in-out;
 }
 
 /*--------------------------------------------------------------

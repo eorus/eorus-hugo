@@ -16,12 +16,12 @@
      <div class="columns">
 
     {{ range .Paginator.Pages }}
-      <div class="col-6 col-md-6 col-sm-12 align-items-stretch">
+      <div class="col-6 col-md-6 col-sm-12">
         <article class="card entry">
 
                                           {{ if .Params.Image }}
 
-                                  <div class="entry-img">
+                                  <div class="card-image">
                                       <a href="{{ .Permalink }}">
 
                                           <img src="{{ .Params.Image | relURL }}" class="img-responsive" alt="">
