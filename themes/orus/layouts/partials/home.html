@@ -4,7 +4,11 @@
 			<div class="column col-4 col-md-4 col-sm-12">
     {{ if and (isset .Site.Params "avatarurl") (not (isset .Site.Params "gravatar")) }}
       {{ with .Site.Params.avatarurl }}
-      <img  class="img-responsive s-circle" src="{{ . | relURL }}" alt="Alper Orus Image">
+      <picture>
+      <source srcset="/images/alper.webp" type="image/webp">
+      <source srcset="/images/alper.jpg" type="image/jpeg">
+      <img class="img-responsive s-circle" src="{{ . | relURL }}" alt="Alper Orus Image">
+      </picture>
       {{ end }}
     {{ end }}
     {{ with .Site.Params.gravatar }}

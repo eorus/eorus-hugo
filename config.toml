@@ -15,7 +15,6 @@ defaultcontentlanguageinsubdir = false
     page = "/:slug/"
 
 canonifyURLs = true
-copyright = "Sebastian Pech"
 enableRobotsTXT = true
 # Define the number of posts per page
 paginate = 10
@@ -41,7 +40,7 @@ other = "{{.Count}} minutes to read"
 
 [params]
     author = "Alper Orus"
-    avatarurl = "images/alper.webp"
+    avatarurl = "images/alper.jpg"
     #gravatar = "john.doe@example.com"
             info = "Front End Developer, Photographer, Blogger and a Passionate Linux Enthusiast"
             hometext = "I’m a freelancer, entrepreneur. I usually write and generate content as a blogger about photography and camera industry. In addition, I build websites or meet the digital transformation needs of companies."
