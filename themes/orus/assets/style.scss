@@ -123,7 +123,6 @@ $dark-color: #3e396b;
 }
 
 .nav-menu ul.primary li a:hover {
-
   color: #000;
 }
 
@@ -226,6 +225,11 @@ $dark-color: #3e396b;
     top: 0;
     right: 0;
 }
+
+.nav-menu {
+    padding: 0 0 20px 0;
+}
+
    .nav-menu li {
     float: none;
   }
