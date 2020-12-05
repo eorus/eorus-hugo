@@ -5,11 +5,11 @@ date:  {{ .Date }}
 draft: true
 categories:
   - A
- 
+
 tags:
   - Hugo
 
-Image: "/image/blog.jpg"
+Image: "/images/blog.jpg"
 
 description: xxx
 ---

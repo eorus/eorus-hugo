@@ -9,9 +9,6 @@ categories:
 tags:
   - Hugo
 
-series :
-  - Theme
-
 Image: "/images/blog.jpg"
 
 description: First Post
