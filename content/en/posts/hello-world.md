@@ -14,7 +14,7 @@ Image: "/images/blog.jpg"
 description: First Post
 ---
 
-Hi and welcome to my new website and blog!
+Hi and welcome to my website and blog.
 
 After a long time, I thought it would be good to open my own site and blog to collect my work and to share articles that I thought might be particularly useful from my notes.
 
