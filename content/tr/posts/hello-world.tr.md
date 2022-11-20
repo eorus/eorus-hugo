@@ -14,7 +14,7 @@ Image: "/images/blog.jpg"
 description: İlk Yazı
 ---
 
-Merhaba, yeni web siteme ve bloguma hoş geldiniz.
+Merhaba, web siteme ve bloguma hoş geldiniz!
 
 Uzun bir süre sonra, çalışmalarımı toplamak için kendi sitemi ve blogumu açmanın ve notlarımdan özellikle yararlı olabileceğini düşündüğüm makaleleri paylaşmanın iyi olacağını düşündüm.
 
