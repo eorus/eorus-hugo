@@ -5,7 +5,7 @@ date:  2020-11-05T12:44:40+03:00
 draft: false
 categories:
   - Blog
- 
+
 tags:
   - Hugo
 
@@ -14,7 +14,7 @@ Image: "/images/blog.jpg"
 description: İlk Yazı
 ---
 
-Merhaba, yeni web siteme ve bloguma hoş geldiniz!
+Merhaba, yeni web siteme ve bloguma hoş geldiniz.
 
 Uzun bir süre sonra, çalışmalarımı toplamak için kendi sitemi ve blogumu açmanın ve notlarımdan özellikle yararlı olabileceğini düşündüğüm makaleleri paylaşmanın iyi olacağını düşündüm.
 
