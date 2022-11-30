@@ -1,4 +1,4 @@
-<div class="container">
+<div class="container-xl">
 {{ $paginator := .Paginate (where .Site.RegularPages "Type" "in" site.Params.mainSections) }}
 {{ range $paginator.Pages }}
                         <section class="post m-3 mx-auto p-3">

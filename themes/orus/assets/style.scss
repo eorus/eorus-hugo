@@ -36,8 +36,7 @@ $dark-color: #3e396b;
 }
 
 // Import full Spectre source code
-@import "spectre/src/spectre";
-@import "spectre/src/filters";
+@import "bootstrap/scss/bootstrap.scss";
 //@import "fontawesome/scss/fontawesome.scss";
 //@import "fontawesome/scss/solid.scss";
 //@import "fontawesome/scss/brands.scss";
@@ -507,7 +506,8 @@ article.post {
   height:auto;
   overflow: hidden;
   max-width:100%;
-  margin: 20px 30px 20px 30px;
+  /*margin: 20px 30px 20px 30px;*/
+  width:100%;
 
 }
 
@@ -759,6 +759,16 @@ font-size:.9em;
   color: #f1f1f1;
   padding: 10px 16px;
   display: inline-block;
+}
+
+.page-prev {
+    -ms-flex: 1 0 50%;
+    flex: 1 0 50%;
+}
+
+.page-next {
+    -ms-flex: 1 0 50%;
+    flex: 1 0 50%;
 }
 
 .blog .sidebar {

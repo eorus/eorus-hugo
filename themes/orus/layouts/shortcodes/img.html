@@ -4,7 +4,7 @@
     {{ if not (findRE "^(/|http(s?)://)" $url) }}
         {{ $url = ($.Page.Resources.GetMatch $url).RelPermalink }}
     {{ end }}
-    <a itemprop="contentUrl" data-fslightbox="gallery" data-width="500" data-height="400" data-custom-class="fslightbox-custom" href="{{ $url }}"><img src="{{ $url }}" itemprop="thumbnail" alt="{{ .Get 1 }}" class="figure-img img-responsive"></a>
+    <a itemprop="contentUrl" data-fslightbox="gallery" data-width="500" data-height="400" data-custom-class="fslightbox-custom" href="{{ $url }}"><img src="{{ $url }}" itemprop="thumbnail" alt="{{ .Get 1 }}" class="figure-img img-fluid"></a>
     {{ with .Get 1 }}<figcaption itemprop="caption description" class="figure-caption text-center">{{ . }}</figcaption>{{ end }}
 </figure>
 </div>

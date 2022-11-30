@@ -3,9 +3,9 @@
 {{ end }}
 {{ define "main" }}
 
-<section id="blog" class="blog container grid-xl page">
-     <div class="columns">
-       <div class="column col-12">
+<section id="blog" class="blog container-xl page">
+     <div class="row">
+       <div class="col-12">
           <header class="card-header text-center m-2 p-2">
             <div class="card-title"><h1>{{ .Title }}</h1>
             </div>
@@ -13,7 +13,7 @@
           </header>
        </div>
       </div>
-     <div class="columns">
+     <div class="row">
 
     {{ range .Paginator.Pages }}
       <div class="col-6 col-md-6 col-sm-12">
@@ -21,10 +21,10 @@
 
                                           {{ if .Params.Image }}
 
-                                  <div class="card-image">
+                                  <div class="card-img">
                                       <a href="{{ .Permalink }}">
 
-                                          <img src="{{ .Params.Image | relURL }}" class="img-responsive" alt="">
+                                          <img src="{{ .Params.Image | relURL }}" class="img-fluid" alt="">
                                       </a>
                                   </div>
 

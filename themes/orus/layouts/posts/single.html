@@ -2,23 +2,23 @@
   {{ .Title }} · {{ .Site.Title }}
 {{ end }}
 {{ define "main" }}
-<section class="container page blog grid-xl">
-  <div class="columns">
-       <article class="column col-10 col-sm-12 col-mx-auto card">
-  <div class="columns bg-secondary text-dark">
-          <div class="column col-4 col-sm-12 card-image">
+<section class="container-xl">
+  <div class="row">
+       <article class="col-10 col-sm-12 col-mx-auto card">
+  <div class="text-dark">
+          <div class="col-4 col-sm-12 card-img">
             {{if .Params.Image }}
         <figure class="figure img-entry ">
            <div class="featured-media-inner section-inner medium">
             <img width="1024" height="768" src="{{ .Params.Image | absURL }}"
-              class="attachment-post-thumbnail size-post-thumbnail wp-post-image s-rounded d-block img-responsive" alt="{{.Title }}"
+              class="attachment-post-thumbnail size-post-thumbnail wp-post-image figure-img img-fluid rounded w-100" alt="{{.Title }}"
               sizes="(max-width: 1100px) 100vw, 1100px">
            </div><!-- .featured-media-inner -->
          </figure><!-- .featured-media -->
           </div>
          {{end}}
 
-          <div class="column col-7 col-sm-12 card-header text-center m-2 p-2">
+          <div class="col-7 col-sm-12 card-header text-center">
           {{ partial "breadcrumbs.html" . }}
           <div class="card-title h5"><h1 class="entry-title">{{ .Title }}</h1></div>
           <div class="card-subtitle">{{ partial "metadata.html" . }}</div>
@@ -45,7 +45,7 @@
         </article>
       </div>
     </div>
-        <ul class="col-11 column col-mx-auto pagination">
+        <ul class="col-11 p-4 pagination">
           <li class="page-item page-next text-center">{{ with .NextInSection }}
           <i class="fa fa-arrow-left"></i><a href="{{ .Permalink }}">{{ .Title }}</a>
           {{ end }}
