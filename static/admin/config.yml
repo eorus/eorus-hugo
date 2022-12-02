@@ -9,9 +9,6 @@ collections:
   - name: posts
 label: posts
 folder: content/posts
-filter:
-  field: language
-  value: en;tr
   create: true
   slug: "{{year}}-{{month}}"
   fields:
@@ -19,8 +16,6 @@ filter:
       name: layout
       widget: hidden
       default: blog
-    - label: Language
-      name: language
     - label: Title
       name: title
       widget: string
