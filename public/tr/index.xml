@@ -1,0 +1,180 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Eorus</title>
+    <link>http://localhost:1313/tr/</link>
+    <description>Recent content on Eorus</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>tr</language>
+    <lastBuildDate>Sat, 05 Dec 2020 18:18:06 +0300</lastBuildDate>
+    <atom:link href="http://localhost:1313/tr/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Hugo : Statik Web Sitelerine Yepyeni Bir Yaklaşım</title>
+      <link>http://localhost:1313/tr/posts/2020/12/hugo-statik-web-sitelerine-yepyeni-bir-yakla%C5%9F%C4%B1m/</link>
+      <pubDate>Sat, 05 Dec 2020 18:18:06 +0300</pubDate>
+      <guid>http://localhost:1313/tr/posts/2020/12/hugo-statik-web-sitelerine-yepyeni-bir-yakla%C5%9F%C4%B1m/</guid>
+      <description>Son zamanlarda statik siteler birçok nedenden dolayı popüler olmaya ve gelişmeye devam ediyor. Bunun başlıca sebebini hantallaşmaya başlamış internetin neredeyse ilk zamanlarındaki sadeliği özlemesi olarak yorumlayabiliriz.&#xA;Statik siteler sayesinde veritabanı, programlama dili versiyonu, gerekli kütüphaneler gibi konularla uğraşmak ve bunları güncel tutmak zorunda kalmazsınız. Düşünsenize PHP, MySQL / MSSQL, .NET, Python, Ruby yok. Aşırı çözümlerden kaçınmak ve bir projeyi veritabanları, çok fazla bağımlılık veya belirli sunucu tarafı yapılandırmaları olmadan basit tutmak, sayısız olası güvenlik açığına karşı dağıtımı ve sağlam olmayı çok kolaylaştırmaktadır.</description>
+    </item>
+    <item>
+      <title>Merhaba Dünya</title>
+      <link>http://localhost:1313/tr/posts/2020/11/merhaba-d%C3%BCnya/</link>
+      <pubDate>Thu, 05 Nov 2020 12:44:40 +0300</pubDate>
+      <guid>http://localhost:1313/tr/posts/2020/11/merhaba-d%C3%BCnya/</guid>
+      <description>Merhaba, yeni web siteme ve bloguma hoş geldiniz.&#xA;Uzun bir süre sonra, çalışmalarımı toplamak için kendi sitemi ve blogumu açmanın ve notlarımdan özellikle yararlı olabileceğini düşündüğüm makaleleri paylaşmanın iyi olacağını düşündüm.&#xA;Hakkında bölümünde bahsettiğim ilgi alanlarım arasında yer alan Linux, terminal uygulamaları, Wordpress ve Hugo gibi açık kaynak yapıları hakkında makaleler yazmayı düşünüyorum.&#xA;Şu anda ziyaret etmekte olduğunuz bu site, bir sunucu olmadan Hugo altyapısı kullanılarak Github tarafından sunulan statik sayfalardan oluşturulmuştur.</description>
+    </item>
+    <item>
+      <title>Doğa Fotoğrafları</title>
+      <link>http://localhost:1313/tr/photos/doga-fotograflari/</link>
+      <pubDate>Mon, 05 Oct 2020 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/tr/photos/doga-fotograflari/</guid>
+      <description>Doğa ve hayvan fotoğraf çalışmalarımdan bazılarını bu sayfada bulabilirsiniz.</description>
+    </item>
+    <item>
+      <title>Siyah Beyaz Fotoğraflar</title>
+      <link>http://localhost:1313/tr/photos/siyah-beyaz-fotograflar/</link>
+      <pubDate>Sun, 04 Oct 2020 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/tr/photos/siyah-beyaz-fotograflar/</guid>
+      <description>Siyah beyaz fotoğraf çalışmalarımdan bazılarını bu sayfada bulabilirsiniz.</description>
+    </item>
+    <item>
+      <title>Manzara Fotoğrafları</title>
+      <link>http://localhost:1313/tr/photos/manzara-fotograflari/</link>
+      <pubDate>Fri, 02 Oct 2020 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/tr/photos/manzara-fotograflari/</guid>
+      <description>Manzara Fotoğrafları çekimlerimden oluşan karelerden bazılarını bu sayfada bulabilirsiniz.</description>
+    </item>
+    <item>
+      <title>Şehir ve Yaşam Fotoğrafları</title>
+      <link>http://localhost:1313/tr/photos/sehir-ve-yasam/</link>
+      <pubDate>Thu, 01 Oct 2020 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/tr/photos/sehir-ve-yasam/</guid>
+      <description>Şehir ve yaşama ilişkin fotoğraf çalışmalarımdan bazılarını bu sayfada bulabilirsiniz.</description>
+    </item>
+    <item>
+      <title>AGS Soğutma</title>
+      <link>http://localhost:1313/tr/projects/ags-sogutma/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/tr/projects/ags-sogutma/</guid>
+      <description>Proje Bilgileri Kategori: İçerik ve Fotoğraf Oluşturma ile Her Alanda Geliştirme Müşteri: AGS Soğutma Proje Tarihi: 01 Haziran, 2016 Proje URL: www.agssogutma.com.tr AGS Soğutma Proje Detayları AGS Soğutma için sunucu kurulumu, Wordpress ve veritabanı kurulumlarını back-end tarafındaki geliştirmesini yaptım. Ön yüz geliştirmenin bir parçası olarak, kurumsal görünüme uygun kahverengi tonlarında renklerle eşleşen Skel framework üzerine bir çalışma gerçekleştirdim. Şirketin tüm içerik ve ürünlerini siteye dahil etmek için çalıştım, ayrıca ürün fotoğraflarının çekimlerini yaptım.</description>
+    </item>
+    <item>
+      <title>Ardil Tekstil</title>
+      <link>http://localhost:1313/tr/projects/ardil-tekstil/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/tr/projects/ardil-tekstil/</guid>
+      <description>Proje Bilgileri Kategori: Full Stack Development with Content and Photo Creation Müşteri: Ardil Tekstil Proje Tarihi: 01 Haziran, 2016 Proje URL: www.ardiltekstil.com Ardil Tekstil Proje Detayları Ardil Tekstil için sunucu kurulumu, Wordpress ve veritabanı kurulumlarını back-end tarafında geliştirmesini yaptım. Ön yüz geliştirmenin bir parçası olarak, kurumsal görünüme uygun, genellikle mavi renkle eşleşen tonlarda Bootstrap framework üzerine bir çalışma uyguladım. Şirketin tüm içerik ve ürünlerini siteye dahil etmek için çalıştım, ayrıca ürün ve tesis fotoğraflarının çekimlerini yaptım.</description>
+    </item>
+    <item>
+      <title>Arzu Odabaşı</title>
+      <link>http://localhost:1313/tr/projects/arzu/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/tr/projects/arzu/</guid>
+      <description> Proje Bilgileri Kategori: Tek Sayfa Şablon Kurulumu Müşteri: Arzu Odabaşı Proje Tarihi: 01 Eylül, 2018 Proje URL: www.arzuodabasi.com Arzu Odabaşı Proje Detayları H2A Kurumsal Yönetim Danışmanlığı Şirketi&#39;nin Başkanı ve kurucusu Arzu Odabaşı için kişisel bir websitesi oluşturdum. Önyüz tasarımın bir parçası olarak, tek sayfalık bir özgeçmiş şablonu uyguladım. </description>
+    </item>
+    <item>
+      <title>Daily Camera News</title>
+      <link>http://localhost:1313/tr/projects/dailycameranews/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/tr/projects/dailycameranews/</guid>
+      <description>Proje Bilgileri Kategori: Camera Industry - Blogging Müşteri: Daily Camera News Proje Tarihi: 01 January, 2013 Proje URL: www.dailycameranews.com Daily Camera News Details A blog that actively brings together daily camera news with the end user since the beginning of the 2010s. This website, which has English content, appeals to an intense audience together with social media channels. I have been carrying out the entire management individually for about 8 years.</description>
+    </item>
+    <item>
+      <title>Darüşşafaka Çatı Konuşmaları</title>
+      <link>http://localhost:1313/tr/projects/darussafaka-cati-konusmalari/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/tr/projects/darussafaka-cati-konusmalari/</guid>
+      <description>Proje Bilgileri Kategori: Ön Yüz Geliştirme Müşteri: Darüşşafaka Çatı Konuşmaları Proje Tarihi: 01 June, 2018 Proje URL: www.catikonusmalari.com Darüşşafaka Çatı Konuşmaları Proje Detayları Darüşşafaka Çatı Konuşmaları için Bootstrap framework ile özel bir Wordpress teması üzerine ön yüz geliştirme çalışması yaptım.</description>
+    </item>
+    <item>
+      <title>Darüşşafaka Fizik Tedavi ve Rehabilitasyon Merkezi</title>
+      <link>http://localhost:1313/tr/projects/darussafaka-fizik-tedavi-rehabilitasyon/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/tr/projects/darussafaka-fizik-tedavi-rehabilitasyon/</guid>
+      <description> Proje Bilgileri Kategori: Ön Yüz Geliştirme Müşteri:Darüşşafaka Fizik Tedavi ve Rehabilitasyon Merkezi Proje Tarihi: 01 July, 2020 Proje URL: www.dsftr.com Darüşşafaka Fizik Tedavi ve Rehabilitasyon Merkezi Proje Detayları Darüşşafaka Ömran ve Yahya Hamuluoğlu Fizik Tedavi ve Rehabilitasyon Merkezi için back-end geliştirme olarak çoklu dil desteği ile genel Wordpress kurulumu, ön yüz geliştirmenin bir parçası olarak, kurumsal görünüme uygun Bootstrap framework üzerine bir çalışma gerçekleştirdim. </description>
+    </item>
+    <item>
+      <title>DSMUN</title>
+      <link>http://localhost:1313/tr/projects/dsmun/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/tr/projects/dsmun/</guid>
+      <description>Proje Bilgileri Kategori: Wordpress Theme Integration Müşteri: Darüşşafaka MUN Proje Tarihi: 01 November, 2017 Proje URL: www.dsmun.org Darüşşafaka MUN Proje Detayları Bazen gençlere yardım etmek ve uzun ömürlü ve aktif bir web sitesi oluşturmak güzel oluyor. Bu projede Darüşşafaka öğrencileri için Model Birleşmiş Milletler olarak bilinen ve tüm okulların katıldığı bir MUN sitesi oluşturduk. Öğrenciler, Birleşmiş Milletler&#39;in küçük bir kopyası olan içerik ve tasarıma karar verdiler, kodlama ve wordpress entegrasyonu tarafını ise ben gerçekleştirmiş oldum.</description>
+    </item>
+    <item>
+      <title>Emaga</title>
+      <link>http://localhost:1313/tr/projects/emaga/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/tr/projects/emaga/</guid>
+      <description>Proje Bilgileri Kategori: Full Stack Development with E-commerce Müşteri: Emaga Shop Proje Tarihi: 01 November, 2018 Proje URL: www.emaga.de Emaga Project Detayları Emaga için sunucu altyapısı, Wordpress ve veritabanı kurulumlarını back-end olarak hayata geçirdim. Ön yüz geliştirmenin bir parçası olarak, Bootstrap framework kullanarak özel bir tema uyguladım. Alışveriş için tüm içeriği ve entegre Woocommerce&amp;rsquo;i dahil ederek bir yapı oluşturdum.</description>
+    </item>
+    <item>
+      <title>Enlem Balıkçılık</title>
+      <link>http://localhost:1313/tr/projects/enlem-balikcilik/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/tr/projects/enlem-balikcilik/</guid>
+      <description>Proje Bilgileri Kategori: İçerik ve Fotoğraf Oluşturma ile Full Stack Development Müşteri: Enlem Balıkçılık Proje Tarihi: 01 Mayıs, 2020 Proje URL: www.enlembalikcilik.com Enlem Balıkçılık Enlem Balıkçılık için sunucu kurulumu, Wordpress ve veritabanı kurulumlarını back-end geliştirme olarak yaptım. Ön yüz geliştirmenin bir parçası olarak, kurumsal görünüme uygun, genellikle su ve balıkçılık terimleriyle eşleşen bir yapıda Bootstrap framework üzerine bir çalışma uyguladım.&#xA;Şirketin tüm içerik ve ürünlerini siteye dahil etmek için çalıştım, ayrıca ürün ve tesis fotoğraflarının çekimlerini yaptım.</description>
+    </item>
+    <item>
+      <title>Enlem Soğuk Hava Deposu</title>
+      <link>http://localhost:1313/tr/projects/enlem-soguk-hava-deposu/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/tr/projects/enlem-soguk-hava-deposu/</guid>
+      <description>Proje Bilgileri Kategori: İçerik Üretimi ve Fotoğraf Çekimleri ile Full Stack Development Müşteri: ENLEM SOĞUK HAVA DEPOLAMA LOJİSTİK VE GIDA SANAYİ A.Ş Proje tarihi: 01 March, 2020 Proje URL: www.enlemsogukhava.com Enlem Soğuk Hava Deposu Proje Detayları Enlem Soğuk Hava Deposu için sunucu kurulumu, Wordpress ve veritabanı kurulumlarını back-end tarafında geliştirdim. Ön yüz geliştirmenin bir parçası olarak, genellikle şirket logosu ve kurumsal görünüme uygun olması açısından Bootstrap framework üzerine bir çalışma gerçekleştirdim.</description>
+    </item>
+    <item>
+      <title>Facebook Groups</title>
+      <link>http://localhost:1313/tr/projects/fb-groups/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/tr/projects/fb-groups/</guid>
+      <description>Proje Bilgileri Kategori: Facebook Groups Müşteri: Social Media of Blogging Platforms Proje Tarihi: 01 September, 2013 Proje URL: www.facebook.com Facebook Groups Detayları Blog içeriğinin daha fazla kitleye ulaşması için her kamera markası için oluşturduğum Facebook Gruplarını düzenli olarak yönetiyorum. Bu aktif grupların çok sayıda kullanıcısı ile moderasyon ve regülasyonunun yanı sıra ürettiğim haberleri paylaşıyorum ve içerikleri inceliyorum.</description>
+    </item>
+    <item>
+      <title>Facebook Pages</title>
+      <link>http://localhost:1313/tr/projects/fb-pages/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/tr/projects/fb-pages/</guid>
+      <description>Proje Bilgileri Category: Facebook Pages Client: Social Media of Blogging Platforms Project date: 01 September, 2013 Project URL: www.facebook.com Facebook Groups Detayları I regularly manage the Facebook Pages I create for each camera brand in order to reach the blog content to more masses. In addition to the moderation and regulation of these active groups with a large number of users, I share the news and review contents I produce.</description>
+    </item>
+    <item>
+      <title>Finansal Planlama Derneği</title>
+      <link>http://localhost:1313/tr/projects/finansal-planlama-dernegi/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/tr/projects/finansal-planlama-dernegi/</guid>
+      <description>Proje Bilgileri Kategori: Full Stack Development with Content Creation Müşteri: Finansal Planlama Derneği Proje Tarihi: 01 May, 2019 Proje URL: www.fpd.org.tr Finansal Planlama Derneği Project Detayları FPD için sunucu kurulumu, Wordpress ve veritabanı kurulumlarını back-end geliştirme olarak yaptım. Ön yüz geliştirmenin bir parçası olarak, kurumsal görünüme uygun özel bir tema uyguladım. Ayrıca şirketin tüm içeriğini ve stok fotoğraflarını entegre ettim.</description>
+    </item>
+    <item>
+      <title>Fotopedi</title>
+      <link>http://localhost:1313/tr/projects/fotopedi/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/tr/projects/fotopedi/</guid>
+      <description>Proje Bilgileri Category: Photography Website - Blogging Client: Fotopedi Project date: 01 September, 2011 Project URL: www.fotopedi.org Fotopedi Detaylar Yayın hayatına &#34;Türk Nikon&#34; olarak başlayan Fotopedi, fotoğrafçılık, çekim teknikleri ve nasıl yapılır konularında çok sayıda makale içermektedir. Site son 5 yıldır bir markaya bağlı kalmamak ve fotoğraf ansiklopedisi olarak devam etmek için Fotopedi adını almıştır. Yaklaşık 6 yıldır tüm içerik yönetimini bireysel olarak yürütmekteyim.</description>
+    </item>
+    <item>
+      <title>H2A Danışmanlık</title>
+      <link>http://localhost:1313/tr/projects/h2a-danismanlik/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/tr/projects/h2a-danismanlik/</guid>
+      <description> Proje Bilgileri Kategori: One Page Html Setup Müşteri: H2a Danışmanlık Proje Tarihi: 01 September, 2019 Proje URL: www.h2adanismanlik.com H2A Danışmanlık Project Detayları H2A, parçası olduğum serbest bir platform. Kurumsal bir görünüm oluşturmak ve web ihtiyaçlarını karşılamak için tek sayfalık bir şablon uyguladım. </description>
+    </item>
+    <item>
+      <title>Hakkımda</title>
+      <link>http://localhost:1313/tr/hakkimda/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/tr/hakkimda/</guid>
+      <description>Merhaba, ben Alper! Serbest çalışan bir girişimciyim. Genellikle bir blog yazarı olarak içerik yazar ve üretirim. Web üzerinde birkaç sitem ve büyük kamera gruplarım var. Fotoğrafçılık ve kamera endüstrisi hakkında yazıyorum. Buna ek olarak web siteleri yapıyorum ya da şirketlerin her anlamda dijital dönüşüm ihtiyaçlarını karşılıyorum. Bir ön yüz geliştirici olarak frameworkler ile oynamayı, statik ve dinamik siteler oluşturmayı seviyorum. Geçmişte finans sektöründe çalıştım.&#xA;Sevdiğim şeyler (belirli bir sırayla değil) arasında Fujifilm kameralar, Thinkpad&amp;rsquo;ler, Bilim kurgu filmleri, Koşu, Jimnastik, Linux ve CLI uygulamalarıyla oynama yer alıyor.</description>
+    </item>
+    <item>
+      <title>İdi Lojistik</title>
+      <link>http://localhost:1313/tr/projects/idi-lojistik/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/tr/projects/idi-lojistik/</guid>
+      <description> Proje Bilgileri Kategori: Wordpress Theme Integration Müşteri: İdi Lojistik Proje Tarihi: 01 November, 2019 Proje URL: www.idi.com.tr İdi Lojistik Proje Detayları İdi Lojistik için sunucu kurulumu, Wordpress ve veritabanı kurulumlarını back-end tarafında geliştirdim. Ön yüz geliştirmenin bir parçası olarak, şirket ihtiyaçları için özel iletişim formu ve çeşitli eklentiler içeren bir tema uyguladım. </description>
+    </item>
+    <item>
+      <title>İletişim</title>
+      <link>http://localhost:1313/tr/iletisim/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/tr/iletisim/</guid>
+      <description>Haydi Birlikte Bir Şeyler Yapalım Eğer paylaşmak istediğiniz ilginç bir konu, proje veya girişim varsa benimle iletişime geçmekten çekinmeyin. Bir parçası olmamı istediğiniz bir projenin genel bir mesajını veya ayrıntılarını gönderin, mümkün olan en kısa sürede size geri döneceğim.&#xA;İletişime Geçin İşletmeniz için bir web sitesine ihtiyacınız varsa veya WordPress ve Hugo konusunda uzmanlaşmış bir serbest çalışan arıyorsanız, bana yazmaktan çekinmeyin.&#xA;Bir Mesaj Gönderin ✉️</description>
+    </item>
+  </channel>
+</rss>

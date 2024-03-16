@@ -1,6 +1,6 @@
 baseURL = "https://www.eorus.com/"
 #languageCode = "en-us"
-title = "Alper Orus"
+title = "Eorus"
 theme = "orus"
 
 #sectionPagesMenu = "main"
@@ -14,10 +14,10 @@ defaultcontentlanguageinsubdir = false
     posts = "/posts/:year/:month/:slug/"
     page = "/:slug/"
 
-canonifyURLs = true
-enableRobotsTXT = true
+#canonifyURLs = true
+#enableRobotsTXT = true
 # Define the number of posts per page
-paginate = 10
+#paginate = 10
 
 [readingTime]
 one = "One minute to read"
@@ -39,14 +39,11 @@ other = "{{.Count}} minutes to read"
   series ="series"
 
 [params]
-    author = "Alper Orus"
+    author = "Eorus"
     avatarurl = "images/alper.jpg"
     #gravatar = "john.doe@example.com"
-            info = "Front End Developer, Photographer, Blogger and a Passionate Linux Enthusiast"
-            hometext = "I’m a freelancer, entrepreneur. I usually write and generate content as a blogger about photography and camera industry. In addition, I build websites or meet the digital transformation needs of companies."
-            homehello = "Hi I'm"
-            homebut = "Learn more about what I do"
-            description = "Alper Orus Personal Website"
+
+            description = "Eorus Web Design and Digital Transformation"
             keywords = "blog, photography, design, alper, personal, orus, eorus, linux, wordpress, hugo, frontend"
             footercontent = "Fall in love with some activity, and do it! Nobody ever figures out what life is all about, and it doesn’t matter."
     dateformat = "2 January 2006"
@@ -79,6 +76,11 @@ other = "{{.Count}} minutes to read"
         languagename = "English"
         contentDir = "content/en"
         weight = 1
+        [languages.en.params]
+        info = "Modern solutions for Web Design"
+        hometext = "We offer up-to-date code structure, marketable corporate content and modern design solutions to grow your business. You are in the right place for your full-fledged digital transformation needs."
+        homehello = "Right Place for Digital Transformation"
+        homebut = "Learn more about what I do"
 
         [languages.en.menu]
 
@@ -121,19 +123,19 @@ other = "{{.Count}} minutes to read"
 
     [languages.tr]
         languagename = "Türkçe"
-        title = "Alper Orus"
-        hometext = "Serbest çalışan bir girişimciyim. Genellikle bir blog yazarı olarak fotoğrafçılık ve kamera endüstrisi hakkında yazıyorum. Buna ek olarak web siteleri yapıyorum ya da şirketlerin her anlamda dijital dönüşüm ihtiyaçlarını karşılıyorum."
-        homehello = "Merhaba Ben"
-        homebut = "Neler yaptığım hakında daha fazla bilgi edinin"
+        title = "Eorus"
         contentDir = "content/tr"
         weight = 2
 
         [languages.tr.params]
             author = "Alper Orus"
-            description = "Alper Orus Kişisel Web Sitesi"
+            description = "Eorus - Web tasarım ve Dijital Dönüşüm"
             keywords = "alper, orus, eorus, blog, tasarım, fotoğraf, geliştirme, wordpress, hugo, linux"
-            info = "Ön Yüz Geliştirici, Fotoğrafçı, Blog Yazarı ve Tutkulu Linux Meraklısı"
+            info = "Web Tasarımlarına Modern Dokunuşlar"
             footercontent = "Bir aktiviteye aşık olun ve yapın! Yaşamın ne olduğunu hiç kimse bilmiyor ve bunun hiçbir önemi yok. "
+            hometext = "İşletmenizi büyütmek için güncel kod yapısı, pazarlanabilir kurumsal içerik ve modern tasarım çözümleri sunuyoruz. Tam donanımlı dijital dönüşüm ihtiyacınız için doğru yerdesiniz."
+            homehello = "Dijital Dönüşüm için Doğru Adres"
+            homebut = "Neler yaptığım hakında daha fazla bilgi edinin"
 
         [languages.tr.menu]
 

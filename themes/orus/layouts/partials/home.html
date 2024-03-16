@@ -5,8 +5,8 @@
     {{ if and (isset .Site.Params "avatarurl") (not (isset .Site.Params "gravatar")) }}
       {{ with .Site.Params.avatarurl }}
       <picture>
-      <source srcset="/images/hero.webp" type="image/webp">
-      <source srcset="/images/hero.jpg" type="image/jpeg">
+      <source srcset="/images/hero.png" type="image/webp">
+      <source srcset="/images/hero.png" type="image/jpeg">
       <img class="img-responsive s-circle" src="{{ . | relURL }}" alt="Eorus Main Image">
       </picture>
       {{ end }}
@@ -17,7 +17,7 @@
          </div>
 			<div class="column col-8 col-md-8 col-sm-12 py-2 my-2">
     <h1>
-      <i class='fa fa-code'></i> {{ .Site.Params.homehello }}  <a class="navbar-brand" href="{{ .Site.BaseURL }}">{{ .Site.Title }}</a>
+      <i class='fa fa-code'></i><a class="navbar-brand" href="{{ .Site.BaseURL }}">{{ .Site.Title }}</a> - {{ .Site.Params.homehello }}
     </h1>
     <h2>{{ .Site.Params.info }}</h2>
     <p class="p-2 m-2">{{ .Site.Params.hometext }}</p>

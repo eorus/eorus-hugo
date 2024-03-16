@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Hugo on Eorus</title>
+    <link>http://localhost:1313/tags/hugo/</link>
+    <description>Recent content in Hugo on Eorus</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <lastBuildDate>Sat, 05 Dec 2020 18:18:06 +0300</lastBuildDate>
+    <atom:link href="http://localhost:1313/tags/hugo/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Hugo : A Brand New Approach to Static Websites</title>
+      <link>http://localhost:1313/posts/2020/12/hugo-a-brand-new-approach-to-static-websites/</link>
+      <pubDate>Sat, 05 Dec 2020 18:18:06 +0300</pubDate>
+      <guid>http://localhost:1313/posts/2020/12/hugo-a-brand-new-approach-to-static-websites/</guid>
+      <description>Static sites have been getting popular and improving lately for many reasons. The main reason for this is that the internet, which has started to become cumbersome, misses the simplicity of the early days.&#xA;Thanks to static sites, you do not have to deal with issues such as database, programming language version, required libraries and keep them updated. Think about it there is no PHP, MySQL / MSSQL, .NET, Python, Ruby.</description>
+    </item>
+    <item>
+      <title>Hello World</title>
+      <link>http://localhost:1313/posts/2020/11/hello-world/</link>
+      <pubDate>Thu, 05 Nov 2020 12:44:40 +0300</pubDate>
+      <guid>http://localhost:1313/posts/2020/11/hello-world/</guid>
+      <description>Hi and welcome to my new website and blog!&#xA;After a long time, I thought it would be good to open my own site and blog to collect my work and to share articles that I thought might be particularly useful from my notes.&#xA;I am thinking of writing articles about Linux, terminal applications, open source structures such as Wordpress and Hugo, which are among my interests I mentioned in the About section.</description>
+    </item>
+    <item>
+      <title>Creating a New Theme</title>
+      <link>http://localhost:1313/posts/2020/11/creating-a-new-theme/</link>
+      <pubDate>Wed, 04 Nov 2020 12:44:40 +0300</pubDate>
+      <guid>http://localhost:1313/posts/2020/11/creating-a-new-theme/</guid>
+      <description>Introduction This tutorial will show you how to create a simple theme in Hugo. I assume that you are familiar with HTML, the bash command line, and that you are comfortable using Markdown to format content. I&amp;rsquo;ll explain how Hugo uses templates and how you can organize your templates to create a theme. I won&amp;rsquo;t cover using CSS to style your theme.&#xA;We&amp;rsquo;ll start with creating a new site with a very basic template.</description>
+    </item>
+  </channel>
+</rss>
