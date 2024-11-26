@@ -4,7 +4,7 @@
     <title>Web on Eorus</title>
     <link>http://localhost:1313/categories/web/</link>
     <description>Recent content in Web on Eorus</description>
-    <generator>Hugo -- gohugo.io</generator>
+    <generator>Hugo</generator>
     <language>en</language>
     <lastBuildDate>Sat, 05 Dec 2020 18:18:06 +0300</lastBuildDate>
     <atom:link href="http://localhost:1313/categories/web/index.xml" rel="self" type="application/rss+xml" />
@@ -13,7 +13,7 @@
       <link>http://localhost:1313/posts/2020/12/hugo-a-brand-new-approach-to-static-websites/</link>
       <pubDate>Sat, 05 Dec 2020 18:18:06 +0300</pubDate>
       <guid>http://localhost:1313/posts/2020/12/hugo-a-brand-new-approach-to-static-websites/</guid>
-      <description>Static sites have been getting popular and improving lately for many reasons. The main reason for this is that the internet, which has started to become cumbersome, misses the simplicity of the early days.&#xA;Thanks to static sites, you do not have to deal with issues such as database, programming language version, required libraries and keep them updated. Think about it there is no PHP, MySQL / MSSQL, .NET, Python, Ruby.</description>
+      <description>&lt;p&gt;&lt;strong&gt;Static sites&lt;/strong&gt; have been getting popular and improving lately for many reasons. The main reason for this is that the internet, which has started to become cumbersome, misses the simplicity of the early days.&lt;/p&gt;&#xA;&lt;p&gt;Thanks to static sites, you do not have to deal with issues such as database, programming language version, required libraries and keep them updated. Think about it there is no &lt;em&gt;PHP, MySQL / MSSQL, .NET, Python, Ruby&lt;/em&gt;. Avoiding extreme solutions and keeping a project simple without databases, too many dependencies or specific server-side configurations makes it very easy to deploy and be robust against a myriad of potential vulnerabilities.&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>

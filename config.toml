@@ -5,7 +5,7 @@ theme = "orus"
 
 #sectionPagesMenu = "main"
 #disqusShortname = "xxxxxx"
-googleAnalytics = "UA-181067611-1"
+#googleAnalytics = "UA-181067611-1"
 languagecode = "en"
 defaultcontentlanguage = "en"
 defaultcontentlanguageinsubdir = false

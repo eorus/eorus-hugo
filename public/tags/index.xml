@@ -4,7 +4,7 @@
     <title>Tags on Eorus</title>
     <link>http://localhost:1313/tags/</link>
     <description>Recent content in Tags on Eorus</description>
-    <generator>Hugo -- gohugo.io</generator>
+    <generator>Hugo</generator>
     <language>en</language>
     <lastBuildDate>Sat, 05 Dec 2020 18:18:06 +0300</lastBuildDate>
     <atom:link href="http://localhost:1313/tags/index.xml" rel="self" type="application/rss+xml" />

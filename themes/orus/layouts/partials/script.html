@@ -1,6 +1,6 @@
 <!-- Template Main JS File -->
     {{ if not .Site.Params.hideColorSchemeToggle }}
-      {{ if .Site.IsServer }}
+      {{ if hugo.IsServer  }}
         {{ $script := resources.Get "js/main.js" }}
         <script src="{{ $script.RelPermalink }}"></script>
       {{ else }}
@@ -8,7 +8,7 @@
         <script src="{{ $script.RelPermalink }}"></script>
       {{ end }}
     {{ end }}
-      {{ if .Site.IsServer }}
+      {{ if hugo.IsServer  }}
         {{ $script := resources.Get "js/jquery.min.js" }}
         <script src="{{ $script.RelPermalink }}"></script>
       {{ else }}

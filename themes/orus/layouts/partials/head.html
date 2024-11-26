@@ -33,7 +33,7 @@
 
 
   <!-- Spectre Compile CSS Files -->
-{{ $style := resources.Get "style.scss" | resources.ToCSS (dict "outputStyle" "compressed") | fingerprint }}
+{{ $style := resources.Get "style.scss" | toCSS (dict "outputStyle" "compressed") | minify | fingerprint }}
 <link rel="stylesheet" href="{{ $style.Permalink }}">
 
 
@@ -41,6 +41,5 @@
     <link rel="canonical" href="{{ .Permalink }}">
     {{ end }}
 
-    {{ template "_internal/google_analytics.html" . }}
     {{ hugo.Generator }}
 </head>

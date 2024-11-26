@@ -4,7 +4,7 @@
     <title>Hugo on Eorus</title>
     <link>http://localhost:1313/tr/tags/hugo/</link>
     <description>Recent content in Hugo on Eorus</description>
-    <generator>Hugo -- gohugo.io</generator>
+    <generator>Hugo</generator>
     <language>tr</language>
     <lastBuildDate>Sat, 05 Dec 2020 18:18:06 +0300</lastBuildDate>
     <atom:link href="http://localhost:1313/tr/tags/hugo/index.xml" rel="self" type="application/rss+xml" />
@@ -13,14 +13,14 @@
       <link>http://localhost:1313/tr/posts/2020/12/hugo-statik-web-sitelerine-yepyeni-bir-yakla%C5%9F%C4%B1m/</link>
       <pubDate>Sat, 05 Dec 2020 18:18:06 +0300</pubDate>
       <guid>http://localhost:1313/tr/posts/2020/12/hugo-statik-web-sitelerine-yepyeni-bir-yakla%C5%9F%C4%B1m/</guid>
-      <description>Son zamanlarda statik siteler birçok nedenden dolayı popüler olmaya ve gelişmeye devam ediyor. Bunun başlıca sebebini hantallaşmaya başlamış internetin neredeyse ilk zamanlarındaki sadeliği özlemesi olarak yorumlayabiliriz.&#xA;Statik siteler sayesinde veritabanı, programlama dili versiyonu, gerekli kütüphaneler gibi konularla uğraşmak ve bunları güncel tutmak zorunda kalmazsınız. Düşünsenize PHP, MySQL / MSSQL, .NET, Python, Ruby yok. Aşırı çözümlerden kaçınmak ve bir projeyi veritabanları, çok fazla bağımlılık veya belirli sunucu tarafı yapılandırmaları olmadan basit tutmak, sayısız olası güvenlik açığına karşı dağıtımı ve sağlam olmayı çok kolaylaştırmaktadır.</description>
+      <description>&lt;p&gt;Son zamanlarda &lt;strong&gt;statik siteler&lt;/strong&gt; birçok nedenden dolayı popüler olmaya ve gelişmeye devam ediyor. Bunun başlıca sebebini hantallaşmaya başlamış internetin neredeyse ilk zamanlarındaki sadeliği özlemesi olarak yorumlayabiliriz.&lt;/p&gt;&#xA;&lt;p&gt;Statik siteler sayesinde veritabanı, programlama dili versiyonu, gerekli kütüphaneler gibi konularla uğraşmak ve bunları güncel tutmak zorunda kalmazsınız. Düşünsenize &lt;em&gt;PHP, MySQL / MSSQL, .NET, Python, Ruby&lt;/em&gt; yok. Aşırı çözümlerden kaçınmak ve bir projeyi veritabanları, çok fazla bağımlılık veya belirli sunucu tarafı yapılandırmaları olmadan basit tutmak,  sayısız olası güvenlik açığına karşı dağıtımı ve sağlam olmayı çok kolaylaştırmaktadır.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Merhaba Dünya</title>
       <link>http://localhost:1313/tr/posts/2020/11/merhaba-d%C3%BCnya/</link>
       <pubDate>Thu, 05 Nov 2020 12:44:40 +0300</pubDate>
       <guid>http://localhost:1313/tr/posts/2020/11/merhaba-d%C3%BCnya/</guid>
-      <description>Merhaba, yeni web siteme ve bloguma hoş geldiniz.&#xA;Uzun bir süre sonra, çalışmalarımı toplamak için kendi sitemi ve blogumu açmanın ve notlarımdan özellikle yararlı olabileceğini düşündüğüm makaleleri paylaşmanın iyi olacağını düşündüm.&#xA;Hakkında bölümünde bahsettiğim ilgi alanlarım arasında yer alan Linux, terminal uygulamaları, Wordpress ve Hugo gibi açık kaynak yapıları hakkında makaleler yazmayı düşünüyorum.&#xA;Şu anda ziyaret etmekte olduğunuz bu site, bir sunucu olmadan Hugo altyapısı kullanılarak Github tarafından sunulan statik sayfalardan oluşturulmuştur.</description>
+      <description>&lt;p&gt;Merhaba, yeni web siteme ve bloguma hoş geldiniz.&lt;/p&gt;&#xA;&lt;p&gt;Uzun bir süre sonra, çalışmalarımı toplamak için kendi sitemi ve blogumu açmanın ve notlarımdan özellikle yararlı olabileceğini düşündüğüm makaleleri paylaşmanın iyi olacağını düşündüm.&lt;/p&gt;&#xA;&lt;p&gt;&lt;a href=&#34;http://localhost:1313/tr/hakkimda&#34;&gt;Hakkında&lt;/a&gt; bölümünde bahsettiğim ilgi alanlarım arasında yer alan Linux, terminal uygulamaları, Wordpress ve Hugo gibi açık kaynak yapıları hakkında makaleler yazmayı düşünüyorum.&lt;/p&gt;&#xA;&lt;p&gt;Şu anda ziyaret etmekte olduğunuz bu site, bir sunucu olmadan Hugo altyapısı kullanılarak Github tarafından sunulan statik sayfalardan oluşturulmuştur. Alan adı bağlantısı ve SSL yetkilendirmesi Netlify tarafından sağlanarak dağıtımı yapılmakadır.&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>
