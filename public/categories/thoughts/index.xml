@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Thoughts on Eorus</title>
+    <link>http://localhost:1313/categories/thoughts/</link>
+    <description>Recent content in Thoughts on Eorus</description>
+    <generator>Hugo</generator>
+    <language>en</language>
+    <lastBuildDate>Wed, 08 Mar 2023 13:33:20 +0300</lastBuildDate>
+    <atom:link href="http://localhost:1313/categories/thoughts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Comfort Zone, Notifications and Small Appliances</title>
+      <link>http://localhost:1313/posts/2023/03/comfort-zone-notifications/</link>
+      <pubDate>Wed, 08 Mar 2023 13:33:20 +0300</pubDate>
+      <guid>http://localhost:1313/posts/2023/03/comfort-zone-notifications/</guid>
+      <description>&lt;p&gt;Actually, I thought the topic of this article was digital minimalism. But I made a small change in line with some of the new publications I&amp;rsquo;ve read recently. In fact, I brought this article forward.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>A Look at Fediverse and Decentralized Social Media Projects</title>
+      <link>http://localhost:1313/posts/2023/02/fediverse/</link>
+      <pubDate>Wed, 15 Feb 2023 13:26:56 +0300</pubDate>
+      <guid>http://localhost:1313/posts/2023/02/fediverse/</guid>
+      <description>&lt;p&gt;&lt;strong&gt;Fediverse&lt;/strong&gt; is a collection of consolidated servers used for social media, web publishing, file hosting and other modern web activities, but able to communicate with each other while hosted independently. In this way, users can create so-called identities on different servers. The name is derived from the words &amp;ldquo;&lt;em&gt;federation&lt;/em&gt;&amp;rdquo; and &amp;ldquo;&lt;em&gt;universe&lt;/em&gt;&amp;rdquo;.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>The Value of Doing Something Difficult</title>
+      <link>http://localhost:1313/posts/2023/02/doing-hard-things/</link>
+      <pubDate>Mon, 06 Feb 2023 12:00:51 +0300</pubDate>
+      <guid>http://localhost:1313/posts/2023/02/doing-hard-things/</guid>
+      <description>&lt;p&gt;Doing things the hard way can lead to better learning. Performing a new and challenging activity is a good way to develop and maintain cognitive skills.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

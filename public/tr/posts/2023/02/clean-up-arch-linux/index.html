@@ -1,0 +1,342 @@
+<!DOCTYPE html>
+<html><head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <meta http-equiv="Content-Language" content="tr">
+    <meta name="google-site-verification" content="Aml4IkLX3Owh-C0d29uUJ7PbSDNUIVmh2SMQG7khDo8">
+    <meta name="author" content="Alper Orus">
+    <meta name="description" content="Bu yazıda Arch Linux sistemini nasıl temizleyeceğiniz hakkında bilgiler vereceğim.">
+    <meta name="keywords" content="alper, orus, eorus, blog, tasarım, fotoğraf, geliştirme, wordpress, hugo, linux">
+    <meta name="robots" content="index, follow, archive">
+    <title>
+  Arch Linux Temizliği Nasıl Yapılır?  · Eorus
+</title>
+
+
+
+    
+<meta property="og:image" content="http://localhost:1313/images/linux.jpg" />
+    
+
+<meta property="og:url" content="http://localhost:1313/tr/posts/2023/02/clean-up-arch-linux/">
+  <meta property="og:site_name" content="Eorus">
+  <meta property="og:title" content="Arch Linux Temizliği Nasıl Yapılır? ">
+  <meta property="og:description" content="Bu yazıda Arch Linux sistemini nasıl temizleyeceğiniz hakkında bilgiler vereceğim.">
+  <meta property="og:locale" content="tr">
+  <meta property="og:type" content="article">
+    <meta property="article:section" content="posts">
+    <meta property="article:published_time" content="2023-02-08T17:20:56+03:00">
+    <meta property="article:modified_time" content="2023-02-08T17:20:56+03:00">
+    <meta property="article:tag" content="Linux">
+    <meta property="article:tag" content="Arch Linux">
+    <meta property="article:tag" content="Pacman">
+
+
+    <!--Favicon-->
+    <link rel="shortcut icon" href="http://localhost:1313/images/favicon.png" type="image/x-icon">
+    <link rel="icon" href="http://localhost:1313/images/favicon.png" type="image/x-icon">
+
+    
+    <link href="/images/favicon.png" rel="icon">
+
+
+  
+
+<link rel="stylesheet" href="http://localhost:1313/style.min.167e6e327f8a251e87095a5741668284f94063a3e871e5b902da16fb008eea78.css">
+
+
+    
+    <link rel="canonical" href="http://localhost:1313/tr/posts/2023/02/clean-up-arch-linux/">
+    
+
+    <meta name="generator" content="Hugo 0.150.0">
+</head>
+<body class="posts clean-up-arch-linux"><header id="header" class="navbar">
+<div class="container grid-xl">
+  <section class="navbar-section">
+    <div class="wrap">
+    <span class="decor"></span>
+    <div class="nav-menu">
+         
+        <ul class="primary">
+        
+          
+        <li class="nav-item">
+        <a class="nav-link menu-item no-decoration " href="/tr/">
+          <i class='fa fa-home'></i> 
+          Ana Sayfa
+        </a>
+         </li>
+          
+        <li class="nav-item">
+        <a class="nav-link menu-item no-decoration " href="/tr/hakkimda/">
+          <i class='fa fa-user'> </i>
+          Hakkimda
+        </a>
+         </li>
+          
+        <li class="nav-item">
+        <a class="nav-link menu-item no-decoration " href="/tr/projects/">
+          <i class='fa fa-file'> </i>
+          Projeler
+        </a>
+         </li>
+          
+        <li class="nav-item">
+        <a class="nav-link menu-item no-decoration " href="/tr/posts/">
+          <i class='fa fa-newspaper'></i>
+          Yazılar
+        </a>
+         </li>
+          
+        <li class="nav-item">
+        <a class="nav-link menu-item no-decoration " href="/tr/photos/">
+          <i class='fa fa-camera'></i>
+          Fotoğraflar
+        </a>
+         </li>
+          
+        <li class="nav-item">
+        <a class="nav-link menu-item no-decoration " href="/tr/iletisim/">
+          <i class='fa fa-envelope'> </i>
+          İletişim
+        </a>
+         </li>
+          
+        
+        
+          
+          
+          
+            
+<a href="http://localhost:1313/posts/2023/02/clean-up-arch-linux/" class="btn btn-secondary btn-sm dilbtn" role="button">English</a>
+
+            
+          
+        
+
+    
+        </ul>
+
+    <a id="dark-mode" class="btn-toggle">
+        <i class="fa fa-adjust fa-fw" aria-hidden="true"></i>
+    </a>
+
+    </div>
+
+  </section>
+
+</div>
+</header>
+<div class="yan-taraf hide-sm">
+				<span>I make things</span>
+				<strong>simple</strong>
+				<span class="line"></span>
+			</div>
+        <main id="main">
+<section class="container page blog grid-xl">
+  <div class="columns">
+       <article class="column col-10 col-sm-12 col-mx-auto card">
+  <div class="columns bg-secondary text-dark">
+          <div class="column col-4 col-sm-12 card-image">
+            
+        <figure class="figure img-entry ">
+           <div class="featured-media-inner section-inner medium">
+            <img width="1024" height="768" src="http://localhost:1313/images/linux.jpg"
+              class="attachment-post-thumbnail size-post-thumbnail wp-post-image s-rounded d-block img-responsive" alt="Arch Linux Temizliği Nasıl Yapılır? "
+              sizes="(max-width: 1100px) 100vw, 1100px">
+           </div>
+         </figure>
+          </div>
+         
+
+          <div class="column col-7 col-sm-12 card-header text-center m-2 p-2">
+          <div class="breadcrumb card-subtitle text-tiny">
+
+
+    
+  
+    
+  
+    
+  
+
+    <a href="http://localhost:1313/tr/">Home</a> /
+  
+
+    <a href="http://localhost:1313/tr/posts/">Posts</a> /
+  
+
+    Arch Linux Temizliği Nasıl Yapılır? 
+  
+</div>
+
+          <div class="card-title h5"><h1 class="entry-title">Arch Linux Temizliği Nasıl Yapılır? </h1></div>
+          <div class="card-subtitle"><div class="entry-meta metadata">
+
+
+
+<i class='fa fa-calendar'></i>
+<time datetime="2023-02-08">8 February 2023</time> <span class="separator">•</span>
+
+<i class='fa fa-user'></i> <a href="/">Alper Orus</a>  <span class="separator">•</span>
+  <i class="fa fa-folder-open" aria-hidden="true"></i>
+    <a href="/tr/categories/open-source/">Open Source</a> <span class="separator">•</span>
+<i class="fas fa-clock"></i>Reading Time : 3min
+ </div>
+</div>
+          </div>
+  </div>
+
+          <div class="card-body entry-content">
+            <p>İlgilendiğiniz şeylere düzenli olarak bakım uygulamanız onların daha sağlıklı ve sürdürülebilir olmasını sağlar. Bu yazıda <a href="https://archlinux.org">Arch Linux</a> sistemini nasıl temizleyeceğiniz hakkında bilgiler vereceğim.</p>
+<p><strong>Arch Linux</strong>, kurulumdan hemen sonra çok az disk alanı kaplamasına rağmen, zaman geçtikçe oldukça fazla büyür. Bu nedenle, bilgisayarınızda hiç boş alanınız kalmadıysa veya yalnızca Arch Linux sisteminizi temiz tutmak istiyorsanız, pacman deposundaki cache alanını temizlemek bunların başında gelmektedir.</p>
+<h2 id="arch-linux-önbellek-temizliği">Arch Linux Önbellek Temizliği</h2>
+<p>Arch Linux&rsquo;un paket yöneticisi olan Pacman, sisteme kurduğunuz tüm paketleri <code>/var/cache/pacman/pkg/</code> dizininde saklar ve eski veya kaldırılmış sürümleri otomatik olarak kaldırmaz. Arch&rsquo;ın bunu otomatik olarak yapmaması iyi bir şeydir, zira bu durum, Arch Linux arşivi yoluyla önceki sürümü almaya gerek kalmadan bir paketin alt sürüme geçirilmesine izin verir. Örneğin, aşağıdaki komutu kullanarak bu dizinden bir paketi kolayca kurabilirsiniz.</p>
+<pre><code>sudo pacman -U /var/cache/pacman/pkg/packagename</code></pre>
+<p>Ya da bir programı kaldırdığınızı varsayalım, yeni bir yükleme için karşıdan indirmenize gerek kalmadan kolayca yeniden yükleyebilirsiniz. Yavaş bir internet bağlantınız varsa, bu yararlı olabilir. Ancak, bu durum <code>/var/cache/pacman/pkg/</code> klasörünün zamanla büyümesini sağlar. Bu demek oluyor ki zaman zaman temizlik yapmanız gerekir. Manuel ve otomatik iki yöntemi de uygulayabilirsiniz.</p>
+<h3 id="önbellek-için-manuel-temizlik">Önbellek için Manuel Temizlik</h3>
+<p>Önbelleği manuel olarak temizleyebilirsiniz. Arch Linux rolling system olduğundan paketler devamlı güncellenmektedir. Yani eğer sistemdeki bir uygulama Arch sisteminiz için rüştünü ispatlamışsa önceki iki veya üç sürümün artık bir anlamı kalmamıştır. Özellikle depolama alanında yer açmak istiyorsanız seçeneklerden biri, şu anda kurulu olmayan önbelleğe alınmış paketleri kaldırmaktır:</p>
+<pre><code>
+$ sudo pacman -Sc
+
+Packages to keep:
+  All locally installed packages
+
+Cache directory: /var/cache/pacman/pkg/
+:: Do you want to remove all other packages from cache? [Y/n]
+removing old packages from cache...
+
+Database directory: /var/lib/pacman/
+:: Do you want to remove unused repositories? [Y/n]
+removing unused sync repositories...
+</code></pre>
+<p>Diğer seçenek, yüklü olanlar da dahil olmak üzere tüm paketi önbellekten kaldırmaktır:</p>
+<pre><code>
+$ sudo pacman -Scc
+
+Cache directory: /var/cache/pacman/pkg/
+:: Do you want to remove ALL files from cache? [y/N] y
+removing all files from cache...
+
+Database directory: /var/lib/pacman/
+:: Do you want to remove unused repositories? [Y/n] n
+</code>
+</pre>
+<p>Eğer bu paketlerden bazılarına kaldırdıktan sonra ihtiyacınız olursa, <a href="https://archive.archlinux.org/">Arch Paket Arşivi</a>&rsquo;ne gidip manuel olarak indirebilirsiniz.</p>
+<h3 id="önbellek-için-otomatik-temizlik">Önbellek için Otomatik Temizlik</h3>
+<p>Düzenli olarak <code>/var/cache/pacman/pkg/</code> dizinini temizlemenin bir başka yolu da, en son 3 sürüm hariç, kurulu ve kaldırılmış paketlerin önbelleğe alınmış tüm sürümlerini otomatik olarak silen bir komut dosyası kullanmaktan geçiyor. <code>paccache</code> isimli bu komut dosyasına <code>pacman-contrib</code> paketini kurarak ulaşabilirsiniz.</p>
+<pre><code>sudo pacman -S pacman-contrib</code></pre>
+<p>Diyelim bu komut dosyasını kullanarak ayda bir otomatik temizlik yapmak istiyorsunuz. Bunun için <a href="https://wiki.archlinux.org/index.php/Systemd/Timers#Timer_units">systemd zamanlayıcıyı</a> kullanabilirsiniz. Bunun için otomatik olarak tetiklencek şekilde /etc/systemd/system/ içinde yani sistem genelinde bir paccache.timer dosyası oluşturmanız gerekecek.</p>
+<p>Bir editor ile paccache.timer dosyasını oluşturmak için açarsınız:</p>
+<pre>sudo nano /etc/systemd/system/paccache.timer</pre>
+<p>Ardından, bu betiği aylık olarak çalıştırmak için aşağıdaki gibi bir içeriği yapıştırarak kullanabilirsiniz:</p>
+<pre><code>[Unit]
+Description=Clean old Arch pacman pkgs
+
+[Timer]
+OnCalendar=monthly
+Persistent=true
+
+[Install]
+WantedBy=multi-user.target</code></pre>
+<p>Bundan sonra oluşturduğunuz systemd servisini her sistem açılışında başlaması için etkinleştirin ve başlatın:</p>
+<pre><code>sudo systemctl paccache.timer'ı enable
+sudo systemctl paccache.timer'ı start</code></pre>
+<h2 id="kullanılmayan-artık-paketlerin-kaldırılması">Kullanılmayan Artık Paketlerin Kaldırılması</h2>
+<p>Aslında kullandığım Arch sistemlerinde devamlı elimin altında olan komut genelde bu oluyor. Arch Linux&rsquo;ta paketleri kurup kaldırdığınızda, kullanılmayan bazı yetim paketler sisteminizde kalabilir. Onları bulmak için şu komutu çalıştırabilirsiniz:</p>
+<pre><code>$ sudo pacman -Qtdq
+gn
+gperf
+jre-openjdk-headless
+libvisual
+lld
+ninja
+sdx
+ucl
+upx</code>
+</pre>
+<p>Gördüğünüz gibi yukarıdaki komutu çalıştırdığınızda hangi paketlerin yetim yani sistemde artık yüklü bir paketle ilişkisi kalmadığını öğrenebiliyorsunuz. Bunları kaldırmak için şu komutu ekleyerek devam edebilirsiniz:</p>
+<pre><code>sudo pacman -Rns $(pacman -Qtdq)</code></pre>
+<h2 id="home-dizininde-oluşan-önbelleği-temizleyin">Home Dizininde Oluşan Önbelleği Temizleyin</h2>
+<p>Son olarak home dizininde yapılabilecek temizliğe göz atalım. Özellikle Arch Linux sisteminizde <code>aur</code> üzerinden derleyerek paketler yüklüyorsanız bunlar genelde <code>/home/user/.cache</code> klasörünüzde saklanmaktadır. Hatta <code>yay</code> kullanıyorsanız her programın PKGCONFIG dosyalarıyla düzenli olarak oluşturulmuş yükleme paketleri burada yer almaktadır.</p>
+<p>Sistemimizi kullandıkça önbellek dolacak ve çok yer kaplayacaktır. Önbellek klasörü &ldquo;.cache&rdquo; boyutunu kontrol etmeyi şu komutla yapabilirsiniz:</p>
+<pre><code>
+$ sudo du -sh ~/.cache/
+22G     /home/eorus/.cache/
+</code>
+</pre>
+<p>Benim gibi uzun zamandır temizlemiyorsanız aşağıdaki gibi bir komutla tüm dosyaları kaldırabilirsiniz.</p>
+<pre><code>rm -rf ~/.cache/*</code></pre>
+<p>Hepsi bu kadar!</p>
+
+          </div>
+            
+
+
+          <div class="entry-footer clearfix">
+                <div class="float-left">
+ <ul class="tags">
+  <i class="fa fa-tags" aria-hidden="true"></i>
+    <a href="/tr/tags/linux/">Linux</a>
+      <span class="separator">•</span>
+    <a href="/tr/tags/arch-linux/">Arch Linux</a>
+      <span class="separator">•</span>
+    <a href="/tr/tags/pacman/">Pacman</a></ul>
+
+                </div>
+                 <div class="float-right share">
+
+                   <a href="http://twitter.com/share?url=http%3a%2f%2flocalhost%3a1313%2ftr%2fposts%2f2023%2f02%2fclean-up-arch-linux%2f" title="Share on Twitter"><i class="fab fa-twitter"></i></a>
+
+                  <a href="http://www.facebook.com/sharer.php?u=http%3a%2f%2flocalhost%3a1313%2ftr%2fposts%2f2023%2f02%2fclean-up-arch-linux%2f" title="Share on Facebook"><i class="fab fa-facebook"></i></a>
+
+                 </div>
+          </div>
+
+        </article>
+      </div>
+    </div>
+        <ul class="col-11 column col-mx-auto pagination">
+          <li class="page-item page-next text-center">
+          <i class="fa fa-arrow-left"></i><a href="http://localhost:1313/tr/posts/2023/02/gitconfig-aliases/">Global Gitconfig Dosyası Kurulum ve Kısayollar</a>
+          
+          </li>
+          <li class="page-item page-prev text-center">
+          <a href="http://localhost:1313/tr/posts/2023/02/my-jamstack-site-hugo-pico/">Jamstack Sitemi Hugo, Cloudflare Pages ve Git ile Nasıl Oluşturdum?</a><i class="fa fa-arrow-right"></i>
+        
+          </li>
+      </ul>
+
+</section>
+
+
+        </main>  <footer class="footer">
+    <section class="container-fluid">
+      <div class="row">
+        <div class="col-md-12 text-center">
+      
+        <p>Bir aktiviteye aşık olun ve yapın! Yaşamın ne olduğunu hiç kimse bilmiyor ve bunun hiçbir önemi yok. </p>
+      
+        </div>
+      </div>
+      <p class="footer text-center"><a href="http://creativecommons.org/licenses/by-sa/4.0/" target="_blank"> <i class="fab fa-creative-commons"></i><i class="fab fa-creative-commons-by"></i><i class="fab fa-creative-commons-sa"></i> <span class="separator">•</span></a> 2025 Crafted with <i class="fa fa-heart" aria-hidden=true></i> • by Alper Orus  & Powered by <a href="https://gohugo.io/">Hugo</a></p>
+    </section>
+  </footer>
+
+    
+      
+        
+        <script src="/js/main.js"></script>
+      
+    
+      
+        
+        <script src="/js/jquery.min.js"></script>
+      
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.4.0/jquery.fancybox.min.js"></script>
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.1/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+    </body>
+</html>

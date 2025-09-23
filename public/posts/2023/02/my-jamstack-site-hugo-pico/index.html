@@ -1,0 +1,329 @@
+<!DOCTYPE html>
+<html><head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <meta http-equiv="Content-Language" content="en">
+    <meta name="google-site-verification" content="Aml4IkLX3Owh-C0d29uUJ7PbSDNUIVmh2SMQG7khDo8">
+    <meta name="author" content="Eorus">
+    <meta name="description" content="In this article, I will talk about how I created this site with Hugo, Cloudflare Pages and Git and what I want to add over time, rather than the topics I want to mention.">
+    <meta name="keywords" content="blog, photography, design, alper, personal, orus, eorus, linux, wordpress, hugo, frontend">
+    <meta name="robots" content="index, follow, archive">
+    <title>
+  How I Build My Jamstack Site With Hugo, Cloudflare Pages and Git? · Eorus
+</title>
+
+
+
+    
+<meta property="og:image" content="http://localhost:1313/images/hugo.jpg" />
+    
+
+<meta property="og:url" content="http://localhost:1313/posts/2023/02/my-jamstack-site-hugo-pico/">
+  <meta property="og:site_name" content="Eorus">
+  <meta property="og:title" content="How I Build My Jamstack Site With Hugo, Cloudflare Pages and Git?">
+  <meta property="og:description" content="In this article, I will talk about how I created this site with Hugo, Cloudflare Pages and Git and what I want to add over time, rather than the topics I want to mention.">
+  <meta property="og:locale" content="en">
+  <meta property="og:type" content="article">
+    <meta property="article:section" content="posts">
+    <meta property="article:published_time" content="2023-02-07T18:03:22+03:00">
+    <meta property="article:modified_time" content="2023-02-07T18:03:22+03:00">
+    <meta property="article:tag" content="Hugo">
+    <meta property="article:tag" content="Website">
+    <meta property="article:tag" content="Pico">
+    <meta property="article:tag" content="Jamstack">
+    <meta property="article:tag" content="Blog">
+    <meta property="article:tag" content="Kiss">
+      <meta property="og:see_also" content="http://localhost:1313/posts/2020/11/creating-a-new-theme/">
+
+
+    <!--Favicon-->
+    <link rel="shortcut icon" href="http://localhost:1313/images/favicon.png" type="image/x-icon">
+    <link rel="icon" href="http://localhost:1313/images/favicon.png" type="image/x-icon">
+
+    
+    <link href="/images/favicon.png" rel="icon">
+
+
+  
+
+<link rel="stylesheet" href="http://localhost:1313/style.min.167e6e327f8a251e87095a5741668284f94063a3e871e5b902da16fb008eea78.css">
+
+
+    
+    <link rel="canonical" href="http://localhost:1313/posts/2023/02/my-jamstack-site-hugo-pico/">
+    
+
+    <meta name="generator" content="Hugo 0.150.0">
+</head>
+<body class="posts my-jamstack-site-hugo-pico"><header id="header" class="navbar">
+<div class="container grid-xl">
+  <section class="navbar-section">
+    <div class="wrap">
+    <span class="decor"></span>
+    <div class="nav-menu">
+         
+        <ul class="primary">
+        
+          
+        <li class="nav-item">
+        <a class="nav-link menu-item no-decoration " href="/">
+          <i class='fa fa-home'></i>
+          Home
+        </a>
+         </li>
+          
+        <li class="nav-item">
+        <a class="nav-link menu-item no-decoration " href="/about/">
+          <i class='fa fa-user'></i>
+          About
+        </a>
+         </li>
+          
+        <li class="nav-item">
+        <a class="nav-link menu-item no-decoration " href="/projects/">
+          <i class='fa fa-folder-open'></i>
+          Projects
+        </a>
+         </li>
+          
+        <li class="nav-item">
+        <a class="nav-link menu-item no-decoration " href="/posts/">
+          <i class='fa fa-newspaper'></i>
+          Blog
+        </a>
+         </li>
+          
+        <li class="nav-item">
+        <a class="nav-link menu-item no-decoration " href="/photos/">
+          <i class='fa fa-camera'></i>
+          Photos
+        </a>
+         </li>
+          
+        <li class="nav-item">
+        <a class="nav-link menu-item no-decoration " href="/contact/">
+          <i class='fa fa-envelope'></i>
+          Contact
+        </a>
+         </li>
+          
+        
+        
+          
+          
+          
+            
+<a href="http://localhost:1313/tr/posts/2023/02/my-jamstack-site-hugo-pico/" class="btn btn-secondary btn-sm dilbtn" role="button">Türkçe</a>
+
+            
+          
+        
+
+    
+        </ul>
+
+    <a id="dark-mode" class="btn-toggle">
+        <i class="fa fa-adjust fa-fw" aria-hidden="true"></i>
+    </a>
+
+    </div>
+
+  </section>
+
+</div>
+</header>
+<div class="yan-taraf hide-sm">
+				<span>I make things</span>
+				<strong>simple</strong>
+				<span class="line"></span>
+			</div>
+        <main id="main">
+<section class="container page blog grid-xl">
+  <div class="columns">
+       <article class="column col-10 col-sm-12 col-mx-auto card">
+  <div class="columns bg-secondary text-dark">
+          <div class="column col-4 col-sm-12 card-image">
+            
+        <figure class="figure img-entry ">
+           <div class="featured-media-inner section-inner medium">
+            <img width="1024" height="768" src="http://localhost:1313/images/hugo.jpg"
+              class="attachment-post-thumbnail size-post-thumbnail wp-post-image s-rounded d-block img-responsive" alt="How I Build My Jamstack Site With Hugo, Cloudflare Pages and Git?"
+              sizes="(max-width: 1100px) 100vw, 1100px">
+           </div>
+         </figure>
+          </div>
+         
+
+          <div class="column col-7 col-sm-12 card-header text-center m-2 p-2">
+          <div class="breadcrumb card-subtitle text-tiny">
+
+
+    
+  
+    
+  
+    
+  
+
+    <a href="http://localhost:1313/">Home</a> /
+  
+
+    <a href="http://localhost:1313/posts/">Posts</a> /
+  
+
+    How I Build My Jamstack Site With Hugo, Cloudflare Pages and Git?
+  
+</div>
+
+          <div class="card-title h5"><h1 class="entry-title">How I Build My Jamstack Site With Hugo, Cloudflare Pages and Git?</h1></div>
+          <div class="card-subtitle"><div class="entry-meta metadata">
+
+
+
+<i class='fa fa-calendar'></i>
+<time datetime="2023-02-07">7 February 2023</time> <span class="separator">•</span>
+
+<i class='fa fa-user'></i> <a href="/">Eorus</a>  <span class="separator">•</span>
+ <span class="separator">•</span>
+<i class="fas fa-clock"></i>Reading Time : 5min
+ </div>
+</div>
+          </div>
+  </div>
+
+          <div class="card-body entry-content">
+            <p>For a long time, I wanted to create a site to transfer my notes and share my experiences. Two important points were both adapting to the developing <a href="https://jamstack.org">Jamstack</a> trend and creating a completely self-produced theme that fits the <em>semantic html</em> structure.</p>
+<p>Thus, at the beginning of 2023, I have set up this site generated by <a href="https://gohugo.io/">Hugo</a>, design was built on <a href="https://picocss.com/">Pico CSS</a> and deployed from<a href="https://github.com/">Github</a> with <a href="https://pages.cloudflare.com">Cloudflare Pages</a> through the repository. In this article, I will talk about how I created this site with Hugo, Cloudflare Pages and Git and what I want to add over time, rather than the topics I want to mention.</p>
+<p>First of all, my first choice for this site was that it had a very fast and readable design. I knew I wanted a static Jamstack site for maximum performance. Also, the generator had to be static for quick and easy publishing performance. Thus, the structures I used in the <strong>generator, design and deployment</strong> phase were formed as follows.</p>
+<h2 id="static-site-generator">Static Site Generator</h2>
+<p>I have already used Hugo for different purposes for the last three or four years. I chose it because of the comfortable development environment it provides and of course the tremendous build speed. Hugo allows me to create my posts with multi language support in a simple way. I can also control the theme components for these two languages with a simple <code>i18n</code> file. Even though I consider the needs according to the projects and make my choices related, I will probably use Hugo for my new works unless there is a different situation.</p>
+<h2 id="design">Design</h2>
+<p>In terms of design, the framework I was going to use had to be flexible, allowing me to do everything from scratch for full customization. For this, I decided to use <strong>Pico CSS</strong> with dark mode automatically enabled, elegant styles for all native HTML elements, semantic structure and no classes. Since there are no use of classes in html codes such as <a href="https://tailwindcss.com">Tailwind CSS</a> even using <a href="https://getbootstrap.com">Bootstrap</a>, it has been a very suitable structure for thematic changes in the future because I have already assigned the ones myself. <a href="https://picocss.com/">Pico CSS</a> offers such nice simplicity that it allowed me to default and use Segoe UI without using any external or non-standard fonts.</p>
+<h2 id="deployment">Deployment</h2>
+<p>Frankly, the easiest part of the job was deployment. There are so many good alternatives on Jamstack platforms; <a href="https://www.netlify.com">Netlify</a>, <a href="https://www.vercel.com">Vercel</a> and Cloudflare Pages are some of the highlights. Although I have a few sites running on Netlify, I used Cloudflare Pages here for performance. Honestly, I think it&rsquo;s enough for a site like this.</p>
+<h2 id="workflow">Workflow</h2>
+<p>All the code of the site and the theme live in a repository on Github <em><a href="https://github.com/eorus/alperorus">see</a></em>. After I write my article with Markdown, when my editing is done and complete my checks, I send it to the repository with <code>git push</code>. As soon as Cloudflare Pages detects the change, it starts building the site and becomes live at <code>alperorus.pages.dev</code> in about 30 seconds. I have a CNAME record pointing to the pages environment that concurrently spawns in the domain <code>alperor.us</code>. In summary, in about a minute from the <code>git push</code> command, the site goes live over the domain name.</p>
+<p>All these are <strong>free</strong> with ssl setup, cache feature, minified css js support and limited analytics service. Hugo already automatically generates and serves my sitemap and RSS feeds.</p>
+<h2 id="performance">Performance</h2>
+<p>My purpose in the design section with the philosophy of simplicity and readability in general. I specifically removed font icons for performance and continued with svg icons. I&rsquo;ll probably find a nice set and go for a general icon change at the appropriate time to ensure integrity. After the introductory articles, the site&rsquo;s lighthouse performance score was 100%. At the same time, I was able to see 100% again on the SEO side.</p>
+<img src="/images/posts/lighthouse.png" alt="Lighthouse Score"><h3 id="512k-club">512K Club</h3>
+<p>I came across the 512K Club during my research  questioning the performance. <a href="https://512kb.club/">512KB Club</a> is a collection of performance-oriented web pages on the Internet. Your <strong>Total UNCompressed</strong> web resources must not exceed 512 KB for your website to qualify. The goal is to draw attention to today&rsquo;s bloated internet. To make a difference for this, the platform believes that every webmaster can contribute to this with a little bit of optimization. Simple inquiries include:</p>
+<ul>
+<li>Do you really need the extra piece of JavaScript?</li>
+<li>Does your WordPress site need a theme that adds lots of functionality you’re never going to use?</li>
+<li>Do you really need those large-size custom fonts?</li>
+<li>Are your images optimized for the web?</li>
+</ul>
+<p>Frankly, I also think that this is necessary for a sustainable internet. The 512K Club would like to see the <em>waterfall</em> tab in the GTMetrix scan of the site to see this metric. In the early stages of the design, I was able to reach the orange area, that is, under 250K. However, thanks to my recent edits and optimizations, I have reached <strong>uncompressed 87KB</strong> for the entire site. Even the compressed size is 18KB :) which is quite pleasing. The green zone badge at the bottom of the site is important for <a href="/en/posts/doing-hard-things">the value of doing hard work</a> and what it teaches.</p>
+<img src="/images/posts/gtmetrix.png" alt="GTMetrix Score"><h3 id="to-do-list">To do list</h3>
+<p>At the end of the article, I would like to make notes for a reminder. This will be a list of what I can add or change to the site from now on.</p>
+<ul>
+<li>Site-wide SVG icon set</li>
+<li>A new listing template for Taxonomy</li>
+<li>Hugo data cvs loop for citations</li>
+<li>Edit top spacing</li>
+<li>Replace Hugo partial files with cached</li>
+<li>Which commenting system?</li>
+</ul>
+<p>If you have any feedback about the theme that is missing or what can be done, you can do it from the <a href="/contact/">contact</a> page. Thanks for reading.</p>
+
+          </div>
+            
+
+<section class="see-also">
+  
+    
+    
+    
+      <h3>See also in Theme</h3>
+      <nav>
+        <ul>
+        
+        
+          
+        
+          
+            <li>
+              <a href="/posts/2020/11/creating-a-new-theme/">Creating a New Theme</a>
+            </li>
+          
+        
+        </ul>
+      </nav>
+    
+  
+</section>
+
+
+          <div class="entry-footer clearfix">
+                <div class="float-left">
+ <ul class="tags">
+  <i class="fa fa-tags" aria-hidden="true"></i>
+    <a href="/tags/hugo/">Hugo</a>
+      <span class="separator">•</span>
+    <a href="/tags/website/">Website</a>
+      <span class="separator">•</span>
+    <a href="/tags/pico/">Pico</a>
+      <span class="separator">•</span>
+    <a href="/tags/jamstack/">Jamstack</a>
+      <span class="separator">•</span>
+    <a href="/tags/blog/">Blog</a>
+      <span class="separator">•</span>
+    <a href="/tags/kiss/">Kiss</a></ul>
+
+                </div>
+                 <div class="float-right share">
+
+                   <a href="http://twitter.com/share?url=http%3a%2f%2flocalhost%3a1313%2fposts%2f2023%2f02%2fmy-jamstack-site-hugo-pico%2f" title="Share on Twitter"><i class="fab fa-twitter"></i></a>
+
+                  <a href="http://www.facebook.com/sharer.php?u=http%3a%2f%2flocalhost%3a1313%2fposts%2f2023%2f02%2fmy-jamstack-site-hugo-pico%2f" title="Share on Facebook"><i class="fab fa-facebook"></i></a>
+
+                 </div>
+          </div>
+
+        </article>
+      </div>
+    </div>
+        <ul class="col-11 column col-mx-auto pagination">
+          <li class="page-item page-next text-center">
+          <i class="fa fa-arrow-left"></i><a href="http://localhost:1313/posts/2023/02/clean-up-arch-linux/">How to Clean Arch Linux?</a>
+          
+          </li>
+          <li class="page-item page-prev text-center">
+          <a href="http://localhost:1313/posts/2023/02/doing-hard-things/">The Value of Doing Something Difficult</a><i class="fa fa-arrow-right"></i>
+        
+          </li>
+      </ul>
+
+</section>
+
+
+        </main>  <footer class="footer">
+    <section class="container-fluid">
+      <div class="row">
+        <div class="col-md-12 text-center">
+      
+        <p>Fall in love with some activity, and do it! Nobody ever figures out what life is all about, and it doesn’t matter.</p>
+      
+        </div>
+      </div>
+      <p class="footer text-center"><a href="http://creativecommons.org/licenses/by-sa/4.0/" target="_blank"> <i class="fab fa-creative-commons"></i><i class="fab fa-creative-commons-by"></i><i class="fab fa-creative-commons-sa"></i> <span class="separator">•</span></a> 2025 Crafted with <i class="fa fa-heart" aria-hidden=true></i> • by Alper Orus  & Powered by <a href="https://gohugo.io/">Hugo</a></p>
+    </section>
+  </footer>
+
+    
+      
+        
+        <script src="/js/main.js"></script>
+      
+    
+      
+        
+        <script src="/js/jquery.min.js"></script>
+      
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.4.0/jquery.fancybox.min.js"></script>
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.1/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+    </body>
+</html>

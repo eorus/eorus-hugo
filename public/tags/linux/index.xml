@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Linux on Eorus</title>
+    <link>http://localhost:1313/tags/linux/</link>
+    <description>Recent content in Linux on Eorus</description>
+    <generator>Hugo</generator>
+    <language>en</language>
+    <lastBuildDate>Tue, 14 Mar 2023 19:25:39 +0300</lastBuildDate>
+    <atom:link href="http://localhost:1313/tags/linux/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Archlinux Pacman Commands Guide</title>
+      <link>http://localhost:1313/posts/2023/03/archlinux-pacman-commands/</link>
+      <pubDate>Tue, 14 Mar 2023 19:25:39 +0300</pubDate>
+      <guid>http://localhost:1313/posts/2023/03/archlinux-pacman-commands/</guid>
+      <description>&lt;p&gt;If we think of &lt;a href=&#34;https://en.wikipedia.org/wiki/Linux&#34;&gt;Linux&lt;/a&gt; distributions as a person, package managers are the most important factors that determine the characters and structures of these people. With package managers you can install and enjoy the latest software on your desktop. &lt;strong&gt;Pacman&lt;/strong&gt;, which is a combination of the words &lt;strong&gt;&amp;ldquo;Package&amp;rdquo;&lt;/strong&gt; and &lt;strong&gt;&amp;ldquo;Manager&amp;rdquo;&lt;/strong&gt;, is the default package manager used on Arch-based systems.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>ThinkPad X220 in 2023 and the Programs I Use</title>
+      <link>http://localhost:1313/posts/2023/03/thinkpad-x220-programs-uses/</link>
+      <pubDate>Mon, 06 Mar 2023 17:39:28 +0300</pubDate>
+      <guid>http://localhost:1313/posts/2023/03/thinkpad-x220-programs-uses/</guid>
+      <description>&lt;p&gt;My personal machine is a 12 year old &lt;strong&gt;Lenovo ThinkPad X220&lt;/strong&gt; that I&amp;rsquo;m running Arch with &lt;a href=&#34;https://i3wm.org/&#34;&gt;i3wm&lt;/a&gt; or &lt;a href=&#34;https://github.com/baskerville/bspwm&#34;&gt;bspwm&lt;/a&gt;. I still use it fondly in 2023 and I want to continue using until it leaves me. I&amp;rsquo;m trying to make the X220 as efficient as I can with &lt;a href=&#34;https://archlinux.org/&#34;&gt;Arch Linux&lt;/a&gt; and WMs and related shortcuts. Especially in recent years, I have had a very comfortable and sustainable system by using command line applications. Presumably this is the same for anyone using any WM on Linux and customizing it and backing up the &lt;a href=&#34;https://github.com/eorus/dotfiles&#34;&gt;dotfiles&lt;/a&gt; configuration files, but for a machine with an i5-2450M processor, today&amp;rsquo;s websites and traditional programs it can be quite challenging.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Easy Ways to Read Linux Man Pages</title>
+      <link>http://localhost:1313/posts/2023/03/linux-man-pages/</link>
+      <pubDate>Fri, 03 Mar 2023 17:24:23 +0300</pubDate>
+      <guid>http://localhost:1313/posts/2023/03/linux-man-pages/</guid>
+      <description>&lt;p&gt;One of the most important skills you can learn as a Linux user is how to use the man pages. In other words, mastering the man page is an important key to being comfortable and efficient when using the Linux system. Of course, very few achieve this, and we often turn to internet searches rather than manual pages.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Why I use only GNU/Linux and Free/Libre Open-Source Software?</title>
+      <link>http://localhost:1313/posts/2023/02/why-gnu-linux/</link>
+      <pubDate>Sat, 18 Feb 2023 16:23:54 +0300</pubDate>
+      <guid>http://localhost:1313/posts/2023/02/why-gnu-linux/</guid>
+      <description>&lt;p&gt;First of all, I think it would be right to start by noting the conceptual difference between &amp;ldquo;Free Software&amp;rdquo; and &amp;ldquo;Open Source&amp;rdquo;. So let&amp;rsquo;s leave this &lt;a href=&#34;https://www.gnu.org/philosophy/open-source-misses-the-point.en.html&#34;&gt;link&lt;/a&gt; here.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Global Gitconfig File Setup and Aliases</title>
+      <link>http://localhost:1313/posts/2023/02/gitconfig-aliases/</link>
+      <pubDate>Fri, 10 Feb 2023 14:55:49 +0300</pubDate>
+      <guid>http://localhost:1313/posts/2023/02/gitconfig-aliases/</guid>
+      <description>&lt;p&gt;&lt;a href=&#34;https://git-scm.com/&#34;&gt;Git&lt;/a&gt; is a version control system designed and developed by &lt;a href=&#34;https://en.wikipedia.org/wiki/Linus_Torvalds&#34;&gt;Linus Torvalds&lt;/a&gt;, the creator of the Linux kernel. Git helps developers keep track of the status of their code and allows them to collaborate on a codebase. Thanks to Git, you can easily return to the copies you have made when you need, by making copies of the step-by-step versions of the projects.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>How to Clean Arch Linux?</title>
+      <link>http://localhost:1313/posts/2023/02/clean-up-arch-linux/</link>
+      <pubDate>Wed, 08 Feb 2023 17:20:56 +0300</pubDate>
+      <guid>http://localhost:1313/posts/2023/02/clean-up-arch-linux/</guid>
+      <description>&lt;p&gt;Regularly caring for the things you care about keeps them healthier and more sustainable. In this article, I will provide information on how to clean the &lt;a href=&#34;https://archlinux.org&#34;&gt;Arch Linux&lt;/a&gt; system.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

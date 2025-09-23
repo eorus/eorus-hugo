@@ -13,7 +13,7 @@
       <link>http://localhost:1313/tr/posts/2020/12/hugo-statik-web-sitelerine-yepyeni-bir-yakla%C5%9F%C4%B1m/</link>
       <pubDate>Sat, 05 Dec 2020 18:18:06 +0300</pubDate>
       <guid>http://localhost:1313/tr/posts/2020/12/hugo-statik-web-sitelerine-yepyeni-bir-yakla%C5%9F%C4%B1m/</guid>
-      <description>&lt;p&gt;Son zamanlarda &lt;strong&gt;statik siteler&lt;/strong&gt; birçok nedenden dolayı popüler olmaya ve gelişmeye devam ediyor. Bunun başlıca sebebini hantallaşmaya başlamış internetin neredeyse ilk zamanlarındaki sadeliği özlemesi olarak yorumlayabiliriz.&lt;/p&gt;&#xA;&lt;p&gt;Statik siteler sayesinde veritabanı, programlama dili versiyonu, gerekli kütüphaneler gibi konularla uğraşmak ve bunları güncel tutmak zorunda kalmazsınız. Düşünsenize &lt;em&gt;PHP, MySQL / MSSQL, .NET, Python, Ruby&lt;/em&gt; yok. Aşırı çözümlerden kaçınmak ve bir projeyi veritabanları, çok fazla bağımlılık veya belirli sunucu tarafı yapılandırmaları olmadan basit tutmak,  sayısız olası güvenlik açığına karşı dağıtımı ve sağlam olmayı çok kolaylaştırmaktadır.&lt;/p&gt;</description>
+      <description>&lt;p&gt;Son zamanlarda &lt;strong&gt;statik siteler&lt;/strong&gt; birçok nedenden dolayı popüler olmaya ve gelişmeye devam ediyor. Bunun başlıca sebebini hantallaşmaya başlamış internetin neredeyse ilk zamanlarındaki sadeliği özlemesi olarak yorumlayabiliriz.&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>

@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Pacman on Eorus</title>
+    <link>http://localhost:1313/tr/tags/pacman/</link>
+    <description>Recent content in Pacman on Eorus</description>
+    <generator>Hugo</generator>
+    <language>tr</language>
+    <lastBuildDate>Tue, 14 Mar 2023 19:25:39 +0300</lastBuildDate>
+    <atom:link href="http://localhost:1313/tr/tags/pacman/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Archlinux Pacman Komutları Rehberi</title>
+      <link>http://localhost:1313/tr/posts/2023/03/archlinux-pacman-commands/</link>
+      <pubDate>Tue, 14 Mar 2023 19:25:39 +0300</pubDate>
+      <guid>http://localhost:1313/tr/posts/2023/03/archlinux-pacman-commands/</guid>
+      <description>&lt;p&gt;&lt;a href=&#34;https://tr.wikipedia.org/wiki/Linux&#34;&gt;Linux&lt;/a&gt; dağıtımlarını bir kişi gibi düşünürsek paket yöneticileri de bu kişilerin karakterlerini, yapılarını belirleyen en önemli unsurlardır. Paket yöneticileri ile masaüstünüzde en son yazılımı yükleyebilir ve keyfini çıkarabilirsiniz. &lt;strong&gt;&amp;ldquo;Paket&amp;rdquo;&lt;/strong&gt; ve &lt;strong&gt;&amp;ldquo;Yönetici&amp;rdquo;&lt;/strong&gt; kelimelerinin birleşiminden oluşan &lt;strong&gt;Pacman&lt;/strong&gt;, Arch tabanlı sistemlerde kullanılan varsayılan paket yöneticisidir.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Arch Linux Temizliği Nasıl Yapılır? </title>
+      <link>http://localhost:1313/tr/posts/2023/02/clean-up-arch-linux/</link>
+      <pubDate>Wed, 08 Feb 2023 17:20:56 +0300</pubDate>
+      <guid>http://localhost:1313/tr/posts/2023/02/clean-up-arch-linux/</guid>
+      <description>&lt;p&gt;İlgilendiğiniz şeylere düzenli olarak bakım uygulamanız onların daha sağlıklı ve sürdürülebilir olmasını sağlar. Bu yazıda &lt;a href=&#34;https://archlinux.org&#34;&gt;Arch Linux&lt;/a&gt; sistemini nasıl temizleyeceğiniz hakkında bilgiler vereceğim.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

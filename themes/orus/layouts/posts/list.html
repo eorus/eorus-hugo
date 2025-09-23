@@ -51,9 +51,13 @@
 {{ end }}
 
 </div><!-- /.columns-->
-                        <ul class="pagination">
-{{ template "_internal/pagination.html" . }}
-                        </ul>
+
+
+<ul class="pagination">
+    {{ partial "pagination.html" . }}
+</ul>
+
+
         </div><!-- /.container -->
 </section>
 {{ end }}

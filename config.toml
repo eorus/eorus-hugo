@@ -2,6 +2,7 @@ baseURL = "https://www.eorus.com/"
 #languageCode = "en-us"
 title = "Eorus"
 theme = "orus"
+summaryLength = 15
 
 #sectionPagesMenu = "main"
 #disqusShortname = "xxxxxx"
@@ -16,8 +17,7 @@ defaultcontentlanguageinsubdir = false
 
 #canonifyURLs = true
 #enableRobotsTXT = true
-# Define the number of posts per page
-#paginate = 10
+
 
 [readingTime]
 one = "One minute to read"
@@ -94,8 +94,9 @@ other = "{{.Count}} minutes to read"
             [[languages.en.menu.main]]
             name = "About"
             pre = "<i class='fa fa-user'></i>"
-            weight = 2
-            url = "about/"
+weight = 2
+identifier = "about"
+pageRef = "about"
 
             [[languages.en.menu.main]]
             name = "Projects"
@@ -176,6 +177,13 @@ other = "{{.Count}} minutes to read"
             weight = 6
             url = "iletisim/"
 
-  [markup.goldmark.renderer]
-  unsafe = true # Allow HTML in md files
+[markup.goldmark.renderer]
+unsafe = true # Allow HTML in md files
 disableToc = "false"
+
+[markup]
+  [markup.goldmark]
+    [markup.goldmark.parser]
+      wrapStandAloneImageWithinParagraph = false
+      [markup.goldmark.parser.attribute]
+        block = true

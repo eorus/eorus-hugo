@@ -1,0 +1,335 @@
+<!DOCTYPE html>
+<html><head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <meta http-equiv="Content-Language" content="tr">
+    <meta name="google-site-verification" content="Aml4IkLX3Owh-C0d29uUJ7PbSDNUIVmh2SMQG7khDo8">
+    <meta name="author" content="Alper Orus">
+    <meta name="description" content="Pacman&#39;in çalışma şekline, sunduğu seçeneklere ve Arch Linux&#39;ta paketleri yönetmek için nasıl kullanabileceğimize bir göz atalım.">
+    <meta name="keywords" content="alper, orus, eorus, blog, tasarım, fotoğraf, geliştirme, wordpress, hugo, linux">
+    <meta name="robots" content="index, follow, archive">
+    <title>
+  Archlinux Pacman Komutları Rehberi · Eorus
+</title>
+
+
+
+    
+<meta property="og:image" content="http://localhost:1313/images/linux.jpg" />
+    
+
+<meta property="og:url" content="http://localhost:1313/tr/posts/2023/03/archlinux-pacman-commands/">
+  <meta property="og:site_name" content="Eorus">
+  <meta property="og:title" content="Archlinux Pacman Komutları Rehberi">
+  <meta property="og:description" content="Pacman&#39;in çalışma şekline, sunduğu seçeneklere ve Arch Linux&#39;ta paketleri yönetmek için nasıl kullanabileceğimize bir göz atalım.">
+  <meta property="og:locale" content="tr">
+  <meta property="og:type" content="article">
+    <meta property="article:section" content="posts">
+    <meta property="article:published_time" content="2023-03-14T19:25:39+03:00">
+    <meta property="article:modified_time" content="2023-03-14T19:25:39+03:00">
+    <meta property="article:tag" content="Linux">
+    <meta property="article:tag" content="Arch Linux">
+    <meta property="article:tag" content="Pacman">
+
+
+    <!--Favicon-->
+    <link rel="shortcut icon" href="http://localhost:1313/images/favicon.png" type="image/x-icon">
+    <link rel="icon" href="http://localhost:1313/images/favicon.png" type="image/x-icon">
+
+    
+    <link href="/images/favicon.png" rel="icon">
+
+
+  
+
+<link rel="stylesheet" href="http://localhost:1313/style.min.167e6e327f8a251e87095a5741668284f94063a3e871e5b902da16fb008eea78.css">
+
+
+    
+    <link rel="canonical" href="http://localhost:1313/tr/posts/2023/03/archlinux-pacman-commands/">
+    
+
+    <meta name="generator" content="Hugo 0.150.0">
+</head>
+<body class="posts archlinux-pacman-commands-tips"><header id="header" class="navbar">
+<div class="container grid-xl">
+  <section class="navbar-section">
+    <div class="wrap">
+    <span class="decor"></span>
+    <div class="nav-menu">
+         
+        <ul class="primary">
+        
+          
+        <li class="nav-item">
+        <a class="nav-link menu-item no-decoration " href="/tr/">
+          <i class='fa fa-home'></i> 
+          Ana Sayfa
+        </a>
+         </li>
+          
+        <li class="nav-item">
+        <a class="nav-link menu-item no-decoration " href="/tr/hakkimda/">
+          <i class='fa fa-user'> </i>
+          Hakkimda
+        </a>
+         </li>
+          
+        <li class="nav-item">
+        <a class="nav-link menu-item no-decoration " href="/tr/projects/">
+          <i class='fa fa-file'> </i>
+          Projeler
+        </a>
+         </li>
+          
+        <li class="nav-item">
+        <a class="nav-link menu-item no-decoration " href="/tr/posts/">
+          <i class='fa fa-newspaper'></i>
+          Yazılar
+        </a>
+         </li>
+          
+        <li class="nav-item">
+        <a class="nav-link menu-item no-decoration " href="/tr/photos/">
+          <i class='fa fa-camera'></i>
+          Fotoğraflar
+        </a>
+         </li>
+          
+        <li class="nav-item">
+        <a class="nav-link menu-item no-decoration " href="/tr/iletisim/">
+          <i class='fa fa-envelope'> </i>
+          İletişim
+        </a>
+         </li>
+          
+        
+        
+          
+          
+          
+            
+<a href="http://localhost:1313/posts/2023/03/archlinux-pacman-commands/" class="btn btn-secondary btn-sm dilbtn" role="button">English</a>
+
+            
+          
+        
+
+    
+        </ul>
+
+    <a id="dark-mode" class="btn-toggle">
+        <i class="fa fa-adjust fa-fw" aria-hidden="true"></i>
+    </a>
+
+    </div>
+
+  </section>
+
+</div>
+</header>
+<div class="yan-taraf hide-sm">
+				<span>I make things</span>
+				<strong>simple</strong>
+				<span class="line"></span>
+			</div>
+        <main id="main">
+<section class="container page blog grid-xl">
+  <div class="columns">
+       <article class="column col-10 col-sm-12 col-mx-auto card">
+  <div class="columns bg-secondary text-dark">
+          <div class="column col-4 col-sm-12 card-image">
+            
+        <figure class="figure img-entry ">
+           <div class="featured-media-inner section-inner medium">
+            <img width="1024" height="768" src="http://localhost:1313/images/linux.jpg"
+              class="attachment-post-thumbnail size-post-thumbnail wp-post-image s-rounded d-block img-responsive" alt="Archlinux Pacman Komutları Rehberi"
+              sizes="(max-width: 1100px) 100vw, 1100px">
+           </div>
+         </figure>
+          </div>
+         
+
+          <div class="column col-7 col-sm-12 card-header text-center m-2 p-2">
+          <div class="breadcrumb card-subtitle text-tiny">
+
+
+    
+  
+    
+  
+    
+  
+
+    <a href="http://localhost:1313/tr/">Home</a> /
+  
+
+    <a href="http://localhost:1313/tr/posts/">Posts</a> /
+  
+
+    Archlinux Pacman Komutları Rehberi
+  
+</div>
+
+          <div class="card-title h5"><h1 class="entry-title">Archlinux Pacman Komutları Rehberi</h1></div>
+          <div class="card-subtitle"><div class="entry-meta metadata">
+
+
+
+<i class='fa fa-calendar'></i>
+<time datetime="2023-03-14">14 March 2023</time> <span class="separator">•</span>
+
+<i class='fa fa-user'></i> <a href="/">Alper Orus</a>  <span class="separator">•</span>
+  <i class="fa fa-folder-open" aria-hidden="true"></i>
+    <a href="/tr/categories/open-source/">Open Source</a> <span class="separator">•</span>
+<i class="fas fa-clock"></i>Reading Time : 4min
+ </div>
+</div>
+          </div>
+  </div>
+
+          <div class="card-body entry-content">
+            <p><a href="https://tr.wikipedia.org/wiki/Linux">Linux</a> dağıtımlarını bir kişi gibi düşünürsek paket yöneticileri de bu kişilerin karakterlerini, yapılarını belirleyen en önemli unsurlardır. Paket yöneticileri ile masaüstünüzde en son yazılımı yükleyebilir ve keyfini çıkarabilirsiniz. <strong>&ldquo;Paket&rdquo;</strong> ve <strong>&ldquo;Yönetici&rdquo;</strong> kelimelerinin birleşiminden oluşan <strong>Pacman</strong>, Arch tabanlı sistemlerde kullanılan varsayılan paket yöneticisidir.</p>
+<p>Pacman&rsquo;i öğrenmek diğer Linux dağıtımlarının paketyöneticilerine kıyasla oldukça kolay olsa da, diğer dağıtım ailelerinden kullanıcılar, Pacman&rsquo;ın kısa, tek karakterli argümanlarına uyum sağlamakta zorlanabiliyorlar. Ben de yıllardır <a href="https://wiki.archlinux.org/">Arch Wiki</a> ve çeşitli kaynaklardan edindiğim notlarımı toparlamaya karar verdim. Pacman&rsquo;in çalışma şekline, sunduğu seçeneklere ve <a href="https://archlinux.org/">Arch Linux</a>&rsquo;ta paketleri yönetmek için nasıl kullanabileceğimize bir göz atalım.</p>
+<h2 id="pacman-komutları-kılavuzu">Pacman Komutları Kılavuzu</h2>
+<p>Diğer Linux komutları gibi, Pacman da önceden tanımlanmış bazı bayraklar ve bağımsız değişkenlerle birlikte temel bir komut sözdizimini izler:</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>sudo pacman -options paket_adı</span></span></code></pre></div>
+<p>Burada -options (seçenekler), farklı işlevleri çağırmak için kullandığınız bayraklardır ve <code>paket_adı</code>, üzerinde işlem yapmak istediğiniz paket(ler)in adıdır. Pacman&rsquo;da seçenekler beş ana kategoride toplanır ve komut olarak baş harfleri kullanılarak yapılacak işlemin ana başlığı belirlenir.</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>-Q : <span style="color:#f92672">(</span>Query<span style="color:#f92672">)</span> pacman veritabanını sorgula
+</span></span><span style="display:flex;"><span>-R : <span style="color:#f92672">(</span>Remove<span style="color:#f92672">)</span> sistemden paket kaldır
+</span></span><span style="display:flex;"><span>-S : <span style="color:#f92672">(</span>Sync<span style="color:#f92672">)</span> paketleri senkronize et
+</span></span><span style="display:flex;"><span>-U : <span style="color:#f92672">(</span>Upgrade<span style="color:#f92672">)</span> Sistemdeki paketleri güncelle
+</span></span><span style="display:flex;"><span>-F : <span style="color:#f92672">(</span>File<span style="color:#f92672">)</span> sistemde kurulu dosyaların içinde sorgu çalıştır</span></span></code></pre></div>
+<p>Buradan itibaren her seçenek kategorisinin alt komutlarını açıklamalarıyla aktarıyorum.</p>
+<h3 id="query--q-işlemleri-için-kullanılabilecek-anahtarlar">Query (-Q) İşlemleri için Kullanılabilecek Anahtarlar</h3>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>-i : Kurulu paket ile ilgili bilgileri göster. Örneğin &lt;code&gt;pacman -Qi firefox&lt;/code&gt;
+</span></span><span style="display:flex;"><span>-k : Bir pakedin sahip olduğu dosyaları kontrol et. Ayrıntılı kontrol için -kk kullanılabilir.
+</span></span><span style="display:flex;"><span>-l : Bir paketin sisteme kurduğu dosyaları göster
+</span></span><span style="display:flex;"><span>-o : Bir dosyanın sahibi olan paketi ara
+</span></span><span style="display:flex;"><span>-s : Kurulu paketlerin arasında bir paket ismi ara
+</span></span><span style="display:flex;"><span>-e : explicit : sistemin kurduğu değil, kullanıcı tarafından kurulan programları listele.
+</span></span><span style="display:flex;"><span>-q : Quiet. sürüm no gibi ek bilgileri gösterme, sadece paket isimlerini listele.
+</span></span><span style="display:flex;"><span>-n : Sadece ana repolardan kurulan programları listele.
+</span></span><span style="display:flex;"><span>-m : AURdan kurulan programları listele.
+</span></span><span style="display:flex;"><span>-d : dependencies. Başka bir programın alt bağımlığı olarak kurulan programları listele.
+</span></span><span style="display:flex;"><span>-t : unrequired. gereksinim duyulmayan paketleri listele.
+</span></span><span style="display:flex;"><span>-dt: genelde ihtiyaç duyulmayan paketleri listelemek için ikisi beraber kullanılır.</span></span></code></pre></div>
+<p>&ldquo;Firefox&rdquo; kurulu mu değil mi öğrenmek için:</p>
+<p><code>pacman -Qs firefox</code></p>
+<h3 id="remove--r-işlemleri-için-kullanılabilecek-anahtarlar">Remove (-R) İşlemleri için Kullanılabilecek Anahtarlar</h3>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>-s : recursive. bir paketi ve o paketle gelen tüm alt bağımlılıkları kaldırmak için
+</span></span><span style="display:flex;"><span>-u : unneeded. gereksiz paketleri de kaldır
+</span></span><span style="display:flex;"><span>-n : paketle beraber gelen sistem yapılandırma dosyalarını da sil</span></span></code></pre></div>
+<p>Dolayısıyla &ldquo;Firefox&rdquo; ile gelen herşeyi kaldırmak için <code>pacman -Rnu firefox</code> gibi bir komut kullanılabilir.</p>
+<h3 id="sync--s-işlemleri-için-kullanılabilecek-anahtarlar">Sync (-S) İşlemleri için Kullanılabilecek Anahtarlar</h3>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>-c : clean, yerel belleği temizle
+</span></span><span style="display:flex;"><span>-i : Kurulu olmayan paket ile ilgili bilgileri göster
+</span></span><span style="display:flex;"><span>-l : list
+</span></span><span style="display:flex;"><span>-q : quiet. Ekstra ayrıntılara <span style="color:#f92672">(</span>sürüm no, repo adı vs<span style="color:#f92672">)</span> girmeden sadece isimleri listele.
+</span></span><span style="display:flex;"><span>-s : search. depolarda arama yap.</span></span></code></pre></div>
+<p>Depolarda chromium aramak için <code>pacman -Ss chromium</code></p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>-y : refresh. depolardan paket listesini tekrar indir <span style="color:#f92672">(</span>-Syy : liste yeniyse bile tekrar indir<span style="color:#f92672">)</span>
+</span></span><span style="display:flex;"><span>-u : upgrade. Tüm kurulu paketleri güncelle <span style="color:#f92672">(</span>-Suu: depodaki paket kurulu sürümden eskiyse bile güncelle<span style="color:#f92672">)</span>
+</span></span><span style="display:flex;"><span>-w : indir, ama kurma</span></span></code></pre></div>
+<h3 id="file-system--f-işlemleri-için-kullanılabilecek-anahtarlar">File system (-F) İşlemleri için Kullanılabilecek Anahtarlar</h3>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>-s : search. Diskte kurulu bir dosyayı hangi paket kurmuş
+</span></span><span style="display:flex;"><span>-yy : force update. Henüz yeni güncellenmiş olsa da yine de paket listesini güncelle.
+</span></span><span style="display:flex;"><span>pacman -Fy
+</span></span><span style="display:flex;"><span>pacman -Fs libmozgtk.so
+</span></span><span style="display:flex;"><span>pacman -Fos /usr/lib/firefox/libmozgtk.so</span></span></code></pre></div>
+<p>Yukarıdaki ilk adımda pacman&rsquo;in dosya/paket listesini güncellemesini, ikinci adımda libmozgtk.so dosyasının hangi paketlerde bulunabileceğini, üçüncü adımda ise tam yolu verilen dosyanın hangi paketlerde bulunabileceğini sorguluyoruz.</p>
+<h2 id="pacman-komutlarına-hızlı-bakış">Pacman Komutlarına Hızlı Bakış</h2>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>pacman -Syy // yerel paket verisini sunucularla eşleştir <span style="color:#f92672">(</span>sync<span style="color:#f92672">)</span>
+</span></span><span style="display:flex;"><span>pacman -Syu // tüm paketleri güncelle
+</span></span><span style="display:flex;"><span>pacman -Ss firefox // depolarda adında firefox geçen paket ara
+</span></span><span style="display:flex;"><span>pacman -Ssq ^firefox$ // tam adı firefox olan paketi ara, ayrıntısız
+</span></span><span style="display:flex;"><span>pacman -S firefox // firefox depolardan kur
+</span></span><span style="display:flex;"><span>pacman -S extra/firefox // belli bir depodan kur
+</span></span><span style="display:flex;"><span>pacman -U /home/user/package // sistemdeki yerel dosyayı kur
+</span></span><span style="display:flex;"><span>pacman -U https://url.adresi/ // bir URL<span style="color:#960050;background-color:#1e0010">&#39;</span>den dosya kur
+</span></span><span style="display:flex;"><span>pacman -S gnome // gnome paket grubunu kur
+</span></span><span style="display:flex;"><span>pacman -R firefox // bir paket kaldır
+</span></span><span style="display:flex;"><span>pacman -Rs apache // bir paket ve tüm alt bağımlılıklarını kaldır
+</span></span><span style="display:flex;"><span>pacman -Rns <span style="color:#66d9ef">$(</span>pacman -Qtdq<span style="color:#66d9ef">)</span> // sistemdeki tüm kullanılmayan paketleri temizle/kaldır
+</span></span><span style="display:flex;"><span>pacman -Ru gnome // tüm gnome paket grubunu kaldır
+</span></span><span style="display:flex;"><span>pacman -Q | more // tüm kurulu paketleri listele
+</span></span><span style="display:flex;"><span>pacman -Ql apache // apache tarafından kurulan tüm dosyaları listele
+</span></span><span style="display:flex;"><span>pacman -Ss chromium // depolarda bir paket ara
+</span></span><span style="display:flex;"><span>pacman -Qs firefox // kurulu paketlerin içinde bir paket ara
+</span></span><span style="display:flex;"><span>pacman -Si chromium // kurulu olmayan bir paket hakkında bilgileri göster
+</span></span><span style="display:flex;"><span>pacman -Qi apache // kurulu bir paket ile ilgili bilgileri göster
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>pactree apache // bir paket ile ilgili bağımlılık ağacını göster
+</span></span><span style="display:flex;"><span>pacman -Qdt // artık gerekli olmayan paketleri listele
+</span></span><span style="display:flex;"><span>pacman -Sc  // cache verileri temizle
+</span></span><span style="display:flex;"><span>pacman -Scc // cache belleğe alınan paketleri sil
+</span></span><span style="display:flex;"><span>pacman -Qo netctl // netctl dosyasını hangi paket kurmuş göster</span></span></code></pre></div>
+
+          </div>
+            
+
+
+          <div class="entry-footer clearfix">
+                <div class="float-left">
+ <ul class="tags">
+  <i class="fa fa-tags" aria-hidden="true"></i>
+    <a href="/tr/tags/linux/">Linux</a>
+      <span class="separator">•</span>
+    <a href="/tr/tags/arch-linux/">Arch Linux</a>
+      <span class="separator">•</span>
+    <a href="/tr/tags/pacman/">Pacman</a></ul>
+
+                </div>
+                 <div class="float-right share">
+
+                   <a href="http://twitter.com/share?url=http%3a%2f%2flocalhost%3a1313%2ftr%2fposts%2f2023%2f03%2farchlinux-pacman-commands%2f" title="Share on Twitter"><i class="fab fa-twitter"></i></a>
+
+                  <a href="http://www.facebook.com/sharer.php?u=http%3a%2f%2flocalhost%3a1313%2ftr%2fposts%2f2023%2f03%2farchlinux-pacman-commands%2f" title="Share on Facebook"><i class="fab fa-facebook"></i></a>
+
+                 </div>
+          </div>
+
+        </article>
+      </div>
+    </div>
+        <ul class="col-11 column col-mx-auto pagination">
+          <li class="page-item page-next text-center">
+          </li>
+          <li class="page-item page-prev text-center">
+          <a href="http://localhost:1313/tr/posts/2023/03/hugo-mastodon-email-comments/">Hugo&#39;ya Mastodon Yorumları ve E-posta ile Yanıtla Ekleme</a><i class="fa fa-arrow-right"></i>
+        
+          </li>
+      </ul>
+
+</section>
+
+
+        </main>  <footer class="footer">
+    <section class="container-fluid">
+      <div class="row">
+        <div class="col-md-12 text-center">
+      
+        <p>Bir aktiviteye aşık olun ve yapın! Yaşamın ne olduğunu hiç kimse bilmiyor ve bunun hiçbir önemi yok. </p>
+      
+        </div>
+      </div>
+      <p class="footer text-center"><a href="http://creativecommons.org/licenses/by-sa/4.0/" target="_blank"> <i class="fab fa-creative-commons"></i><i class="fab fa-creative-commons-by"></i><i class="fab fa-creative-commons-sa"></i> <span class="separator">•</span></a> 2025 Crafted with <i class="fa fa-heart" aria-hidden=true></i> • by Alper Orus  & Powered by <a href="https://gohugo.io/">Hugo</a></p>
+    </section>
+  </footer>
+
+    
+      
+        
+        <script src="/js/main.js"></script>
+      
+    
+      
+        
+        <script src="/js/jquery.min.js"></script>
+      
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.4.0/jquery.fancybox.min.js"></script>
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.1/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+    </body>
+</html>

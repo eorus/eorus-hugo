@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Projects on Eorus</title>
+    <link>http://localhost:1313/tags/projects/</link>
+    <description>Recent content in Projects on Eorus</description>
+    <generator>Hugo</generator>
+    <language>en</language>
+    <lastBuildDate>Fri, 03 Mar 2023 17:24:23 +0300</lastBuildDate>
+    <atom:link href="http://localhost:1313/tags/projects/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Easy Ways to Read Linux Man Pages</title>
+      <link>http://localhost:1313/posts/2023/03/linux-man-pages/</link>
+      <pubDate>Fri, 03 Mar 2023 17:24:23 +0300</pubDate>
+      <guid>http://localhost:1313/posts/2023/03/linux-man-pages/</guid>
+      <description>&lt;p&gt;One of the most important skills you can learn as a Linux user is how to use the man pages. In other words, mastering the man page is an important key to being comfortable and efficient when using the Linux system. Of course, very few achieve this, and we often turn to internet searches rather than manual pages.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

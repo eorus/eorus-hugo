@@ -13,7 +13,7 @@
       <link>http://localhost:1313/tr/posts/2020/11/merhaba-d%C3%BCnya/</link>
       <pubDate>Thu, 05 Nov 2020 12:44:40 +0300</pubDate>
       <guid>http://localhost:1313/tr/posts/2020/11/merhaba-d%C3%BCnya/</guid>
-      <description>&lt;p&gt;Merhaba, yeni web siteme ve bloguma hoş geldiniz.&lt;/p&gt;&#xA;&lt;p&gt;Uzun bir süre sonra, çalışmalarımı toplamak için kendi sitemi ve blogumu açmanın ve notlarımdan özellikle yararlı olabileceğini düşündüğüm makaleleri paylaşmanın iyi olacağını düşündüm.&lt;/p&gt;&#xA;&lt;p&gt;&lt;a href=&#34;http://localhost:1313/tr/hakkimda&#34;&gt;Hakkında&lt;/a&gt; bölümünde bahsettiğim ilgi alanlarım arasında yer alan Linux, terminal uygulamaları, Wordpress ve Hugo gibi açık kaynak yapıları hakkında makaleler yazmayı düşünüyorum.&lt;/p&gt;&#xA;&lt;p&gt;Şu anda ziyaret etmekte olduğunuz bu site, bir sunucu olmadan Hugo altyapısı kullanılarak Github tarafından sunulan statik sayfalardan oluşturulmuştur. Alan adı bağlantısı ve SSL yetkilendirmesi Netlify tarafından sağlanarak dağıtımı yapılmakadır.&lt;/p&gt;</description>
+      <description>&lt;p&gt;Merhaba, yeni web siteme ve bloguma hoş geldiniz.&lt;/p&gt;&#xA;&lt;p&gt;Uzun bir süre sonra, çalışmalarımı toplamak için kendi sitemi ve blogumu açmanın ve notlarımdan özellikle yararlı olabileceğini düşündüğüm makaleleri paylaşmanın iyi olacağını düşündüm.&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>

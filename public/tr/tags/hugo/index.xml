@@ -6,21 +6,42 @@
     <description>Recent content in Hugo on Eorus</description>
     <generator>Hugo</generator>
     <language>tr</language>
-    <lastBuildDate>Sat, 05 Dec 2020 18:18:06 +0300</lastBuildDate>
+    <lastBuildDate>Sun, 12 Mar 2023 21:49:01 +0300</lastBuildDate>
     <atom:link href="http://localhost:1313/tr/tags/hugo/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Hugo&#39;ya Mastodon Yorumları ve E-posta ile Yanıtla Ekleme</title>
+      <link>http://localhost:1313/tr/posts/2023/03/hugo-mastodon-email-comments/</link>
+      <pubDate>Sun, 12 Mar 2023 21:49:01 +0300</pubDate>
+      <guid>http://localhost:1313/tr/posts/2023/03/hugo-mastodon-email-comments/</guid>
+      <description>&lt;p&gt;Statik site oluşturucuların en büyük dezavantajlarından biri ne diye sorsanız muhtemelen ilk cevap yorum bölümü ve form eklemek olacaktır. Bu sorunu çözmek için çeşitli üçüncü taraf çözümler var. Örneğin Hugo için Disqus gibi yorumları yönetebileceğiniz bir yapı ekleyebilirsiniz, ancak bunun web sitenize extra js ve kötü bir gizlilik kaydı olan bir aracı dahil etme dezavantajı vardır.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Hugo ile Makalelere Son Değiştirilmiş Tarih Nasıl Eklenir?</title>
+      <link>http://localhost:1313/tr/posts/2023/03/hugo-lastmod-date/</link>
+      <pubDate>Wed, 01 Mar 2023 20:04:07 +0300</pubDate>
+      <guid>http://localhost:1313/tr/posts/2023/03/hugo-lastmod-date/</guid>
+      <description>&lt;p&gt;Sitemin altyapısı Hugo ve ara ara hem kendimi geliştirmek hem de tema yapısını Hugo&amp;rsquo;nun sağladığı basit ama güçlü değişkenlerle güncellemek hoşuma gidiyor.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Jamstack Sitemi Hugo, Cloudflare Pages ve Git ile Nasıl Oluşturdum?</title>
+      <link>http://localhost:1313/tr/posts/2023/02/my-jamstack-site-hugo-pico/</link>
+      <pubDate>Tue, 07 Feb 2023 18:03:22 +0300</pubDate>
+      <guid>http://localhost:1313/tr/posts/2023/02/my-jamstack-site-hugo-pico/</guid>
+      <description>&lt;p&gt;Uzun zamandır, biriktirdiğim notlarımı aktarmak ve tecrübelerimi paylaşmak için bir site oluşturmak istiyordum. Yıllardır ertelediğim bu işi, hem gelişmekte olan &lt;a href=&#34;https://jamstack.org&#34;&gt;Jamstack&lt;/a&gt; trendine uyum sağlamak, hem de bu vesileyle &lt;em&gt;semantic html&lt;/em&gt; yapısına uyan, tamamen kendi üretimim bir tema yaratarak yapmak önemli iki noktaydı.&lt;/p&gt;</description>
+    </item>
     <item>
       <title>Hugo : Statik Web Sitelerine Yepyeni Bir Yaklaşım</title>
       <link>http://localhost:1313/tr/posts/2020/12/hugo-statik-web-sitelerine-yepyeni-bir-yakla%C5%9F%C4%B1m/</link>
       <pubDate>Sat, 05 Dec 2020 18:18:06 +0300</pubDate>
       <guid>http://localhost:1313/tr/posts/2020/12/hugo-statik-web-sitelerine-yepyeni-bir-yakla%C5%9F%C4%B1m/</guid>
-      <description>&lt;p&gt;Son zamanlarda &lt;strong&gt;statik siteler&lt;/strong&gt; birçok nedenden dolayı popüler olmaya ve gelişmeye devam ediyor. Bunun başlıca sebebini hantallaşmaya başlamış internetin neredeyse ilk zamanlarındaki sadeliği özlemesi olarak yorumlayabiliriz.&lt;/p&gt;&#xA;&lt;p&gt;Statik siteler sayesinde veritabanı, programlama dili versiyonu, gerekli kütüphaneler gibi konularla uğraşmak ve bunları güncel tutmak zorunda kalmazsınız. Düşünsenize &lt;em&gt;PHP, MySQL / MSSQL, .NET, Python, Ruby&lt;/em&gt; yok. Aşırı çözümlerden kaçınmak ve bir projeyi veritabanları, çok fazla bağımlılık veya belirli sunucu tarafı yapılandırmaları olmadan basit tutmak,  sayısız olası güvenlik açığına karşı dağıtımı ve sağlam olmayı çok kolaylaştırmaktadır.&lt;/p&gt;</description>
+      <description>&lt;p&gt;Son zamanlarda &lt;strong&gt;statik siteler&lt;/strong&gt; birçok nedenden dolayı popüler olmaya ve gelişmeye devam ediyor. Bunun başlıca sebebini hantallaşmaya başlamış internetin neredeyse ilk zamanlarındaki sadeliği özlemesi olarak yorumlayabiliriz.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Merhaba Dünya</title>
       <link>http://localhost:1313/tr/posts/2020/11/merhaba-d%C3%BCnya/</link>
       <pubDate>Thu, 05 Nov 2020 12:44:40 +0300</pubDate>
       <guid>http://localhost:1313/tr/posts/2020/11/merhaba-d%C3%BCnya/</guid>
-      <description>&lt;p&gt;Merhaba, yeni web siteme ve bloguma hoş geldiniz.&lt;/p&gt;&#xA;&lt;p&gt;Uzun bir süre sonra, çalışmalarımı toplamak için kendi sitemi ve blogumu açmanın ve notlarımdan özellikle yararlı olabileceğini düşündüğüm makaleleri paylaşmanın iyi olacağını düşündüm.&lt;/p&gt;&#xA;&lt;p&gt;&lt;a href=&#34;http://localhost:1313/tr/hakkimda&#34;&gt;Hakkında&lt;/a&gt; bölümünde bahsettiğim ilgi alanlarım arasında yer alan Linux, terminal uygulamaları, Wordpress ve Hugo gibi açık kaynak yapıları hakkında makaleler yazmayı düşünüyorum.&lt;/p&gt;&#xA;&lt;p&gt;Şu anda ziyaret etmekte olduğunuz bu site, bir sunucu olmadan Hugo altyapısı kullanılarak Github tarafından sunulan statik sayfalardan oluşturulmuştur. Alan adı bağlantısı ve SSL yetkilendirmesi Netlify tarafından sağlanarak dağıtımı yapılmakadır.&lt;/p&gt;</description>
+      <description>&lt;p&gt;Merhaba, yeni web siteme ve bloguma hoş geldiniz.&lt;/p&gt;&#xA;&lt;p&gt;Uzun bir süre sonra, çalışmalarımı toplamak için kendi sitemi ve blogumu açmanın ve notlarımdan özellikle yararlı olabileceğini düşündüğüm makaleleri paylaşmanın iyi olacağını düşündüm.&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>

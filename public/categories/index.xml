@@ -6,8 +6,36 @@
     <description>Recent content in Categories on Eorus</description>
     <generator>Hugo</generator>
     <language>en</language>
-    <lastBuildDate>Sat, 05 Dec 2020 18:18:06 +0300</lastBuildDate>
+    <lastBuildDate>Tue, 14 Mar 2023 19:25:39 +0300</lastBuildDate>
     <atom:link href="http://localhost:1313/categories/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Open Source</title>
+      <link>http://localhost:1313/categories/open-source/</link>
+      <pubDate>Tue, 14 Mar 2023 19:25:39 +0300</pubDate>
+      <guid>http://localhost:1313/categories/open-source/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Productivity</title>
+      <link>http://localhost:1313/categories/productivity/</link>
+      <pubDate>Wed, 08 Mar 2023 13:33:20 +0300</pubDate>
+      <guid>http://localhost:1313/categories/productivity/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Thoughts</title>
+      <link>http://localhost:1313/categories/thoughts/</link>
+      <pubDate>Wed, 08 Mar 2023 13:33:20 +0300</pubDate>
+      <guid>http://localhost:1313/categories/thoughts/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Art</title>
+      <link>http://localhost:1313/categories/art/</link>
+      <pubDate>Fri, 24 Feb 2023 13:34:48 +0300</pubDate>
+      <guid>http://localhost:1313/categories/art/</guid>
+      <description></description>
+    </item>
     <item>
       <title>Web</title>
       <link>http://localhost:1313/categories/web/</link>

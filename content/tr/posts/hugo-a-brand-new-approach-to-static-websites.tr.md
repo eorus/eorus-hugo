@@ -1,6 +1,5 @@
 ---
 title: "Hugo : Statik Web Sitelerine Yepyeni Bir Yaklaşım"
-author: Alper Orus
 date:  2020-12-05T18:18:06+03:00
 draft: false
 categories:

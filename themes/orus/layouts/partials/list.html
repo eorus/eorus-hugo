@@ -20,7 +20,9 @@
 				<li>
                   <a class="title" href="{{ .Params.ExternalLink | default .RelPermalink }}">{{ .Title }}</a>
                   <span class="date float-right">{{ .Date.Format (.Site.Params.dateFormat | default "January 2, 2006" ) }}</span>
-                  <p class="intro">{{ .Summary }}</p>
+                  <div class="summary">
+    {{ .Content | strings.Truncate 25 }}
+  </div>
 				</li>
 			</ul>
 		</div>
@@ -28,7 +30,7 @@
     {{ end }}
 
                         <ul class="pagination">
-{{ template "_internal/pagination.html" . }}
+{{ partial "pagination.html" . }}
                         </ul>
 		</div>
 	</div>

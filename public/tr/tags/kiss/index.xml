@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Kiss on Eorus</title>
+    <link>http://localhost:1313/tr/tags/kiss/</link>
+    <description>Recent content in Kiss on Eorus</description>
+    <generator>Hugo</generator>
+    <language>tr</language>
+    <lastBuildDate>Wed, 08 Mar 2023 13:33:20 +0300</lastBuildDate>
+    <atom:link href="http://localhost:1313/tr/tags/kiss/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Konfor Alanı, Bildirimler ve Küçük Ev Aletleri</title>
+      <link>http://localhost:1313/tr/posts/2023/03/comfort-zone-notifications/</link>
+      <pubDate>Wed, 08 Mar 2023 13:33:20 +0300</pubDate>
+      <guid>http://localhost:1313/tr/posts/2023/03/comfort-zone-notifications/</guid>
+      <description>&lt;p&gt;Aslında bu yazının konu başlığını dijital minimalizm olarak düşünmüştüm ama son dönemde okuduğum bazı yeni yayınlar doğrultusunda küçük bir değişiklik yaptım. Daha doğrusu bu yazıyı öne aldım. Dijital minimalizm için ayrı bir yazı ele almadan önce KISS felsefesi, açık kaynak ve internet okur yazarlığı başlıklarında tamamlayıcı konulara değinmek istiyorum.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>2023 Yılında ThinkPad X220 ve Kullandığım Programlar</title>
+      <link>http://localhost:1313/tr/posts/2023/03/thinkpad-x220-programs-uses/</link>
+      <pubDate>Mon, 06 Mar 2023 17:39:28 +0300</pubDate>
+      <guid>http://localhost:1313/tr/posts/2023/03/thinkpad-x220-programs-uses/</guid>
+      <description>&lt;p&gt;Kişisel makinem, &lt;a href=&#34;https://i3wm.org/&#34;&gt;i3wm&lt;/a&gt; veya &lt;a href=&#34;https://github.com/baskerville/bspwm&#34;&gt;bspwm&lt;/a&gt; ile Arch koşturduğum 12 yaşında bir &lt;strong&gt;Lenovo ThinkPad X220&lt;/strong&gt;. 2023 ylında hala severek kullanıyorum ve o beni bırakana kadar da kullanmaya devam etmek istiyorum. &lt;a href=&#34;https://archlinux.org/&#34;&gt;Arch Linux&lt;/a&gt; ve artık kısayolları ile benimle bütünleşmiş olan WM&amp;rsquo;lar ile X220&amp;rsquo;yi elimden geldiğince verimli hale getirmeye çalışıyorum. Özellikle son yıllarda tamamen komut satırı uygulamalar kullanmam ile çok rahat ve sürdürülebilir bir sisteme sahip oldum. Muhtemelen bu, Linux üzerinde herhangi bir WM kullanan ve kendine göre özelleştirip &lt;a href=&#34;https://github.com/eorus/dotfiles&#34;&gt;dotfiles&lt;/a&gt; konfigürasyon dosyalarını yedekleyen herkes için aynıdır ama i5-2450M işlemciye sahip bir makine için günümüz internet siteleri ve geleneksel programlar oldukça yorucu olabiliyor.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Linux Man Sayfalarını Kolay Okuma Yolları</title>
+      <link>http://localhost:1313/tr/posts/2023/03/linux-man-pages/</link>
+      <pubDate>Fri, 03 Mar 2023 17:24:23 +0300</pubDate>
+      <guid>http://localhost:1313/tr/posts/2023/03/linux-man-pages/</guid>
+      <description>&lt;p&gt;Bir Linux kullanıcısı olarak öğrenebileceğiniz en önemli becerilerden biri, kılavuz sayfasının yani man sayfaları&amp;rsquo;nın nasıl kullanılacağıdır. Bir başka deyişle kılavuz sayfasında uzmanlaşmak, Linux sistemini kullanırken rahat ve verimli olmanızı sağlayan önemli bir anahtardır. Tabi bunu başarabilen çok azdır ve genelde kılavuz sayfaları yerine internet aramalarına yöneliriz.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Neden Sadece GNU/Linux ve Free/Libre Açık Kaynaklı Yazılım Kullanıyorum?</title>
+      <link>http://localhost:1313/tr/posts/2023/02/why-gnu-linux/</link>
+      <pubDate>Sat, 18 Feb 2023 16:23:54 +0300</pubDate>
+      <guid>http://localhost:1313/tr/posts/2023/02/why-gnu-linux/</guid>
+      <description>&lt;p&gt;Öncelikle &amp;ldquo;Özgür Yazılım&amp;rdquo; ile &amp;ldquo;Açık Kaynak&amp;rdquo; arasındaki kavramsal farkı not ederek başlamanın doğru olacağını düşünüyorum. Bu yüzden şu &lt;a href=&#34;https://www.gnu.org/philosophy/open-source-misses-the-point.html&#34;&gt;linki&lt;/a&gt; buraya bırakalım.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Jamstack Sitemi Hugo, Cloudflare Pages ve Git ile Nasıl Oluşturdum?</title>
+      <link>http://localhost:1313/tr/posts/2023/02/my-jamstack-site-hugo-pico/</link>
+      <pubDate>Tue, 07 Feb 2023 18:03:22 +0300</pubDate>
+      <guid>http://localhost:1313/tr/posts/2023/02/my-jamstack-site-hugo-pico/</guid>
+      <description>&lt;p&gt;Uzun zamandır, biriktirdiğim notlarımı aktarmak ve tecrübelerimi paylaşmak için bir site oluşturmak istiyordum. Yıllardır ertelediğim bu işi, hem gelişmekte olan &lt;a href=&#34;https://jamstack.org&#34;&gt;Jamstack&lt;/a&gt; trendine uyum sağlamak, hem de bu vesileyle &lt;em&gt;semantic html&lt;/em&gt; yapısına uyan, tamamen kendi üretimim bir tema yaratarak yapmak önemli iki noktaydı.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

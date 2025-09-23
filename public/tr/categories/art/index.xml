@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Art on Eorus</title>
+    <link>http://localhost:1313/tr/categories/art/</link>
+    <description>Recent content in Art on Eorus</description>
+    <generator>Hugo</generator>
+    <language>tr</language>
+    <lastBuildDate>Fri, 24 Feb 2023 13:34:48 +0300</lastBuildDate>
+    <atom:link href="http://localhost:1313/tr/categories/art/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>2022 Yılında İzlediğim Öne Çıkan Filmler ve Diziler</title>
+      <link>http://localhost:1313/tr/posts/2023/02/2022-movies-series/</link>
+      <pubDate>Fri, 24 Feb 2023 13:34:48 +0300</pubDate>
+      <guid>http://localhost:1313/tr/posts/2023/02/2022-movies-series/</guid>
+      <description>&lt;p&gt;2023 yılında yeniden blog yazmaya başladığımı hatırlamak için localde yazıya döktüğüm notlarımın sinema ve dizilerle ilgili olan kısmını biraz genişleterek ve eklemeler yaparak aktarmaya karar verdim. Daha da geç olmadan 2022 yılında izlediğim yapımlar arasında beni etkileyen, üzerinde konuşmaya değer ve tavsiye niteliğinde olabilecek sinema ve dizilerin bir listesi.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>
