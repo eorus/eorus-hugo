@@ -78,7 +78,7 @@ other = "{{.Count}} minutes to read"
         weight = 1
         [languages.en.params]
         info = "Modern solutions for Web Design"
-        hometext = "We offer up-to-date code structure, marketable corporate content and modern design solutions to grow your business. You are in the right place for your full-fledged digital transformation needs."
+        hometext = "I offer up-to-date code structure, marketable corporate content and modern design solutions to grow your business. You are in the right place for your full-fledged digital transformation needs."
         homehello = "Right Place for Digital Transformation"
         homebut = "Learn more about what I do"
 
@@ -99,27 +99,21 @@ identifier = "about"
 pageRef = "about"
 
             [[languages.en.menu.main]]
-            name = "Projects"
-            pre = "<i class='fa fa-folder-open'></i>"
-            weight = 3
-            url = "projects/"
-
-            [[languages.en.menu.main]]
             name = "Blog"
             pre = "<i class='fa fa-newspaper'></i>"
-            weight = 4
+            weight = 3
             url = "posts/"
 
             [[languages.en.menu.main]]
             name = "Photos"
             pre = "<i class='fa fa-camera'></i>"
-            weight = 5
+            weight = 4
             url = "photos/"
 
             [[languages.en.menu.main]]
             name = "Contact"
             pre = "<i class='fa fa-envelope'></i>"
-            weight = 6
+            weight = 5
             url = "contact/"
 
     [languages.tr]
@@ -134,7 +128,7 @@ pageRef = "about"
             keywords = "alper, orus, eorus, blog, tasarım, fotoğraf, geliştirme, wordpress, hugo, linux"
             info = "Web Tasarımlarına Modern Dokunuşlar"
             footercontent = "Bir aktiviteye aşık olun ve yapın! Yaşamın ne olduğunu hiç kimse bilmiyor ve bunun hiçbir önemi yok. "
-            hometext = "İşletmenizi büyütmek için güncel kod yapısı, pazarlanabilir kurumsal içerik ve modern tasarım çözümleri sunuyoruz. Tam donanımlı dijital dönüşüm ihtiyacınız için doğru yerdesiniz."
+            hometext = "İşletmenizi büyütmek için güncel kod yapısı, pazarlanabilir kurumsal içerik ve modern tasarım çözümleri sunuyorum. Tam donanımlı dijital dönüşüm ihtiyacınız için doğru yerdesiniz."
             homehello = "Dijital Dönüşüm için Doğru Adres"
             homebut = "Neler yaptığım hakında daha fazla bilgi edinin"
 
@@ -154,27 +148,21 @@ pageRef = "about"
             url = "hakkimda/"
 
             [[languages.tr.menu.main]]
-            name = "Projeler"
-            pre = "<i class='fa fa-file'> </i>"
-            weight = 3
-            url = "projects/"
-
-            [[languages.tr.menu.main]]
             name = "Yazılar"
             pre = "<i class='fa fa-newspaper'></i>"
-            weight = 4
+            weight = 3
             url = "posts/"
 
             [[languages.tr.menu.main]]
             name = "Fotoğraflar"
             pre = "<i class='fa fa-camera'></i>"
-            weight = 5
+            weight = 4
             url = "photos/"
 
             [[languages.tr.menu.main]]
             name = "İletişim"
             pre = "<i class='fa fa-envelope'> </i>"
-            weight = 6
+            weight = 5
             url = "iletisim/"
 
 [markup.goldmark.renderer]
