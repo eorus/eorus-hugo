@@ -9,4 +9,4 @@ Image = "/images/galleries/city/39344538855_148c1a2a2e_k.jpg"
 
 Şehir ve yaşama ilişkin fotoğraf çalışmalarımdan bazılarını bu sayfada bulabilirsiniz.
 
-{{< foldergallery src="images/galleries/city/" >}}
+{{< gallery src="images/galleries/city" >}}

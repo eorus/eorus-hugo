@@ -8,12 +8,3 @@
         <script src="{{ $script.RelPermalink }}"></script>
       {{ end }}
     {{ end }}
-      {{ if hugo.IsServer  }}
-        {{ $script := resources.Get "js/jquery.min.js" }}
-        <script src="{{ $script.RelPermalink }}"></script>
-      {{ else }}
-        {{ $script := resources.Get "js/jquery.min.js" | minify | fingerprint }}
-        <script src="{{ $script.RelPermalink }}"></script>
-      {{ end }}
-
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.4.0/jquery.fancybox.min.js"></script>

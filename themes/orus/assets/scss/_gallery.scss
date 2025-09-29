@@ -1,0 +1,53 @@
+/* ---------------------------------------------------
+   Gallery
+   --------------------------------------------------- */
+
+/* Gallery Grid */
+.gallery {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
+  gap: 0.5rem;
+}
+
+.gallery img {
+  width: 150px;
+  height: 150px;           /* fixed thumbnail height */
+  object-fit: cover;       /* preserve aspect ratio, crop if needed */
+  border-radius: 4px;
+  cursor: pointer;
+  transition: transform 0.2s;
+}
+
+.gallery img:hover {
+  transform: scale(1.05);
+}
+
+
+.lightbox {
+  display: none;
+  position: fixed;
+  top: 0; left: 0; right: 0; bottom: 0;
+  background: rgba(0,0,0,0.9);
+  justify-content: center;
+  align-items: center;
+  z-index: 9999;
+
+  img {
+    max-width: 90%;
+    max-height: 80%;
+  }
+
+  button {
+    position: absolute;
+    background: none;
+    border: none;
+    color: white;
+    font-size: 2rem;
+    cursor: pointer;
+    padding: 0.5rem;
+  }
+
+  .close { top: 10px; right: 20px; }
+  .prev { top: 50%; left: 10px; transform: translateY(-50%); }
+  .next { top: 50%; right: 10px; transform: translateY(-50%); }
+}

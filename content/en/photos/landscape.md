@@ -9,4 +9,4 @@ Image = "/images/galleries/landscape/19448122721_e20431c1dc_k.jpg"
 
 You can find some of my landscape photography works on this page.
 
-{{< foldergallery src="images/galleries/landscape/" >}}
+{{< gallery src="images/galleries/landscape" >}}

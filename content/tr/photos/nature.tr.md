@@ -9,4 +9,4 @@ Image = "/images/galleries/nature/14029476351_aebfda6687_k.jpg"
 
 Doğa ve hayvan fotoğraf çalışmalarımdan bazılarını bu sayfada bulabilirsiniz.
 
-{{< foldergallery src="images/galleries/nature/" >}}
+{{< gallery src="images/galleries/nature" >}}

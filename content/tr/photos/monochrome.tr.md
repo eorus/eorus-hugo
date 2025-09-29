@@ -9,4 +9,4 @@ Image = "/images/galleries/monochrome/25433844705_79c2a8faf8_k.jpg"
 
 Siyah beyaz fotoğraf çalışmalarımdan bazılarını bu sayfada bulabilirsiniz.
 
-{{< foldergallery src="images/galleries/monochrome/" >}}
+{{< gallery src="images/galleries/monochrome" >}}

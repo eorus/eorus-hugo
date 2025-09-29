@@ -19,3 +19,66 @@ btn.addEventListener("click", function () {
   localStorage.setItem("theme", theme);
 
 });
+
+/****
+Lightbox
+*****/
+
+
+document.addEventListener("DOMContentLoaded", () => {
+  const gallery = document.querySelector(".gallery");
+  const lightbox = document.getElementById("lightbox");
+  const lightboxImg = document.getElementById("lightbox-img");
+  const closeBtn = lightbox.querySelector(".close");
+  const nextBtn = lightbox.querySelector(".next");
+  const prevBtn = lightbox.querySelector(".prev");
+
+  const images = Array.from(gallery.querySelectorAll("img"));
+  let currentIndex = 0;
+
+  function showLightbox(index) {
+    currentIndex = index;
+    lightboxImg.src = images[currentIndex].dataset.full;
+    lightbox.style.display = "flex";
+  }
+
+  function closeLightbox() {
+    lightbox.style.display = "none";
+    lightboxImg.src = "";
+  }
+
+  function nextImage() {
+    currentIndex = (currentIndex + 1) % images.length;
+    lightboxImg.src = images[currentIndex].dataset.full;
+  }
+
+  function prevImage() {
+    currentIndex = (currentIndex - 1 + images.length) % images.length;
+    lightboxImg.src = images[currentIndex].dataset.full;
+  }
+
+  // Thumbnail click
+  images.forEach((img, i) => {
+    img.addEventListener("click", () => showLightbox(i));
+  });
+
+  // Lightbox buttons
+  closeBtn.addEventListener("click", closeLightbox);
+  nextBtn.addEventListener("click", nextImage);
+  prevBtn.addEventListener("click", prevImage);
+
+  // Click on image itself -> next
+  lightboxImg.addEventListener("click", nextImage);
+
+  // Click outside image -> close
+  lightbox.addEventListener("click", (e) => {
+    if (e.target === lightbox) closeLightbox();
+  });
+
+  // Keyboard navigation
+  document.addEventListener("keydown", (e) => {
+    if (e.key === "Escape") closeLightbox();
+    if (e.key === "ArrowRight") nextImage();
+    if (e.key === "ArrowLeft") prevImage();
+  });
+});
