@@ -19,6 +19,7 @@
   },
   "homepage": "https://github.com/eorus/eorus-hugo#readme",
   "dependencies": {
-    "@picocss/pico": "^2.1.1"
+    "@picocss/pico": "^2.1.1",
+    "spectre.css": "^0.5.9"
   }
 }

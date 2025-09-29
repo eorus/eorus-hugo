@@ -8,7 +8,7 @@ $dark-color: #3e396b;
 @import "node_modules/@picocss/pico/scss/pico";
 
 // Import full Spectre source code
-@import "vendor/spectre/src/spectre" ;
+@import "node_modules/spectre.css/src/spectre" ;
 
 /* Custom grid */
 @import "grid";
