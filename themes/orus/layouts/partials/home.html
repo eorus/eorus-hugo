@@ -5,8 +5,8 @@
     {{ if and (isset .Site.Params "avatarurl") (not (isset .Site.Params "gravatar")) }}
       {{ with .Site.Params.avatarurl }}
       <picture>
-      <source srcset="/images/hero.png" type="image/webp">
-      <source srcset="/images/hero.png" type="image/jpeg">
+      <source srcset="/images/hero.webp" type="image/webp">
+      <source srcset="/images/hero.svg" type="image/svg">
       <img class="img-responsive s-circle" src="{{ . | relURL }}" alt="Eorus Main Image">
       </picture>
       {{ end }}

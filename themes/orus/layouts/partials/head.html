@@ -25,11 +25,15 @@
 {{ template "_internal/opengraph.html" . }}
 
     {{ "<!--Favicon-->" | safeHTML }}
-    <link rel="shortcut icon" href="{{ `images/favicon.png` | absURL }}" type="image/x-icon">
-    <link rel="icon" href="{{ `images/favicon.png` | absURL }}" type="image/x-icon">
 
-    <!-- Favicons -->
-    <link href="/images/favicon.png" rel="icon">
+<link rel="icon" type="image/png" href="{{ .Site.Params.favicon_32 | default "/images/favicon-16x16.png" | relURL }}" sizes="32x32">
+<link rel="icon" type="image/png" href="{{ .Site.Params.favicon_16 | default "/images/favicon-32x32.png" | relURL }}" sizes="16x16">
+
+<link rel="apple-touch-icon" href="{{ .Site.Params.touchicon | default "/images/apple-touch-icon.png" | relURL }}">
+<link rel="apple-touch-icon" sizes="180x180" href="{{ .Site.Params.touchicon | default "/images/apple-touch-icon.png" | relURL }}">
+
+<link rel="mask-icon" href="{{ .Site.Params.mask_icon | default "/images/favicon.svg" | relURL }}" color="{{ .Site.Params.mask_icon_color | default "#5bbad5" }}">
+
 
 {{ $style := resources.Get "scss/style.scss" | toCSS (dict "outputStyle" "compressed") | minify | fingerprint }}
 <link rel="stylesheet" href="{{ $style.Permalink }}">
