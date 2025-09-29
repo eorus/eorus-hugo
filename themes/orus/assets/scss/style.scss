@@ -3,6 +3,15 @@
 $primary-color: #2e5bec;
 $dark-color: #3e396b;
 
+/* Load Pico */
+//@import "vendor/pico/pico";
+@import "node_modules/@picocss/pico/scss/pico";
+
+// Import full Spectre source code
+@import "node_modules/@spectre-org/spectre-css/src/spectre" ;
+
+/* Custom grid */
+@import "grid";
 
 /*--------------------------------------------------------------
 # Dark Theme
@@ -34,16 +43,6 @@ $dark-color: #3e396b;
     text-decoration: none;
     color:#00A5FF !important;
 }
-
-// Import full Spectre source code
-@import "spectre/src/spectre";
-//@import "spectre/src/filters";
-//@import "fontawesome/scss/fontawesome.scss";
-//@import "fontawesome/scss/solid.scss";
-//@import "fontawesome/scss/brands.scss";
-/*--------------------------------------------------------------
-# Header
---------------------------------------------------------------*/
 
 .wrap {
   display: inline-block;

@@ -1,0 +1,25 @@
+{
+  "name": "eorus-hugo",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/eorus/eorus-hugo.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/eorus/eorus-hugo/issues"
+  },
+  "homepage": "https://github.com/eorus/eorus-hugo#readme",
+  "dependencies": {
+    "@picocss/pico": "^2.1.1",
+    "@spectre-org/spectre-css": "^1.2.0"
+  }
+}

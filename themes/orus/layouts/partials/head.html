@@ -31,11 +31,8 @@
     <!-- Favicons -->
     <link href="/images/favicon.png" rel="icon">
 
-
-  <!-- Spectre Compile CSS Files -->
-{{ $style := resources.Get "style.scss" | toCSS (dict "outputStyle" "compressed") | minify | fingerprint }}
+{{ $style := resources.Get "scss/style.scss" | toCSS (dict "outputStyle" "compressed") | minify | fingerprint }}
 <link rel="stylesheet" href="{{ $style.Permalink }}">
-
 
     {{ if .Permalink }}
     <link rel="canonical" href="{{ .Permalink }}">

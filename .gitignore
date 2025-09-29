@@ -1,0 +1,24 @@
+# Node modules (Pico and any other npm packages)
+node_modules/
+
+# Hugo build output
+/public/
+
+# Hugo generated resources (SCSS, JS, images)
+resources/_gen/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Editor/IDE settings
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
