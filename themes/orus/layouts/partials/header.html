@@ -1,24 +1,24 @@
 <header id="header" class="navbar bg-secondary-soft mb-5">
-<div class="container">
-    <nav>
+  <nav class="navbar" role="navigation" aria-label="Main Navigation">
+    <div class="container">
+      <div class="row">
+
          {{ if or .Site.Menus.main hugo.IsMultilingual }}
-        <ul>
+    <!-- Main Menu -->
+  <div class="col-lg-10 justify-center">
         {{ with .Site.Menus.main}}
-          {{ range sort . }}
-        <li>
-        <a class="m-0" href="{{ .URL | relLangURL }}">
+        {{ range sort . }}
+        <a class="" href="{{ .URL | relLangURL }}">
           {{ .Pre }}
           {{ .Name }}
         </a>
-         </li>
           {{ end }}
+          {{ end }}
+  </div>
         {{ end }}
 
-    {{ end }}
-        </ul>
-
-        <ul>
-           <li>
+    <!-- Language Switcher -->
+    <div class="col-lg-2 justify-end">
         {{ if hugo.IsMultilingual }}
           {{ $node := . }}
           {{ .Scratch.Set "separator" true }}
@@ -29,16 +29,12 @@
             {{ end }}
           {{ end }}
         {{ end }}
-           </li>
-           <li>
-<button id="dark-mode" class="btn-toggle btn-outline-secondary" aria-label="Toggle dark mode">
-  <i class="fa fa-adjust fa-fw" aria-hidden="true"></i>
-</button>
-           </li>
-        </ul>
+      <a id="dark-mode" class="btn-toggle right">
+        <i class="fa fa-adjust fa-fw" aria-hidden="true"></i>
+    </a>
     </div>
 
-  </section>
-
-</div>
+      </div>
+    </div>
+  </nav>
 </header>

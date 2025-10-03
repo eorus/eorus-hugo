@@ -20,6 +20,21 @@ $dark-color: #3e396b;
 /*--------------------------------------------------------------
 # Dark Theme
 --------------------------------------------------------------*/
+
+.navbar {
+
+}
+
+.navbar a {
+  padding: 14px 20px;
+  text-decoration: none;
+  text-align: center;
+}
+
+.navbar .right {
+  margin-left: auto;
+}
+
 .btn-toggle {
     outline: 0;
     position: relative;
@@ -36,6 +51,7 @@ $dark-color: #3e396b;
 
 .dilbtn {
     position: relative;
+    padding: 5px 10px !important;
 }
 
 .yan-taraf {
