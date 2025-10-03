@@ -1,0 +1,48 @@
+{{ define "title" }}
+  {{ .Title }} · {{ .Site.Title }}
+{{ end }}
+{{ define "main" }}
+
+
+
+<section id="blog" class="container">
+     <div class="row">
+       <div class="col-12">
+          <header class="card-header text-center m-2 p-2">
+            <div class="card-title"><h1>{{ .Title }}</h1>
+            </div>
+            {{ partial "breadcrumbs.html" . }}
+          </header>
+       </div>
+      </div>
+     <div class="row">
+
+    {{ range .Paginator.Pages }}
+      <div class="col-lg-6 col-md-6 col-12">
+        <article class="card entry">
+
+                                          {{ if .Params.Image }}
+
+                                  <div class="card-image">
+                                      <a href="{{ .Permalink }}">
+
+                                          <img src="{{ .Params.Image | relURL }}" class="img-responsive" alt="">
+                                      </a>
+                                  </div>
+
+                                   <h2 class="text-center">
+                                     <a href="{{ .Permalink }}">{{ .Title }}</a>
+                                   </h2>
+
+                                          {{ end }}
+
+        </article>
+      </div>
+{{ end }}
+
+        </div><!-- /.row -->
+                        <ul class="pagination">
+                        </ul>
+        </div><!-- /.container -->
+</section>
+{{ end }}

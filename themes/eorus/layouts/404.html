@@ -1,0 +1,22 @@
+{{ define "main" }}
+<section class="container full-screen text-center">
+  <div class="error">
+    <h1 id="title">404</h1>
+    <h2>{{ i18n "pageNotFound" }}</h2>
+      <p><a href="{{ "/" | relLangURL }}">{{ i18n "goHome" }}</a></p>
+    {{/* Optional: show recent posts */}}
+    {{ $recentPosts := first 5 (where .Site.RegularPages "Type" "posts") }}
+    {{ if $recentPosts }}
+      <h2>{{ i18n "recentPosts" }}</h2>
+      <ul class="recent-posts">
+        {{ range $recentPosts }}
+          <li>
+            <a href="{{ .RelPermalink | relLangURL }}">{{ .Title }}</a>
+            <time datetime="{{ .Date }}">{{ .Date.Format "Jan 2, 2006" }}</time>
+          </li>
+        {{ end }}
+      </ul>
+    {{ end }}
+  </div>
+</section>
+{{ end }}

@@ -1,0 +1,19 @@
+{{ define "title" }}
+  {{ .Title }} · {{ .Site.Title }}
+{{ end }}
+{{ define "main" }}
+   <section class="container">
+     <div class="row">
+       <div class="col-12">
+          <header class="card-header text-center">
+            <div class="card-title"><h1>{{ .Title }}</h1>
+            </div>
+            {{ partial "breadcrumbs.html" . }}
+          </header>
+        <article class="entry-content card-body">
+            {{ .Content }}
+        </article>
+     </div>
+    </div>
+  </section>
+{{ end }}

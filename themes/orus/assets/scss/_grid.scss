@@ -83,18 +83,3 @@ $grid-gutter: 1rem;
     }
   }
 }
-
-/* Alignment helpers */
-.justify-start   { justify-content: flex-start; }
-.justify-center  { justify-content: center; }
-.justify-end     { justify-content: flex-end; }
-.justify-between { justify-content: space-between; }
-.justify-around  { justify-content: space-around; }
-
-.align-start  { align-items: flex-start; }
-.align-center { align-items: center; }
-.align-end    { align-items: flex-end; }
-
-.align-self-start  { align-self: flex-start; }
-.align-self-center { align-self: center; }
-.align-self-end    { align-self: flex-end; }

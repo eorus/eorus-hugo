@@ -1,0 +1,171 @@
+/* Alignment helpers */
+.justify-start    { justify-content: flex-start !important;}
+.justify-center   { justify-content: center !important; }
+.justify-end      { justify-content: flex-end !important; }
+.justify-between  { justify-content: space-between !important; }
+.justify-around   { justify-content: space-around !important; }
+
+.align-start      { align-items: flex-start; }
+.align-center     { align-items: center; }
+.align-end        { align-items: flex-end; }
+
+.align-self-start  { align-self: flex-start; }
+.align-self-center { align-self: center; }
+.align-self-end    { align-self: flex-end; }
+
+/* Bootstrap-like heading utilities for Pico overrides */
+/* Display headings */
+.display-1 { font-size: 5rem;  font-weight: 300; line-height: 1.2; }
+.display-2 { font-size: 4.5rem; font-weight: 300; line-height: 1.2; }
+.display-3 { font-size: 4rem;  font-weight: 300; line-height: 1.2; }
+.display-4 { font-size: 3.5rem; font-weight: 300; line-height: 1.2; }
+.display-5 { font-size: 3rem;  font-weight: 300; line-height: 1.2; }
+.display-6 { font-size: 2.5rem; font-weight: 300; line-height: 1.2; }
+
+/* Heading classes (make any element look like h1-h6) */
+.h1 { font-size: 2.5rem; font-weight: 500; line-height: 1.2; }
+.h2 { font-size: 2rem;   font-weight: 500; line-height: 1.3; }
+.h3 { font-size: 1.75rem; font-weight: 500; line-height: 1.3; }
+.h4 { font-size: 1.5rem;  font-weight: 500; line-height: 1.3; }
+.h5 { font-size: 1.25rem; font-weight: 500; line-height: 1.4; }
+.h6 { font-size: 1rem;    font-weight: 500; line-height: 1.4; }
+
+/* Font-size utilities */
+.fs-1 { font-size: 2.5rem !important; }
+.fs-2 { font-size: 2rem   !important; }
+.fs-3 { font-size: 1.75rem !important; }
+.fs-4 { font-size: 1.5rem  !important; }
+.fs-5 { font-size: 1.25rem !important; }
+.fs-6 { font-size: 1rem    !important; }
+
+/* Heading weight variants */
+.fw-light  { font-weight: 300 !important; }
+.fw-normal { font-weight: 400 !important; }
+.fw-bold   { font-weight: 700 !important; }
+
+/* =========================================
+   Text Helpers
+   ========================================= */
+
+/* Font size */
+.text-small  { font-size: 0.75rem !important; } /* ~12px */
+.text-normal { font-size: 1rem    !important; } /* ~16px (default) */
+.text-large  { font-size: 1.25rem !important; } /* ~20px */
+
+/* Text transform */
+.text-uppercase  { text-transform: uppercase !important; }
+.text-lowercase  { text-transform: lowercase !important; }
+.text-capitalize { text-transform: capitalize !important; }
+
+/* =========================================
+   Responsive Helpers (Bootstrap-like)
+   ========================================= */
+
+/* Make images responsive */
+.img-fluid,
+.img-responsive {
+  max-width: 100%;
+  height: auto;
+  display: block;
+}
+
+/* ==============================
+   Responsive Display Helpers
+   ============================== */
+.d-none { display: none !important; }
+.d-block { display: block !important; }
+.d-inline { display: inline !important; }
+.d-inline-block { display: inline-block !important; }
+.d-flex { display: flex !important; }
+
+@each $bp, $val in $grid-breakpoints {
+  @if $val != 0 {
+    @media (min-width: $val) {
+      .d-#{$bp}-none { display: none !important; }
+      .d-#{$bp}-block { display: block !important; }
+      .d-#{$bp}-flex { display: flex !important; }
+    }
+  }
+}
+
+/* Responsive text alignment */
+.text-start  { text-align: left !important; }
+.text-center { text-align: center !important; }
+.text-end   { text-align: right !important; }
+
+@media (min-width: 768px) {
+  .text-md-start  { text-align: left !important; }
+  .text-md-center { text-align: center !important; }
+  .text-md-end    { text-align: right !important; }
+}
+
+@media (min-width: 992px) {
+  .text-lg-start  { text-align: left !important; }
+  .text-lg-center { text-align: center !important; }
+  .text-lg-end    { text-align: right !important; }
+}
+
+/* =========================================
+   Spacing Helpers (5px increments)
+   ========================================= */
+
+@for $i from 0 through 5 {
+  $space: $i*5px;
+  .m-#{$i}, .p-#{$i} { margin: $space !important; padding: $space !important; }
+  .mt-#{$i} { margin-top: $space !important; }
+  .mr-#{$i} { margin-right: $space !important; }
+  .mb-#{$i} { margin-bottom: $space !important; }
+  .ml-#{$i} { margin-left: $space !important; }
+
+  .mx-#{$i} { margin-left: $space !important; margin-right: $space !important; }
+  .my-#{$i} { margin-top: $space !important; margin-bottom: $space !important; }
+
+  .pt-#{$i} { padding-top: $space !important; }
+  .pr-#{$i} { padding-right: $space !important; }
+  .pb-#{$i} { padding-bottom: $space !important; }
+  .pl-#{$i} { padding-left: $space !important; }
+
+  .px-#{$i} { padding-left: $space !important; padding-right: $space !important; }
+  .py-#{$i} { padding-top: $space !important; padding-bottom: $space !important; }
+}
+
+/* =========================================
+   Background Helpers (Primary & Secondary)
+   Works with Pico v1.5.13 color schemes
+   ========================================= */
+
+/* Solid backgrounds */
+.bg-primary {
+  background-color: var(--primary) !important;
+  color: var(--primary-inverse) !important;
+}
+
+.bg-secondary {
+  background-color: var(--secondary) !important;
+  color: var(--secondary-inverse) !important;
+}
+
+/* Hover states (optional if used on links/buttons) */
+.bg-primary:hover  { background-color: var(--primary-hover) !important; }
+.bg-secondary:hover { background-color: var(--secondary-hover) !important; }
+
+/* Subtle "soft" backgrounds */
+.bg-primary-soft {
+  background-color: color-mix(in srgb, var(--primary) 15%, transparent) !important;
+  color: var(--primary) !important;
+}
+
+.bg-secondary-soft {
+  background-color: color-mix(in srgb, var(--secondary) 15%, transparent) !important;
+  color: var(--secondary) !important;
+}
+
+
+/* Width helpers */
+.w-100 { width: 100%; }
+.w-auto { width: auto; }
+
+/* Other */
+.rounded { border-radius: 0.25rem; }
+.rounded-circle { border-radius: 50%; }
+.shadow { box-shadow: 0 0.25rem 0.5rem rgba(0,0,0,.1); }

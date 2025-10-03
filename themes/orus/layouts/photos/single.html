@@ -3,19 +3,17 @@
 {{ end }}
 {{ define "main" }}
 <section class="container page grid-xl">
-     <div class="columns">
-       <div class="column col-12 entries">
+     <div class="row">
+       <div class="col-12 entries">
           <header class="card-header text-center m-2 p-2">
             <div class="card-title"><h1 class="entry-title">{{ .Title }}</h1>
             </div>
             {{ partial "breadcrumbs.html" . }}
           </header>
-           <article class="card post entry entry-single">
-          <header class="mb-2">
-          </header>
+           <article class="card ">
             {{ .Content }}
-        </article>
-     </div>
+          </article>
+      </div>
     </div>
-  </section>
+</section>
 {{ end }}

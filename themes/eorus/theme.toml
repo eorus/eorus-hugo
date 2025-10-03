@@ -1,0 +1,8 @@
+name = "Eorus Hugo Theme"
+license = "MIT"
+licenselink = "https://opensource.org/licenses/MIT"
+description = "Custom Hugo theme from scratch"
+homepage = "https://eorus.com"
+tags = ["blog", "minimal", "multilingual"]
+features = ["scss", "responsive"]
+min_version = "0.120.0"

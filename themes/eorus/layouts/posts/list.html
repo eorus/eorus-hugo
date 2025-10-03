@@ -1,0 +1,62 @@
+{{ define "title" }}
+  {{ .Title }} · {{ .Site.Title }}
+{{ end }}
+{{ define "main" }}
+
+<section id="blog" class="container">
+     <div class="row">
+       <div class="col-12">
+          <header class="card-header text-center m-2 p-2">
+            <div class="card-title"><h1>{{ .Title }}</h1>
+            </div>
+            {{ partial "breadcrumbs.html" . }}
+          </header>
+       </div>
+      </div>
+     <div class="row">
+        {{ $paginator := .Paginate (where .Site.RegularPages "Type" "in" site.Params.mainSections) }}
+        {{ range $paginator.Pages }}
+        <div class="col-12 col-lg-6 col-md-6">
+        <article class="card">
+
+                                          {{ if .Params.Image }}
+
+                                  <div class="entry-img">
+                                    <a href="{{ .Permalink }}">
+                                        <img src="{{ .Params.Image | relURL }}" class="img-responsive" alt="">
+                                      </a>
+                                  </div>
+
+                                   <h2 class="entry-title h4 p-3">
+                                     <a href="{{ .Permalink }}">{{ .Title }}</a>
+                                   </h2>
+                                <div class="entry-content">
+                                    <p class="intro">{{ .Summary }}</p>
+                                    <div class="text-small text-end"><a href="{{ .Permalink }}" class="btn btn-outline-primary">Continue Reading</a></div>
+                                </div>
+                                          {{ else }}
+                                   <h2 class="entry-title">
+                                     <a href="{{ .Permalink }}">{{ .Title }}</a>
+                                   </h2>
+                                {{ partial "metadata.html" . }}
+                                <div class="entry-content">
+                                    <p class="intro">{{ .Summary }}</p>
+                                    <div class="read-more"><a href="{{ .Permalink }}" class="btn btn-info">Continue Reading</a></div>
+                                </div>
+                                          {{ end }}
+
+        </article>
+        </div>
+{{ end }}
+
+</div><!-- /.columns-->
+
+
+<ul class="pagination">
+    {{ partial "pagination.html" . }}
+</ul>
+
+
+        </div><!-- /.container -->
+</section>
+{{ end }}

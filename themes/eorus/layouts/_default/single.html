@@ -1,0 +1,21 @@
+{{ define "main" }}
+<article>
+  <h1>{{ .Title }}</h1>
+  <div class="content">
+    {{ .Content }}
+  </div>
+
+        <ul class="col-12 col-mx-auto pagination">
+          <li class="page-item page-next text-center">{{ with .NextInSection }}
+          <i class="fa fa-arrow-left"></i><a href="{{ .Permalink }}">{{ .Title }}</a>
+          {{ end }}
+          </li>
+          <li class="page-item page-prev text-center">{{ with .PrevInSection }}
+          <a href="{{ .Permalink }}">{{ .Title }}</a><i class="fa fa-arrow-right"></i>
+        {{ end }}
+          </li>
+      </ul>
+
+</article>
+
+{{ end }}

@@ -1,39 +1,41 @@
-<header id="header" class="navbar">
-<div class="container grid-xl">
-  <section class="navbar-section">
-    <div class="wrap">
-    <span class="decor"></span>
-    <div class="nav-menu">
+<header id="header" class="navbar bg-secondary-soft mb-5">
+<div class="container">
+    <nav>
          {{ if or .Site.Menus.main hugo.IsMultilingual }}
-        <ul class="primary">
+        <ul>
         {{ with .Site.Menus.main}}
           {{ range sort . }}
-        <li class="nav-item">
-        <a class="nav-link menu-item no-decoration {{ $.Site.Params.navbarLinkFgColorClass | default $.Site.Data.Defaults.navbarLinkFgColorClass }}" href="{{ .URL | relLangURL }}">
+        <li>
+        <a class="m-0" href="{{ .URL | relLangURL }}">
           {{ .Pre }}
           {{ .Name }}
         </a>
          </li>
           {{ end }}
         {{ end }}
+
+    {{ end }}
+        </ul>
+
+        <ul>
+           <li>
         {{ if hugo.IsMultilingual }}
           {{ $node := . }}
           {{ .Scratch.Set "separator" true }}
           {{ range (default .Site.Home.AllTranslations .Translations) }}
             {{ if ne $.Site.Language .Language }}
-<a href="{{ .Permalink }}" class="btn btn-secondary btn-sm dilbtn" role="button">{{ .Language.LanguageName }}</a>
+<a href="{{ .Permalink }}" class="btn btn-secondary btn-sm dilbtn" role="button">{{ .Lang | upper }}</a>
 
             {{ end }}
           {{ end }}
         {{ end }}
-
-    {{ end }}
+           </li>
+           <li>
+<button id="dark-mode" class="btn-toggle btn-outline-secondary" aria-label="Toggle dark mode">
+  <i class="fa fa-adjust fa-fw" aria-hidden="true"></i>
+</button>
+           </li>
         </ul>
-
-    <a id="dark-mode" class="btn-toggle">
-        <i class="fa fa-adjust fa-fw" aria-hidden="true"></i>
-    </a>
-
     </div>
 
   </section>

@@ -1,0 +1,146 @@
+baseURL = "/"
+languageCode = "en-us"
+title = "Eorus Website"
+theme = "orus"
+summaryLength = 15
+
+[pagination]
+  pagerSize = 10
+
+[readingTime]
+one = "One minute to read"
+other = "{{.Count}} minutes to read"
+
+[sitemap]
+    changefreq = "weekly"
+    priority = 0.5
+
+[taxonomies]
+  category = "categories"
+  tag = "tags"
+  series ="series"
+
+[params]
+    author = "Eorus"
+    avatarurl = "images/alper.jpg"
+    dateformat = "2 January 2006"
+    description = "Eorus Web Design and Digital Transformation"
+    mainSections = ["posts"]
+
+[[params.social]]
+    name = "Github"
+    icon = "fab fa-github"
+    weight = 1
+    url = "https://github.com/eorus/"
+
+[[params.social]]
+    name = "Flickr"
+    icon = "fab fa-flickr"
+    weight = 1
+    url = "https://www.flickr.com/photos/eorus/"
+
+[[params.social]]
+    name = "RSS"
+    icon = "fas fa-rss"
+    weight = 2
+    url = "https://www.eorus.com/index.xml"
+    rel = "alternate"
+    type = "application/rss+xml"
+
+# Enable and disable widgets for the right sidebar
+[params.widgets]
+    categories = true
+    tags = true
+    search = true
+
+defaultContentLanguage = "en"
+defaultContentLanguageInSubdir = false
+disableLanguages = []
+
+[languages]
+
+  [languages.en]
+    languageName = "English"
+    weight = 1
+    contentDir = "content/en"
+    title = "Eorus"
+
+    [languages.en.menu]
+      [[languages.en.menu.main]]
+        identifier = "home"
+        name = "Home"
+        url = "/"
+        weight = 1
+
+      [[languages.en.menu.main]]
+        identifier = "about"
+        name = "About"
+        url = "about"
+        weight = 2
+
+      [[languages.en.menu.main]]
+        identifier = "posts"
+        name = "Posts"
+        url = "posts"
+        weight = 3
+
+      [[languages.en.menu.main]]
+        identifier = "photos"
+        name = "Photos"
+        url = "photos"
+        weight = 4
+
+      [[languages.en.menu.main]]
+        identifier = "contact"
+        name = "Contact"
+        url = "contact"
+        weight = 5
+
+
+  [languages.tr]
+    languageName = "Türkçe"
+    weight = 2
+    contentDir = "content/tr"
+    title = "Eorus"
+
+    [languages.tr.menu]
+      [[languages.tr.menu.main]]
+        identifier = "home"
+        name = "Anasayfa"
+        url = "/"
+        weight = 1
+
+      [[languages.tr.menu.main]]
+        identifier = "about"
+        name = "Hakkımda"
+        pageRef = "about"
+        weight = 2
+
+      [[languages.tr.menu.main]]
+        identifier = "posts"
+        name = "Yazılar"
+        url = "posts"
+        weight = 3
+
+      [[languages.tr.menu.main]]
+        identifier = "photos"
+        name = "Fotoğraflar"
+        url = "photos"
+        weight = 4
+
+      [[languages.tr.menu.main]]
+        identifier = "contact"
+        name = "İletişim"
+        pageRef = "contact"
+        weight = 5
+
+
+[markup]
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      unsafe = true # Allow HTML in md files
+      disableToc = "false"
+    [markup.goldmark.parser]
+      wrapStandAloneImageWithinParagraph = false
+      [markup.goldmark.parser.attribute]
+        block = true

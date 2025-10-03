@@ -3,21 +3,20 @@
 {{ end }}
 {{ define "main" }}
 
-<section id="blog" class="blog container grid-xl page">
-     <div class="columns">
-       <div class="column col-12">
-          <header class="card-header text-center m-2 p-2">
-            <div class="card-title"><h1>{{ .Title }}</h1>
-            </div>
+<section id="blog" class="container">
+     <div class="row">
+       <div class="col-12">
+          <header class="text-center m-2 p-2">
+            <h1>{{ .Title }}</h1>
             {{ partial "breadcrumbs.html" . }}
           </header>
        </div>
       </div>
-     <div class="columns">
+     <div class="row">
         {{ $paginator := .Paginate (where .Site.RegularPages "Type" "in" site.Params.mainSections) }}
         {{ range $paginator.Pages }}
-        <div class="column col-6 col-md-6 col-sm-12">
-        <article class="card entry">
+        <div class="col-lg-6 col-md-6 col-12">
+        <article class="card">
 
                                           {{ if .Params.Image }}
 
@@ -27,22 +26,38 @@
                                       </a>
                                   </div>
 
-                                   <h2 class="entry-title">
+                                   <h2 class="h4 p-2">
                                      <a href="{{ .Permalink }}">{{ .Title }}</a>
                                    </h2>
-                                {{ partial "metadata.html" . }}
-                                <div class="entry-content">
+
+                                   <div class="p-2 text-small">
+                                   {{ $dateTime := .PublishDate.Format "2006-01-02" }}
+                                   {{ $dateFormat := .Site.Params.dateFormat | default "Jan 2, 2006" }}
+                                   <i class='fa fa-calendar'></i>
+                                   <time datetime="{{ $dateTime }}">{{ .PublishDate.Format $dateFormat }}</time>
+                                   <span class="separator">•</span>
+                                   {{ with .Page.Params.Categories }}{{ partial "taxonomy/categories.html" . }}{{ end }}
+                                   </div>
+
+                                   <div class="entry-content">
                                     <p class="intro">{{ .Summary }}</p>
-                                    <div class="read-more"><a href="{{ .Permalink }}" class="btn btn-info">Continue Reading</a></div>
+                                    <div class="read-more text-end text-small"><a href="{{ .Permalink }}" class="btn btn-outline-primary">Continue Reading</a></div>
                                 </div>
                                           {{ else }}
-                                   <h2 class="entry-title">
+                                   <h2 class="h4">
                                      <a href="{{ .Permalink }}">{{ .Title }}</a>
                                    </h2>
-                                {{ partial "metadata.html" . }}
+                                   <div class="entry-meta metadata">
+                                   {{ $dateTime := .PublishDate.Format "2006-01-02" }}
+                                   {{ $dateFormat := .Site.Params.dateFormat | default "Jan 2, 2006" }}
+                                   <i class='fa fa-calendar'></i>
+                                   <time datetime="{{ $dateTime }}">{{ .PublishDate.Format $dateFormat }}</time>
+                                   <span class="separator">•</span>
+                                   {{ with .Page.Params.Categories }}{{ partial "taxonomy/categories.html" . }}{{ end }}
+                                   </div>
                                 <div class="entry-content">
                                     <p class="intro">{{ .Summary }}</p>
-                                    <div class="read-more"><a href="{{ .Permalink }}" class="btn btn-info">Continue Reading</a></div>
+                                    <div class="read-more text-end text-small"><a href="{{ .Permalink }}" class="btn btn-outline-secondary">Continue Reading</a></div>
                                 </div>
                                           {{ end }}
 

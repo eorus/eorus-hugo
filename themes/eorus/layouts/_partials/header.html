@@ -1,0 +1,44 @@
+<nav class="navbar" role="navigation" aria-label="Main Navigation">
+  <div class="container">
+    <div class="row">
+         {{ if or .Site.Menus.main hugo.IsMultilingual }}
+        <ul>
+        {{ with .Site.Menus.main}}
+          {{ range sort . }}
+        <li>
+        <a href="{{ .URL | relLangURL }}">
+          {{ .Pre }}
+          {{ .Name }}
+        </a>
+         </li>
+          {{ end }}
+        {{ end }}
+
+    {{ end }}
+        </ul>
+
+  <ul>
+    <li>
+        {{ if hugo.IsMultilingual }}
+          {{ $node := . }}
+          {{ .Scratch.Set "separator" true }}
+          {{ range (default .Site.Home.AllTranslations .Translations) }}
+            {{ if ne $.Site.Language .Language }}
+<a href="{{ .Permalink }}" class="btn btn-secondary btn-sm dilbtn" role="button">{{ .Lang | upper }}</a>
+
+            {{ end }}
+          {{ end }}
+        {{ end }}
+
+    </li>
+    <li>
+<button id="dark-mode" class="btn-toggle btn-outline-secondary" aria-label="Toggle dark mode">
+  <i class="fa fa-adjust fa-fw" aria-hidden="true"></i>
+</button>
+    </li>
+  </ul>
+
+
+    </div>
+    </div>
+  </nav>

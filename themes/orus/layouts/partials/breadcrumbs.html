@@ -1,4 +1,4 @@
-<div class="breadcrumb card-subtitle text-tiny">
+<nav class="breadcrumb justify-center text-small">
 {{ define "breadcrumb" }}
   {{ with .Parent }}
     {{ template "breadcrumb" . }}
@@ -9,4 +9,4 @@
     {{ template "breadcrumb" . }}
     {{.Title}}
   {{ end }}
-</div>
+</nav>

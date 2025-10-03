@@ -1,0 +1,63 @@
+/* Buttons aligned with Pico's color scheme */
+.btn {
+  display: inline-block;
+  font: inherit;
+  font-weight: 500;
+  padding: 0.5rem 1rem;
+  border-radius: 0.375rem;
+  border: none;
+  cursor: pointer;
+  text-align: center;
+  text-decoration: none;
+  line-height: 1.25;
+  transition: background-color 0.15s ease, color 0.15s ease;
+}
+
+/* Primary Button */
+.btn-primary {
+  background-color: var(--primary);
+  color: var(--primary-inverse, #fff);
+}
+
+.btn-primary:hover,
+.btn-primary:focus {
+  background-color: color-mix(in srgb, var(--primary) 85%, black);
+  color: var(--primary-inverse, #fff);
+}
+
+/* Secondary Button */
+.btn-secondary {
+  background-color: var(--secondary);
+  color: var(--secondary-inverse, #fff);
+}
+
+.btn-secondary:hover,
+.btn-secondary:focus {
+  background-color: color-mix(in srgb, var(--secondary) 85%, black);
+  color: var(--secondary-inverse, #fff);
+}
+
+/* Outline style variants */
+.btn-outline-primary {
+  background-color: transparent;
+  border: 1px solid var(--primary);
+  color: var(--primary);
+}
+
+.btn-outline-primary:hover,
+.btn-outline-primary:focus {
+  background-color: var(--primary);
+  color: var(--primary-inverse, #fff);
+}
+
+.btn-outline-secondary {
+  background-color: transparent;
+  border: 1px solid var(--secondary);
+  color: var(--secondary);
+}
+
+.btn-outline-secondary:hover,
+.btn-outline-secondary:focus {
+  background-color: var(--secondary);
+  color: var(--secondary-inverse, #fff);
+}

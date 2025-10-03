@@ -1,0 +1,15 @@
+{{ define "main" }}
+<section class="homepage-intro">
+  <h1>{{ .Site.Title }}</h1>
+  {{ with .Site.Params.description }}
+    <p>{{ . }}</p>
+  {{ end }}
+</section>
+
+<section class="latest-posts">
+  <h2>{{ i18n "latestPosts" | default "Latest Posts" }}</h2>
+
+{{ partial "post-list.html" . }}
+
+</section>
+{{ end }}

@@ -2,23 +2,26 @@
 Color Toggle
 *****/
 
-const btn = document.querySelector(".btn-toggle");
+document.addEventListener("DOMContentLoaded", () => {
+  const btn = document.querySelector(".btn-toggle");
+  if (!btn) return;
 
-const currentTheme = localStorage.getItem("theme");
-if (currentTheme == "dark") {
-  document.body.classList.add("dark-theme");
-}
-
-btn.addEventListener("click", function () {
-  document.body.classList.toggle("dark-theme");
-
-  let theme = "light";
-  if (document.body.classList.contains("dark-theme")) {
-    theme = "dark";
+  // Load saved theme or fallback to auto
+  const currentTheme = localStorage.getItem("theme") || "auto";
+  if (currentTheme !== "auto") {
+    document.documentElement.setAttribute("data-theme", currentTheme);
   }
-  localStorage.setItem("theme", theme);
 
+  btn.addEventListener("click", () => {
+    const html = document.documentElement;
+    let theme = html.getAttribute("data-theme") === "dark" ? "light" : "dark";
+
+    html.setAttribute("data-theme", theme);
+    localStorage.setItem("theme", theme);
+  });
 });
+
+
 
 /****
 Lightbox

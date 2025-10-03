@@ -1,0 +1,60 @@
+{{ define "title" }}
+  {{ .Title }} · {{ .Site.Title }}
+{{ end }}
+{{ define "main" }}
+<section class="container">
+  <div class="row">
+       <article class="col-lg-12 col-md-12 col-sm-12 col-mx-auto card py-0">
+  <div class="row bg-secondary-soft mb-5">
+          <div class="col-lg-4 col-md-4 col-12">
+            {{if .Params.Image }}
+        <figure class="figure mt-5">
+           <div class="featured-media-inner section-inner medium">
+            <img width="1024" height="768" src="{{ .Params.Image | absURL }}"
+              class="attachment-post-thumbnail size-post-thumbnail wp-post-image s-rounded d-block img-responsive" alt="{{.Title }}"
+              sizes="(max-width: 1100px) 100vw, 1100px">
+           </div><!-- .featured-media-inner -->
+         </figure><!-- .featured-media -->
+          </div>
+         {{end}}
+
+          <div class="col-lg-7 col-md-7 col-12 text-center m-2 p-2">
+          {{ partial "breadcrumbs.html" . }}
+          <div class="mt-5"><h1 class="h3 entry-title">{{ .Title }}</h1></div>
+          <div class="card-subtitle">{{ partial "metadata.html" . }}</div>
+          </div>
+  </div>
+
+          <div class="card-body entry-content">
+            {{ .Content }}
+          </div>
+          <div class="entry-footer clearfix">
+                <div class="text-start">
+ {{ with .Page.Params.Tags }}{{ partial "taxonomy/tags.html" . }}{{ end }}
+                </div>
+                 <div class="text-end share">
+
+                   <a href="http://twitter.com/share?url={{ .Permalink }}" title="Share on Twitter"><i class="fab fa-twitter"></i></a>
+
+                  <a href="http://www.facebook.com/sharer.php?u={{ .Permalink }}" title="Share on Facebook"><i class="fab fa-facebook"></i></a>
+
+                 </div>
+          </div>
+
+        </article>
+      </div>
+    </div>
+        <ul class="col-lg-12 col-mx-auto pagination">
+          <li class="page-item page-next text-center">{{ with .NextInSection }}
+          <i class="fa fa-arrow-left"></i><a href="{{ .Permalink }}">{{ .Title }}</a>
+          {{ end }}
+          </li>
+          <li class="page-item page-prev text-center">{{ with .PrevInSection }}
+          <a href="{{ .Permalink }}">{{ .Title }}</a><i class="fa fa-arrow-right"></i>
+        {{ end }}
+          </li>
+      </ul>
+
+</section>
+
+{{ end }}

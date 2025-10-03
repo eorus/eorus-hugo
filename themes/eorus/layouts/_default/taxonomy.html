@@ -1,0 +1,11 @@
+
+{{ define "main" }}
+<h1>{{ .Title }}</h1>
+
+<ul>
+  {{ $pages := where .Data.Pages "Lang" .Lang }}
+  {{ range $pages }}
+    <li><a href="{{ .RelPermalink }}">{{ .Title }}</a></li>
+  {{ end }}
+</ul>
+{{ end }}

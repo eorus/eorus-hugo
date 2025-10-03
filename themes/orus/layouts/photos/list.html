@@ -3,21 +3,20 @@
 {{ end }}
 {{ define "main" }}
 
-<section id="blog" class="blog container grid-xl page">
-     <div class="columns">
-       <div class="column col-12">
-          <header class="card-header text-center m-2 p-2">
-            <div class="card-title"><h1>{{ .Title }}</h1>
-            </div>
+<section class="container">
+     <div class="row">
+       <div class="col-12">
+          <header class="text-center m-2 p-2">
+            <h1>{{ .Title }}</h1>
             {{ partial "breadcrumbs.html" . }}
           </header>
        </div>
       </div>
-     <div class="columns">
+     <div class="row">
 
     {{ range .Paginator.Pages }}
-      <div class="col-6 col-md-6 col-sm-12">
-        <article class="card entry">
+      <div class="col-lg-6 col-md-6 col-12">
+        <article class="card">
 
                                           {{ if .Params.Image }}
 
@@ -38,9 +37,7 @@
       </div>
 {{ end }}
 
-        </div><!-- /.row -->
-                        <ul class="pagination">
-                        </ul>
-        </div><!-- /.container -->
+       </div><!-- /.row -->
+   </div><!-- /.container -->
 </section>
 {{ end }}

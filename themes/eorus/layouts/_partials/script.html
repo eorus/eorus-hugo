@@ -1,0 +1,12 @@
+<!-- Template Main JS File -->
+    {{ if not .Site.Params.hideColorSchemeToggle }}
+      {{ if hugo.IsServer  }}
+        {{ $script := resources.Get "js/main.js" }}
+        <script src="{{ $script.RelPermalink }}"></script>
+      {{ else }}
+        {{ $script := resources.Get "js/main.js" | minify | fingerprint }}
+        <script src="{{ $script.RelPermalink }}"></script>
+      {{ end }}
+    {{ end }}
+
+ <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.1/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">

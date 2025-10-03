@@ -1,7 +1,6 @@
 +++
 title = "About Me"
 slug = "about"
-url = "/about/"
 +++
 
 Hi, I’m **Alper**! I'm a freelancer, entrepreneur. I usually write and generate content as a **blogger**. I have several sites and large **camera** groups on the web. I write about **photography** and camera industry. In addition, I build websites or meet the digital transformation needs of companies in every sense. As a front-end developer i love to play with frameworks and create static and dynamic sites. In the past, I worked as a financial advisor.
