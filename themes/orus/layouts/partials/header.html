@@ -1,40 +1,41 @@
-<header id="header" class="navbar bg-secondary-soft mb-5">
-  <nav class="navbar" role="navigation" aria-label="Main Navigation">
-    <div class="container">
-      <div class="row">
+<header id="header" class="navbar mb-5">
+  <nav class="container navbar-inner">
 
-         {{ if or .Site.Menus.main hugo.IsMultilingual }}
-    <!-- Main Menu -->
-  <div class="col-lg-10 justify-center">
-        {{ with .Site.Menus.main}}
-        {{ range sort . }}
-        <a class="" href="{{ .URL | relLangURL }}">
-          {{ .Pre }}
-          {{ .Name }}
-        </a>
-          {{ end }}
-          {{ end }}
-  </div>
-        {{ end }}
+    <!-- Hamburger -->
+    <button class="hamburger btn-secondary" id="hamburger" aria-label="Menu" aria-expanded="false">
+      <span></span>
+      <span></span>
+      <span></span>
+    </button>
 
-    <!-- Language Switcher -->
-    <div class="col-lg-2 justify-end">
-        {{ if hugo.IsMultilingual }}
-          {{ $node := . }}
-          {{ .Scratch.Set "separator" true }}
-          {{ range (default .Site.Home.AllTranslations .Translations) }}
-            {{ if ne $.Site.Language .Language }}
-<a href="{{ .Permalink }}" class="btn btn-secondary btn-sm dilbtn" role="button">{{ .Lang | upper }}</a>
-
-            {{ end }}
+    <!-- Navigation Links -->
+    <ul class="nav-links" id="nav-links">
+      {{ if or .Site.Menus.main hugo.IsMultilingual }}
+        {{ with .Site.Menus.main }}
+          {{ range sort . }}
+            <li>
+              <a href="{{ .URL | relLangURL }}">{{ .Pre }} {{ .Name }}</a>
+            </li>
           {{ end }}
         {{ end }}
-      <a id="dark-mode" class="btn-toggle right">
-        <i class="fa fa-adjust fa-fw" aria-hidden="true"></i>
-    </a>
+      {{ end }}
+    </ul>
+
+    <!-- Right-side controls -->
+    <div class="nav-controls">
+      <!-- Language switcher -->
+      {{ if hugo.IsMultilingual }}
+        {{ range (default .Site.Home.AllTranslations .Translations) }}
+          {{ if ne $.Site.Language .Language }}
+            <a href="{{ .Permalink }}" class="btn btn-secondary btn-sm dilbtn">{{ .Lang | upper }}</a>
+          {{ end }}
+        {{ end }}
+      {{ end }}
+      <!-- Dark mode toggle -->
+      <a id="dark-mode" class="btn-toggle">
+        <i class="fa fa-adjust fa-fw"></i>
+      </a>
     </div>
 
-      </div>
-    </div>
   </nav>
 </header>

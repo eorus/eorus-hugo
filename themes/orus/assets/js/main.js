@@ -22,6 +22,21 @@ document.addEventListener("DOMContentLoaded", () => {
 });
 
 
+/****
+hamburger
+*****/
+
+document.addEventListener("DOMContentLoaded", function () {
+  const hamburger = document.getElementById("hamburger");
+  const navLinks = document.getElementById("nav-links");
+
+  hamburger.addEventListener("click", () => {
+    navLinks.classList.toggle("active"); // toggle menu visibility
+    const expanded = hamburger.getAttribute("aria-expanded") === "true" || false;
+    hamburger.setAttribute("aria-expanded", !expanded);
+  });
+});
+
 
 /****
 Lightbox
