@@ -1,15 +1,7 @@
-<header id="header" class="navbar mb-5">
-  <nav class="container navbar-inner">
+<header class="header bg-secondary-soft container mb-5 py-0">
 
-    <!-- Hamburger -->
-    <button class="hamburger btn-secondary" id="hamburger" aria-label="Menu" aria-expanded="false">
-      <span></span>
-      <span></span>
-      <span></span>
-    </button>
-
-    <!-- Navigation Links -->
-    <ul class="nav-links" id="nav-links">
+		<h1 class="logo"><a href="{{ .Site.BaseURL }}">{{ .Site.Title }}</a></h1>
+      <ul class="main-nav">
       {{ if or .Site.Menus.main hugo.IsMultilingual }}
         {{ with .Site.Menus.main }}
           {{ range sort . }}
@@ -19,8 +11,7 @@
           {{ end }}
         {{ end }}
       {{ end }}
-    </ul>
-
+      </ul>
     <!-- Right-side controls -->
     <div class="nav-controls">
       <!-- Language switcher -->
@@ -37,5 +28,4 @@
       </a>
     </div>
 
-  </nav>
-</header>
+	</header>

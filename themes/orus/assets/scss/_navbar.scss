@@ -2,105 +2,71 @@
    Navbar
 ------------------------------------ */
 
-/* Navbar container */
-.navbar {
-  background: var(--pico-background-color, #fff);
-  border-bottom: 1px solid var(--pico-muted-border-color, #ddd);
-  padding: 0.75rem 1rem;
-  position: relative;
-  z-index: 100;
+.logo {
+	margin: 0;
+	font-size: 1.45em;
+}
+.logo a {
+	text-transform: uppercase;
 }
 
-.navbar .container {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  flex-wrap: wrap;
+.main-nav {
+	margin: 0;
+
+}
+.logo a,
+.main-nav a {
+	padding: 10px 15px;
+	text-align: center;
+	display: block;
 }
 
-
-/* Hamburger button */
-.hamburger {
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
-  width: 28px;
-  height: 20px;
-  cursor: pointer;
-  border: none;
-  background: transparent;
-  padding: 0;
-  color: #333; /* <-- ensures spans use this color */
+.main-nav a {
+	font-size: 1em;
 }
 
-.hamburger span {
-  display: block;
-  height: 3px;
-  width: 100%;
-  background: currentColor; /* uses button color */
-  border-radius: 2px;
+.main-nav a:hover {
+	color: #718daa;
 }
 
-
-/* Collapsed nav-links (mobile) */
-.nav-links {
-  display: none;
-  flex-direction: column;
-  gap: 0.75rem;
-  background: var(--pico-secondary-background, #f8f8f8);
-  border: 1px solid var(--pico-muted-border-color, #ddd);
-  border-radius: 6px;
-  padding: 1rem;
-  margin-top: 0.5rem;
-  width: 220px;
-  position: absolute;
-  right: 1rem;
-  top: 60px;
-  box-shadow: 0 4px 10px rgba(0,0,0,0.1);
-  z-index: 1000;
-}
-
-.nav-links.active {
-  display: flex;
-}
-
-.nav-links li {
+ul.main-nav li {
   list-style: none;
-  margin: 0;
 }
 
-.nav-links a {
-  display: block;
-  padding: 0.5rem 0.75rem;
-  border-radius: 4px;
-  text-decoration: none;
+.header {
+	padding-top: .5em;
+	padding-bottom: .5em;
+	border-radius: 5px;
 }
 
-.nav-links a:hover {
-  background: var(--pico-primary-background, #e0e0e0);
+
+/* =================================
+  Media Queries
+==================================== */
+
+@media (min-width: 769px) {
+	.header,
+	.main-nav {
+		display: flex;
+	}
+	.header {
+		flex-direction: column;
+		align-items: center;
+    	.header{
+		width: 80%;
+		margin: 0 auto;
+		max-width: 1150px;
+	}
+	}
+
 }
 
-/* Desktop nav */
-@media (min-width: 768px) {
-  .hamburger {
-    display: none;
-  }
-  .nav-links {
-    display: flex !important;
-    flex-direction: row;
-    gap: 1rem;
-    position: static;
-    background: transparent;
-    border: none;
-    box-shadow: none;
-    padding: 0;
-    margin: 0;
-    width: auto;
-  }
-  .nav-links a:hover {
-    background: transparent;
-    text-decoration: underline;
-  }
+@media (min-width: 1025px) {
+	.header {
+		flex-direction: row;
+		justify-content: space-between;
+	}
+
 }
 
 /* Right-side controls (lang switcher + dark mode) */
@@ -108,4 +74,24 @@
   display: flex;
   gap: 0.5rem;
   align-items: center;
+  justify-content: center;
+}
+
+.btn-toggle {
+    outline: 0;
+    position: relative;
+    z-index: 2;
+    cursor: pointer;
+    font-size: 0.75rem;
+    transition: all .25s ease-in;
+    border:none;
+}
+.btn-toggle:hover {
+    text-decoration: none;
+    color:#00A5FF !important;
+}
+
+.dilbtn {
+    padding: 5px 10px;
+    font-size: .75em;
 }

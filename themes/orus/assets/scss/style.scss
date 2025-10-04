@@ -22,24 +22,6 @@ $dark-color: #3e396b;
 # Custom
 --------------------------------------------------------------*/
 
-.btn-toggle {
-    outline: 0;
-    position: relative;
-    z-index: 2;
-    cursor: pointer;
-    font-size: 0.75rem;
-    transition: all .25s ease-in;
-    border:none;
-}
-.btn-toggle:hover {
-    text-decoration: none;
-    color:#00A5FF !important;
-}
-
-.dilbtn {
-    position: relative;
-}
-
 .yan-taraf {
   position: absolute;
   z-index: 998;
@@ -63,20 +45,6 @@ pre code {
   color:#ffffff !important;
   padding:10px;
 }
-
-.entry-content a {
-    text-decoration: none;
-    font-weight: 600;
-    border-bottom: 3px solid #b9cdfb;
-}
-.entry-content a:hover {
-    text-decoration: none;
-    color:#00A5FF;
-}
-.figure .figure-caption {
-    color: #00A5FF !important;
-}
-
 
 .kb-club {
     text-align: center;
