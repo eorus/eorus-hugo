@@ -1,5 +1,5 @@
 <ul class="tags">
-  <i class="fa fa-tags" aria-hidden="true"></i>
+{{ partial "icon.html" (dict "name" "tag" "class" "icon icon-sm" "title" "tag") }}
   {{- range $index, $el := . -}}
     {{- if gt $index 0 }}
       <span class="separator">•</span>

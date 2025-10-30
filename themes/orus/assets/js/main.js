@@ -4,20 +4,44 @@ Color Toggle
 
 document.addEventListener("DOMContentLoaded", () => {
   const btn = document.querySelector(".btn-toggle");
+  const sun = document.getElementById("icon-sun");
+  const moon = document.getElementById("icon-moon");
+
   if (!btn) return;
 
-  // Load saved theme or fallback to auto
-  const currentTheme = localStorage.getItem("theme") || "auto";
-  if (currentTheme !== "auto") {
-    document.documentElement.setAttribute("data-theme", currentTheme);
+  const setIcon = (theme) => {
+    if (theme === "dark") {
+      moon.style.display = "none";
+      sun.style.display = "inline";
+    } else {
+      sun.style.display = "none";
+      moon.style.display = "inline";
+    }
+  };
+
+  // Load theme from storage or fall back to system preference (or dark default)
+  let currentTheme = localStorage.getItem("theme");
+
+  if (!currentTheme) {
+    if (window.matchMedia("(prefers-color-scheme: dark)").matches) {
+      currentTheme = "dark"; // respect OS dark
+    } else {
+      currentTheme = "dark"; // still default to dark if no pref
+    }
+    localStorage.setItem("theme", currentTheme);
   }
 
+  document.documentElement.setAttribute("data-theme", currentTheme);
+  setIcon(currentTheme);
+
+  // Toggle on click
   btn.addEventListener("click", () => {
     const html = document.documentElement;
     let theme = html.getAttribute("data-theme") === "dark" ? "light" : "dark";
 
     html.setAttribute("data-theme", theme);
     localStorage.setItem("theme", theme);
+    setIcon(theme);
   });
 });
 

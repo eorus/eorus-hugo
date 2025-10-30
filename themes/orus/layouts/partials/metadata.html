@@ -1,11 +1,12 @@
-<div class="entry-meta metadat text-small mt-2 p-2">
+<div class="entry-meta metadata text-small mt-2 p-2">
 
 {{ $dateTime := .PublishDate.Format "2006-01-02" }}
 {{ $dateFormat := .Site.Params.dateFormat | default "Jan 2, 2006" }}
-<i class='fa fa-calendar'></i>
+
+{{ partial "icon.html" (dict "name" "calendar" "class" "icon icon-sm" "title" "calendar") }}
 <time datetime="{{ $dateTime }}">{{ .PublishDate.Format $dateFormat }}</time> <span class="separator">•</span>
 
-<i class='fa fa-user'></i> <a href="/">{{ .Site.Params.author }}</a>  <span class="separator">•</span>
+{{ partial "icon.html" (dict "name" "user" "class" "icon icon-sm" "title" "user") }}  <a href="/">{{ .Site.Params.author }}</a>  <span class="separator">•</span>
 {{ with .Page.Params.Categories }}{{ partial "taxonomy/categories.html" . }}{{ end }} <span class="separator">•</span>
-<i class="fas fa-clock"></i>Reading Time : {{ .ReadingTime }}min
+{{ partial "icon.html" (dict "name" "clock" "class" "icon icon-sm" "title" "clock") }} Reading Time : {{ .ReadingTime }}min
  </div>

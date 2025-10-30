@@ -39,36 +39,6 @@ ul.main-nav li {
 	border-radius: 5px;
 }
 
-
-/* =================================
-  Media Queries
-==================================== */
-
-@media (min-width: 769px) {
-	.header,
-	.main-nav {
-		display: flex;
-	}
-	.header {
-		flex-direction: column;
-		align-items: center;
-    	.header{
-		width: 80%;
-		margin: 0 auto;
-		max-width: 1150px;
-	}
-	}
-
-}
-
-@media (min-width: 1025px) {
-	.header {
-		flex-direction: row;
-		justify-content: space-between;
-	}
-
-}
-
 /* Right-side controls (lang switcher + dark mode) */
 .nav-controls {
   display: flex;
@@ -94,4 +64,56 @@ ul.main-nav li {
 .dilbtn {
     padding: 5px 10px;
     font-size: .75em;
+}
+
+/* =================================
+  Media Queries
+==================================== */
+
+@media (min-width: 769px) {
+	.header,
+	.main-nav {
+		display: flex;
+	}
+
+	.header {
+		flex-direction: column;
+		align-items: center;
+
+    .header{
+		width: 80%;
+		margin: 0 auto;
+		max-width: 1150px;
+	}
+
+	}
+
+}
+
+@media (max-width: 1025px) {
+  .nav-controls {
+        padding-bottom: 15px;
+  }
+}
+
+@media (min-width: 1025px) {
+	.header {
+		flex-direction: row;
+		justify-content: space-between;
+	}
+
+}
+
+/* =================================
+  Pico Responsive
+==================================== */
+
+nav, nav ul {
+	flex-direction: column;
+}
+
+@media (min-width: 576px) {
+	nav, nav ul {
+		flex-direction: row;
+	}
 }

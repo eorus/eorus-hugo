@@ -40,4 +40,4 @@ This site is :
 - Hosting provided by Netlify
 - Version control provided by GitHub.
 - Coded and written with NeoVim
-- Using a custom Hugo theme with Spectre CSS Framework
+- Using a custom Hugo theme with Pico CSS & Feather Icons

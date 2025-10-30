@@ -1,0 +1,22 @@
+{{/*
+ Shortcode: inline an SVG icon from assets/icons/feather/
+ Usage: {{< icon "moon" class="icon icon-sm" title="Toggle theme" >}}
+ Or with named args: {{< icon name="search" class="icon icon-sm" title="Search" >}}
+*/}}
+
+{{/* layouts/partials/icon.html */}}
+{{- $name := .name | default "" -}}
+{{- $class := .class | default "icon" -}}
+{{- $title := .title | default $name -}}
+
+<span class="{{ $class }}" aria-label="{{ $title }}" role="img">
+  {{ with resources.Get (printf "icons/feather/%s.svg" $name) }}
+    {{ .Content | safeHTML }}
+  {{ else }}
+    <!-- fallback if missing -->
+    <svg viewBox="0 0 24 24" width="1em" height="1em" fill="currentColor">
+      <circle cx="12" cy="12" r="10" stroke="currentColor" stroke-width="2" fill="none"/>
+      <text x="12" y="16" text-anchor="middle" font-size="10" fill="currentColor">?</text>
+    </svg>
+  {{ end }}
+</span>

@@ -9,7 +9,9 @@
                 <input type="search" name="q" class="form-control" placeholder="{{ i18n "searchTitle" }}">
                 <input type="hidden" name="sitesearch" value="{{ "/" | absURL }}">
                 <span class="input-group-btn">
-                    <button type="submit" class="btn btn-template-main"><i class="fa fa-search"></i></button>
+                    <button type="submit" class="btn btn-template-main">
+{{ partial "icon.html" (dict "name" "search" "class" "icon" "title" "Search") }}
+</button>
                 </span>
             </div>
         </form>

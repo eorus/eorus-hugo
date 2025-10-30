@@ -1,5 +1,6 @@
 <!DOCTYPE html>
-<html>
+<html lang="{{ .Site.Language.Lang }}" dir="{{ .Site.Language.LanguageDirection | default "ltr" }}">
+
     {{- partial "head.html" . -}}
 
     <body class="{{ .Type }} {{ with .File }}{{ .TranslationBaseName }}{{ end }}">

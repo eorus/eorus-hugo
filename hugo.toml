@@ -27,26 +27,6 @@ other = "{{.Count}} minutes to read"
     description = "Eorus Web Design and Digital Transformation"
     mainSections = ["posts"]
 
-[[params.social]]
-    name = "Github"
-    icon = "fab fa-github"
-    weight = 1
-    url = "https://github.com/eorus/"
-
-[[params.social]]
-    name = "Flickr"
-    icon = "fab fa-flickr"
-    weight = 1
-    url = "https://www.flickr.com/photos/eorus/"
-
-[[params.social]]
-    name = "RSS"
-    icon = "fas fa-rss"
-    weight = 2
-    url = "https://www.eorus.com/index.xml"
-    rel = "alternate"
-    type = "application/rss+xml"
-
 # Enable and disable widgets for the right sidebar
 [params.widgets]
     categories = true

@@ -1,44 +1,50 @@
-<section class="d-flex justify-content-center align-items-center text-center">
-<div class="container grid-xl">
-	<div class="row profile">
-			<div class="col-lg-4 col-md-4 col-12">
-    {{ if and (isset .Site.Params "avatarurl") (not (isset .Site.Params "gravatar")) }}
-      {{ with .Site.Params.avatarurl }}
+<section id="home" class="d-flex justify-center align-center text-center mt-5">
+<div class="container">
+	<div class="row">
+    <div class="col-lg-4 col-md-4 col-12">
       <picture>
       <source srcset="/images/hero.webp" type="image/webp">
       <source srcset="/images/hero.svg" type="image/svg">
       <img class="img-responsive s-circle" src="{{ . | relURL }}" alt="Eorus Main Image">
       </picture>
-      {{ end }}
-    {{ end }}
-    {{ with .Site.Params.gravatar }}
-    <div class="avatar"><img class="img-responsize rounded" src="https://www.gravatar.com/avatar/{{md5 .}}?s=240&d=mp" alt="Eorus Main Image"></div>
-    {{ end }}
-         </div>
-			<div class="col-lg-8 col-md-8 col-12">
-    <h1 class="h3 m-2">
-      <i class='fa fa-code'></i> <a class="navbar-brand" href="{{ .Site.BaseURL }}">{{ .Site.Title }}</a> - {{ i18n "homehello" }}
-    </h1>
-    <h2 class="h4 my-2">{{ i18n "homeinfo" }}</h2>
-    <p class="p-2">{{ i18n "hometext" }}</p>
-    <a href="/about" role=button class="btn btn-primary px-2 my-5">{{ i18n "homebut" }}</a>
-
-    {{ with .Site.Params.social }}
-    <div class="social-links text-center">
-      {{ range sort . "weight" }}
-        {{ if .icon }}
-            <a href="{{ .url | safeURL }}" aria-label="{{ .name }}" {{ if .rel }}rel="{{ .rel }}"{{ end }} {{ if .target }}target="{{ .target }}"{{ end }} {{ if .type }}type="{{ .type }}"{{ end }}>
-              <i class="{{ .icon }}" aria-hidden="true"></i>
-            </a>
-        {{ else }}
-            <a href="{{ .url | safeURL }}" aria-label="{{ .name }}" {{ if .rel }}rel="{{ .rel }}"{{ end }} {{ if .target }}target="{{ .target }}"{{ end }}>{{ .name }}</a>
-        {{ end }}
-      {{ end }}
     </div>
-    {{ end }}
-      </div>
-      </div>
+
+    <div class="col-lg-8 col-md-8 col-12">
+      <h3 class="m-5">
+      {{ partial "icon.html" (dict "name" "terminal" "class" "icon icon-lg" "title" "terminal") }}
+      <a href="{{ .Site.BaseURL }}">{{ .Site.Title }}</a> - {{ i18n "homehello" }}
+      </h3>
+      <h4 class="">{{ i18n "homeinfo" }}</h4>
+    </div>
+  </div>
 </div>
 </section>
 
+
+<section id="about" class="d-flex justify-center align-center text-center">
+  <div class="container">
+      <p class="p-2">{{ i18n "hometext" }}</p>
+      <a href="/about" role=button class="btn btn-primary px-2 my-5">{{ i18n "homebut" }}</a>
+
+      <nav class="justify-center">
+      <ul>
+        <li>
+          <a href="https://github.com/eorus/" target="_blank">
+            {{ partial "icon.html" (dict "name" "github" "class" "icon" "title" "Github") }}
+          </a>
+        </li>
+        <li>
+          <a href="https://www.flickr.com/photos/eorus/" target="_blank">
+            {{ partial "icon.html" (dict "name" "camera" "class" "icon" "title" "Camera") }}
+          </a>
+        </li>
+        <li>
+          <a href="https://www.eorus.com/index.xml" target="_blank">
+            {{ partial "icon.html" (dict "name" "rss" "class" "icon" "title" "RSS") }}
+          </a>
+        </li>
+      </ul>
+      </nav>
+  </div>
+</section>
 <!-- {{ partial "post-list.html" . }} -->

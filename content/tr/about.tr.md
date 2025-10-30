@@ -40,4 +40,4 @@ Altyapı
 * Hosting Netlify tarafından sağlanmaktadır.
 * Sürüm kontrolü Github ile yapılmaktadır.
 * NeoVim ile kodlanmış ve yazılmıştır.
-* Spectre CSS kullanılarak hazırlanmış özel bir Hugo teması kullanılmaktadır.
+* Pio CSS ve Feather Icons kullanılarak hazırlanmış özel bir Hugo teması.

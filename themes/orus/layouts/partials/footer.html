@@ -5,27 +5,43 @@
         <p>{{ i18n "footernote" | default "Footer Notes" }}</p>
         </div>
       </div>
-      <p class="footer text-center"><a href="https://github.com/eorus" rel="me"><i class="fab fa-github"></i></a>
-<a href="http://creativecommons.org/licenses/by-sa/4.0/" target="_blank"> <i class="fab fa-creative-commons"></i><i class="fab fa-creative-commons-by"></i><i class="fab fa-creative-commons-sa"></i> <span class="separator">•</span></a> {{ now.Format "2006"}} Crafted with <i class="fa fa-heart" aria-hidden=true></i> • by <a href="https://www.eorus.com/" class="h-card" rel="me">Alper Orus</a>  & Powered by <a href="https://gohugo.io/">Hugo</a></p>
-    <div class="col-12 text-center">
-      <ul class="d-flex" style="
-    justify-content: center;
-    list-style: none;">
-      <li>
-        <a href="https://xn--sr8hvo.ws/previous">←</a>
-          An <a href="https://xn--sr8hvo.ws">IndieWeb Webring</a> 🕸💍
-        <a href="https://xn--sr8hvo.ws/next">→</a>
-      </li>
-      <li>
-        <a href="https://fediring.net/previous?host=eorus.com">←</a>
-        <a href="https://fediring.net/">Fediring</a>
-        <a href="https://fediring.net/next?host=eorus.com">→</a>
-      </li>
-    </ul>
-        </div>
+      <p class="footer text-center">
+        <a href="https://github.com/eorus" rel="me">
+          {{ partial "icon.html" (dict "name" "github" "class" "icon" "title" "github") }}
+        </a>
+          <span class="separator">•</span>
+        <a href="http://creativecommons.org/licenses/by-sa/4.0/" target="_blank">
+          {{ partial "icon.html" (dict "name" "globe" "class" "icon" "title" "globe") }}
+          {{ partial "icon.html" (dict "name" "user" "class" "icon" "title" "user") }}
+          {{ partial "icon.html" (dict "name" "edit" "class" "icon" "title" "edit") }}
+        </a>
+          <span class="separator">•</span>
+          {{ now.Format "2006"}} Crafted with
+          {{ partial "icon.html" (dict "name" "heart" "class" "icon" "title" "heart") }}
+          • by <a href="https://www.eorus.com/" class="h-card" rel="me">Alper Orus</a>
+          & Powered by <a href="https://gohugo.io/">Hugo</a>
+          <span class="separator">•</span>
+          <a href="https://picocss.com/">Pico</a>
+      </p>
+
+      <div class="col-12 text-center">
+          <ul class="d-flex" style="justify-content: center;list-style: none;">
+            <li style="list-style: none;">
+              <a href="https://xn--sr8hvo.ws/previous">←</a>
+              An <a href="https://xn--sr8hvo.ws">IndieWeb Webring</a> 🕸💍
+              <a href="https://xn--sr8hvo.ws/next">→</a>
+            </li>
+            <li style="list-style: none;">
+              <a href="https://fediring.net/previous?host=eorus.com">←</a>
+              <a href="https://fediring.net/">Fediring</a>
+              <a href="https://fediring.net/next?host=eorus.com">→</a>
+            </li>
+          </ul>
+      </div>
 
         <div class="kb-club">
           <a target="blank" href="https://512kb.club"><span class="kb-club-no-bg">512KB Club</span><span class="kb-club-bg">Green Team</span></a>
         </div>
+
     </section>
 </footer>

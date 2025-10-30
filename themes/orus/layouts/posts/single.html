@@ -31,15 +31,15 @@
             {{ .Content }}
           </div>
             {{ partial "posts/series.html" . }}
-          <div class="entry-footer clearfix">
+          <div class="entry-footer d-flex justify-between">
                 <div class="text-start">
  {{ with .Page.Params.Tags }}{{ partial "taxonomy/tags.html" . }}{{ end }}
                 </div>
-                 <div class="text-end share">
+                 <div class="text-end">
 
-                   <a href="http://twitter.com/share?url={{ .Permalink }}" title="Share on Twitter"><i class="fab fa-twitter"></i></a>
+                   <a href="http://twitter.com/share?url={{ .Permalink }}" title="Share on X">{{ partial "icon.html" (dict "name" "x" "class" "icon icon-sm" "title" "x") }}</a>
 
-                  <a href="http://www.facebook.com/sharer.php?u={{ .Permalink }}" title="Share on Facebook"><i class="fab fa-facebook"></i></a>
+                  <a href="http://www.facebook.com/sharer.php?u={{ .Permalink }}" title="Share on Facebook">{{ partial "icon.html" (dict "name" "facebook" "class" "icon icon-sm" "title" "facebook") }}</a>
 
                  </div>
           </div>
@@ -49,13 +49,13 @@
     </div>
 
     <nav>
-      <ul class="col-12 col-mx-auto pagination">
+      <ul class="col-12 justify-between">
           <li class="page-item page-next text-end">{{ with .NextInSection }}
-          <i class="fa fa-arrow-left"></i><a href="{{ .Permalink }}">{{ .Title }}</a>
+          {{ partial "icon.html" (dict "name" "arrow-left" "class" "icon icon-sm" "title" "Arrow Left") }}<a href="{{ .Permalink }}">{{ .Title }}</a>
           {{ end }}
           </li>
           <li class="page-item page-prev text-start">{{ with .PrevInSection }}
-          <a href="{{ .Permalink }}">{{ .Title }}</a><i class="fa fa-arrow-right"></i>
+          <a href="{{ .Permalink }}">{{ .Title }}</a>{{ partial "icon.html" (dict "name" "arrow-right" "class" "icon icon-sm" "title" "Arrow Right") }}
         {{ end }}
           </li>
       </ul>

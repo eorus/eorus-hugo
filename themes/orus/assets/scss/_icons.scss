@@ -1,0 +1,26 @@
+/* _icons.scss */
+
+
+.icon {
+  display: inline-block;       /* so width/height apply */
+  width: 1em !important;       /* force size via CSS */
+  height: 1em !important;
+  fill: currentColor;
+  stroke: currentColor;
+  stroke-width: 2;
+
+  /* Remove hardcoded width/height from inline SVGs */
+  svg {
+    width: 100% !important;
+    height: 100% !important;
+  }
+}
+
+/* Size variants */
+.icon-sm { width: 0.85em !important; height: 0.85em !important; }
+.icon-lg { width: 1.25em !important; height: 1.25em !important; }
+
+
+/* Spacing helpers */
+.icon--left  { margin-right: 0.35em; }
+.icon--right { margin-left: 0.35em; }

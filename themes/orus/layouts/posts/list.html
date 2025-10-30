@@ -33,7 +33,7 @@
                                    <div class="p-2 text-small">
                                    {{ $dateTime := .PublishDate.Format "2006-01-02" }}
                                    {{ $dateFormat := .Site.Params.dateFormat | default "Jan 2, 2006" }}
-                                   <i class='fa fa-calendar'></i>
+                                  {{ partial "icon.html" (dict "name" "calendar" "class" "icon icon-sm" "title" "calendar") }}
                                    <time datetime="{{ $dateTime }}">{{ .PublishDate.Format $dateFormat }}</time>
                                    <span class="separator">•</span>
                                    {{ with .Page.Params.Categories }}{{ partial "taxonomy/categories.html" . }}{{ end }}
@@ -50,7 +50,7 @@
                                    <div class="entry-meta metadata">
                                    {{ $dateTime := .PublishDate.Format "2006-01-02" }}
                                    {{ $dateFormat := .Site.Params.dateFormat | default "Jan 2, 2006" }}
-                                   <i class='fa fa-calendar'></i>
+                                  {{ partial "icon.html" (dict "name" "calendar" "class" "icon icon-sm" "title" "calendar") }}
                                    <time datetime="{{ $dateTime }}">{{ .PublishDate.Format $dateFormat }}</time>
                                    <span class="separator">•</span>
                                    {{ with .Page.Params.Categories }}{{ partial "taxonomy/categories.html" . }}{{ end }}

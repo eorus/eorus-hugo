@@ -4,12 +4,14 @@
 
 <h3 class="sidebar-title">Tags</h3>
 
-<div class="sidebar-item tags">   
+<div class="sidebar-item tags">
       <ul class="tag-cloud">
             {{ $current := . }}
             {{ range $name, $items := .Site.Taxonomies.tags }}
             <li{{ if eq $current.RelPermalink ($name | urlize | lower | printf "/tags/%s/") }} class="active"{{ end }}>
-                <a href="{{ "tags/" | relURL }}{{ $name | urlize | lower }}"><i class="fa fa-tags"></i> {{ $name }}</a>
+                <a href="{{ "tags/" | relURL }}{{ $name | urlize | lower }}">
+{{ partial "icon.html" (dict "name" "tag" "class" "icon" "title" "Tags") }}
+ {{ $name }}</a>
             </li>
             {{ end }}
         </ul>
